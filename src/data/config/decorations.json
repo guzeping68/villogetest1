@@ -1,0 +1,65 @@
+{
+  "_description": "装饰表 - Maple Town 每个建筑的装饰物配置",
+  "decorations": [
+    {
+      "decoration_id": "coffee_cup_charm",
+      "building_id": "apartment_complex",
+      "name": "Coffee Cup Charm",
+      "name_cn": "咖啡杯挂件",
+      "placement": "interior",
+      "position": { "x": 25, "y": 55 },
+      "image": "/assets/jiangli.png",
+      "description": "A cute coffee cup charm from your first visit to Fog & Brew. A memento of your first successful order!",
+      "description_cn": "你第一次在Fog & Brew点单成功的纪念——一个可爱的咖啡杯挂件。",
+      "unlocked_by_lesson": 1
+    },
+    {
+      "decoration_id": "barista_apron",
+      "building_id": "apartment_complex",
+      "name": "Barista Apron",
+      "name_cn": "店员围裙",
+      "placement": "interior",
+      "position": { "x": 60, "y": 50 },
+      "image": "/assets/jiangli01.png",
+      "description": "The apron you wore when you worked behind the counter. 'Forced to work' never looked so good!",
+      "description_cn": "你站柜台接单时穿的围裙。'被迫营业'从没这么好看过！",
+      "unlocked_by_lesson": 2
+    },
+    {
+      "decoration_id": "mei_secret_latte_recipe",
+      "building_id": "apartment_complex",
+      "name": "Mei's Secret Latte Recipe",
+      "name_cn": "Mei的秘方拿铁配方卡",
+      "placement": "interior",
+      "position": { "x": 45, "y": 40 },
+      "image": "/assets/jianglichaji.png",
+      "description": "Mei's handwritten latte recipe card — the secret weapon that turned Karen's frown upside down.",
+      "description_cn": "Mei亲手写的拿铁配方卡——让差评客人转怒为笑的秘密武器。",
+      "unlocked_by_lesson": 3
+    },
+    {
+      "decoration_id": "old_chen_shopping_bag",
+      "building_id": "apartment_complex",
+      "name": "Old Chen's Shopping Bag",
+      "name_cn": "Old Chen的购物袋",
+      "placement": "interior",
+      "position": { "x": 35, "y": 60 },
+      "image": "/assets/jinagliditan.png",
+      "description": "A sturdy reusable bag from Mirror Mart. Old Chen gave it to you after your first successful shopping trip.",
+      "description_cn": "Mirror Mart的结实购物袋。你第一次成功购物后Old Chen送给你的。",
+      "unlocked_by_lesson": 4
+    },
+    {
+      "decoration_id": "old_chen_hot_sauce",
+      "building_id": "apartment_complex",
+      "name": "Old Chen's Secret Hot Sauce",
+      "name_cn": "Old Chen的秘制辣酱",
+      "placement": "interior",
+      "position": { "x": 55, "y": 45 },
+      "image": "/assets/shafajiangli.png",
+      "description": "A bottle of Old Chen's homemade hot sauce — 'On the house', he said. Tough on the outside, soft on the inside.",
+      "description_cn": "Old Chen的自制辣酱——'On the house'，他说。嘴硬心软的老头。",
+      "unlocked_by_lesson": 5
+    }
+  ]
+}

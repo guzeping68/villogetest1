@@ -1,0 +1,1671 @@
+{
+  "title": "家题目",
+  "source_file": "家题目.md",
+  "units": [
+    {
+      "unit_number": 1,
+      "unit_title_en": "The Crash Landing",
+      "unit_title_zh": "硬着陆",
+      "difficulty": "A1/A2难度",
+      "revision": "修订v4",
+      "summary": "搬进4B，走廊箱子摔了，Mrs. Henderson和Jake帮你搬东西。暖气不热，Jake帮修。",
+      "teaching_topics": [
+        "搬家入住",
+        "打招呼自我介绍",
+        "公寓基础词汇",
+        "感谢表达"
+      ],
+      "target_level": "A1-A2",
+      "question_count_note": "7题（剧情区5题 + 巩固区2题）",
+      "items": [
+        {
+          "type": "story",
+          "title": "🎭 开场对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "You just arrived in America alone. Your partner is still overseas. You're moving into apartment 4B — and your boxes just crashed in the hallway. （你独自来到美国。伴侣还在国内。你正搬进4B公寓——箱子在走廊摔了一地。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你拖着箱子走进走廊，箱子摔了。Mrs. Henderson打开门。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Oh! Are you okay?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Yes, I'm okay. Sorry... the noise..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Don't worry! Are you the new neighbor? 4B?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Yes. I'm moving in today."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Welcome! I'm Mrs. Henderson. 4A. Right next door."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 1,
+          "question_title_zh": "📍 题目1 — 新知识点①首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "词汇-move in（搬进来）",
+          "reinforcement": "",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "\"Moving in\" means:",
+          "audio": "播放 \"I'm moving in today.\"",
+          "feedback": "\"Move in = 搬进新家。'I'm moving in today' = 我今天搬进来。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "来到新家住"
+            },
+            {
+              "key": "B",
+              "label": "离开这里"
+            },
+            {
+              "key": "C",
+              "label": "在里面走动"
+            }
+          ],
+          "correct_option": "A"
+        },
+        {
+          "type": "story",
+          "title": "🎭 推进对话",
+          "entries": [
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Jake从楼上跑下来。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Hey! Do you need help?"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 2,
+          "question_title_zh": "📍 题目2 — 新知识点②首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "句型-接受帮助的回应",
+          "reinforcement": "",
+          "question_type_code": "T2",
+          "question_type_label": "对话补全 💬",
+          "prompt": "Jake asks \"Do you need help?\" You want to say yes. What do you say?",
+          "audio": "",
+          "feedback": "\"想接受帮助时，'Yes, please!' 简单又礼貌。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"No, go away.\""
+            },
+            {
+              "key": "B",
+              "label": "\"Yes, please!\""
+            },
+            {
+              "key": "C",
+              "label": "\"I don't know you.\""
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 继续对话（题目之后剧情继续）",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "Jake is right above you — in 5B. He talks fast, but he's friendly. （Jake就住你正楼上——5B。他说话很快，但人很友好。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "三个人把箱子搬进4B。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Yes, please!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "I'm Jake. 5B. Upstairs."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Nice to meet you."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Here — cookies! I made them today. For you!"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 3,
+          "question_title_zh": "📍 题目3 — 新知识点③首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-接受礼物/食物时的感谢",
+          "reinforcement": "",
+          "question_type_code": "T7",
+          "question_type_label": "文化认知题 🔍",
+          "prompt": "Mrs. Henderson gives you cookies as a welcome gift. What's the best response?",
+          "audio": "",
+          "feedback": "\"在美国，邻居送小礼物时，直接开心收下说 'Thank you so much!' 就好。不需要推辞。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"No, no, I can't take this.\""
+            },
+            {
+              "key": "B",
+              "label": "\"Thank you so much!\""
+            },
+            {
+              "key": "C",
+              "label": "\"How much do I pay?\""
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 深入对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "You take the cookies. They smell sweet and warm. Then, when you step inside your new apartment, you notice something else — it's cold. （你接过饼干。它们闻起来又甜又暖。可当你走进新公寓时，又注意到另一件事——里面很冷。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你进了公寓，发现很冷。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Jake弄好了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Thank you so much!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Mrs. H makes the best cookies. You owe me dinner now. Just kidding!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "It's cold in here..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Oh — the heater is off. Let me fix it."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Done. It'll be warm soon."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 4,
+          "question_title_zh": "📍 题目4 — 新知识点④首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "词汇-heater / cold",
+          "reinforcement": "",
+          "question_type_code": "T9",
+          "question_type_label": "语义配对 🧩",
+          "prompt": "Match the English words with their meanings:",
+          "audio": "",
+          "feedback": "\"Heater = 暖气。公寓冷的时候可以跟房东说 'The heater is not working.'\"",
+          "options": [],
+          "correct_option": "",
+          "pairs": [
+            {
+              "left": "heater",
+              "right": "冷的"
+            },
+            {
+              "left": "cold",
+              "right": "暖气"
+            },
+            {
+              "left": "neighbor",
+              "right": "箱子"
+            },
+            {
+              "left": "box",
+              "right": "邻居"
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "title": "🎭 收尾对话",
+          "entries": [
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Mrs. Henderson准备走了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Thank you, Jake."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "No problem."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "If you need anything — knock on my door. 4A."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Same. 5B."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 5,
+          "question_title_zh": "📍 题目5 — 新知识点⑤首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "句型-Who lived here before me?（问之前的住户）",
+          "reinforcement": "",
+          "question_type_code": "T3",
+          "question_type_label": "句子拼装 🔤",
+          "prompt": "You want to ask: who was in this apartment before you?",
+          "audio": "",
+          "feedback": "\"'Who lived here before me?' = 我之前谁住在这里？before = 之前，after = 之后。\"",
+          "options": [],
+          "correct_option": "",
+          "chunks": [
+            "Who",
+            "lived",
+            "here",
+            "before me"
+          ],
+          "distractors": [
+            "after me"
+          ],
+          "correct_answer": "\"Who lived here before me?\""
+        },
+        {
+          "type": "story",
+          "title": "🎭 尾声（不插题）",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "The hallway goes quiet. Your new apartment finally feels still. Later that night, you open a kitchen drawer and find a small note. （走廊重新安静下来。你的新公寓终于平静了。那天晚上晚些时候，你打开厨房抽屉，发现了一张小纸条。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "两人安静了一秒。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "他们离开。你打开厨房抽屉，看到一张便利贴："
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你把它放回去了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Who lived here before me?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Mrs. H's son. Ryan."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "That's a story for another day, dear."
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "📍 巩固区（2题）",
+          "content": "### 题目6 — 知识点①巩固【组装层】\n\n**巩固：** `move in` → 升级为句子拼装（新句子，非重复）\n\n|  **项目**  |  **内容**  |\n| --- | --- |\n|  **题型**  |  T3 句子拼装 🔤  |\n|  **题目**  |  You want to tell someone: I moved in last week.  |\n|  **词块**  |  `I` / `moved in` / `last week`  |\n|  **干扰块**  |  `moved out`  |\n|  **正确**  |  \"I moved in last week.\"  |\n|  **反馈**  |  \"moved in = 搬进来。moved out = 搬走。别搞混！\"  |\n\n\n### 题目7 — 知识点④巩固【听辨层】\n\n**巩固：** `heater` → 升级为听音选义\n\n|  **项目**  |  **内容**  |\n| --- | --- |\n|  **题型**  |  T1 听音选义 🎧  |\n|  **音频**  |  \"The heater is not working. It's very cold.\"  |\n|  **题目**  |  \"Heater\" means:  |\n|  **选项**  |  A. 暖气 ✅ <br> B. 冰箱 ❌ <br> C. 电灯 ❌  |\n|  **反馈**  |  \"Heater = 暖气。公寓有问题时可以说：'The heater is not working.'（暖气坏了）\"  |"
+        },
+        {
+          "type": "question",
+          "question_number": 6,
+          "question_title_zh": "题目6 — 知识点①巩固【组装层】",
+          "question_title_en": "",
+          "knowledge_point": "",
+          "reinforcement": "move in",
+          "question_type_code": "T3",
+          "question_type_label": "句子拼装 🔤",
+          "prompt": "You want to tell someone: I moved in last week.",
+          "audio": "",
+          "feedback": "\"moved in = 搬进来。moved out = 搬走。别搞混！\"",
+          "options": [],
+          "correct_option": "",
+          "chunks": [
+            "I",
+            "moved in",
+            "last week"
+          ],
+          "distractors": [
+            "moved out"
+          ],
+          "correct_answer": "\"I moved in last week.\""
+        },
+        {
+          "type": "question",
+          "question_number": 7,
+          "question_title_zh": "题目7 — 知识点④巩固【听辨层】",
+          "question_title_en": "",
+          "knowledge_point": "",
+          "reinforcement": "heater",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "\"Heater\" means:",
+          "audio": "\"The heater is not working. It's very cold.\"",
+          "feedback": "\"Heater = 暖气。公寓有问题时可以说：'The heater is not working.'（暖气坏了）\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "暖气"
+            },
+            {
+              "key": "B",
+              "label": "冰箱"
+            },
+            {
+              "key": "C",
+              "label": "电灯"
+            }
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "unit_title_en": "Jake's Bad Day",
+      "unit_title_zh": "Jake的糟糕日",
+      "difficulty": "A1/A2难度",
+      "revision": "修订v4",
+      "summary": "搬来一周，去还Jake工具，发现他状态很差——被裁员了。你陪他、煮咖啡、帮他查怎么申请补助。",
+      "teaching_topics": [
+        "关心朋友",
+        "失业相关基础词汇",
+        "简单安慰表达"
+      ],
+      "target_level": "A1-A2",
+      "question_count_note": "7题（剧情区5题 + 巩固区2题）",
+      "items": [
+        {
+          "type": "story",
+          "title": "🎭 开场对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "One week later, you go to return Jake's tool. When he opens the door, he looks tired and upset. （一周后，你去还Jake的工具。他开门时，看起来又累又低落。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "一周后。你拿着上次借的工具去敲Jake的门。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Jake开门。看起来很累，眼睛红红的。家里很乱。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "他明显状态不好。你想关心他。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Hey Jake, I'm returning your tool."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Oh. Hey. Thanks... just put it there."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 1,
+          "question_title_zh": "📍 题目1 — 新知识点①首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "句型-Are you okay?（你还好吗）",
+          "reinforcement": "",
+          "question_type_code": "T2",
+          "question_type_label": "对话补全 💬",
+          "prompt": "Jake looks upset. You want to check on him. What do you say?",
+          "audio": "",
+          "feedback": "\"'Are you okay?' 是关心朋友最简单安全的说法。温和，不给压力。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"What's wrong with you?\""
+            },
+            {
+              "key": "B",
+              "label": "\"Are you okay?\""
+            },
+            {
+              "key": "C",
+              "label": "\"Why is your face red?\""
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 继续对话（题目后剧情继续）",
+          "entries": [
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "他明显不想一个人待着。你没有走。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Are you okay?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Yeah... not really. Bad day."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "I'll make coffee."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 2,
+          "question_title_zh": "📍 题目2 — 新知识点②首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-I'll make coffee（我来泡咖啡 = 我陪你）",
+          "reinforcement": "",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "You say \"I'll make coffee.\" Why?",
+          "audio": "播放你说 \"I'll make coffee.\"",
+          "feedback": "\"说 'I'll make coffee' 不只是要喝咖啡——是在说'我不走，我陪你'。用行动表达关心。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "You are thirsty"
+            },
+            {
+              "key": "B",
+              "label": "You want to stay and be with Jake"
+            },
+            {
+              "key": "C",
+              "label": "Jake asked you to make coffee"
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 推进对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "You stay. You make coffee instead of asking more questions. After a moment, Jake finally starts talking. （你没有离开。你先去煮咖啡，没有继续追问。过了一会儿，Jake终于开口了。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你在Jake的厨房泡了咖啡递给他。他终于开口了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "I lost my job. The company cut my whole team."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 3,
+          "question_title_zh": "📍 题目3 — 新知识点③首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "词汇-lost my job（失业了）",
+          "reinforcement": "",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "\"I lost my job\" means:",
+          "audio": "播放 \"I lost my job.\"",
+          "feedback": "\"'I lost my job' = 我失业了。最常见的口语说法。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "我找到了新工作"
+            },
+            {
+              "key": "B",
+              "label": "我失业了"
+            },
+            {
+              "key": "C",
+              "label": "我迟到了"
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 继续对话",
+          "entries": [
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Jake笑了一下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Oh no... I'm sorry."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "It's not about money... I just felt like I was doing well. And then — gone."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Sorry. You just moved in. You don't need my problems."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "You helped me on my first day. Now I'm here."
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "title": "🎭 深入对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "Jake calms down a little. You take out your phone and start looking for practical help. （Jake稍微冷静了一些。你拿出手机，开始帮他找实际能用的办法。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你提议帮他查查能不能申请补助。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你在手机上搜索，找到了网页。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Maybe you can get help? From the government?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Yeah... I should do that."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Let me help you look."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "It says... you need to apply online. And you need your ID."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Okay. I can do that. Thanks."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 4,
+          "question_title_zh": "📍 题目4 — 新知识点④首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "词汇-apply / online / ID",
+          "reinforcement": "",
+          "question_type_code": "T9",
+          "question_type_label": "语义配对 🧩",
+          "prompt": "Match the English words with their meanings:",
+          "audio": "",
+          "feedback": "",
+          "options": [],
+          "correct_option": "",
+          "correct_answer": "apply=申请, online=在网上, ID=身份证件 |  | **反馈** | \"Apply online = 在网上申请。在美国很多事都要 apply online。\"",
+          "pairs": [
+            {
+              "left": "apply",
+              "right": "在网上"
+            },
+            {
+              "left": "online",
+              "right": "身份证件"
+            },
+            {
+              "left": "ID",
+              "right": "申请"
+            },
+            {
+              "left": "**正确**",
+              "right": "apply=申请, online=在网上, ID=身份证件"
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "title": "🎭 收尾对话",
+          "entries": [
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Hey. Thanks. For real."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 5,
+          "question_title_zh": "📍 题目5 — 新知识点⑤首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-That's what neighbors are for（邻居就是互相帮忙的）",
+          "reinforcement": "",
+          "question_type_code": "T2",
+          "question_type_label": "对话补全 💬",
+          "prompt": "Jake says \"Thanks. For real.\" You want to say: that's what neighbors do — we help each other. Best response?",
+          "audio": "",
+          "feedback": "\"'That's what neighbors are for' = 邻居就是互相帮忙的嘛。表达'不用谢，应该的'。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"You're welcome, please don't bother me again.\""
+            },
+            {
+              "key": "B",
+              "label": "\"That's what neighbors are for.\""
+            },
+            {
+              "key": "C",
+              "label": "\"You owe me money now.\""
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 尾声（不插题）",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "The next day, Jake seems a little stronger. But his last message shows he's still worried about what could happen next. （第二天，Jake看起来振作了一些。但他最后那条消息说明，他心里还是很担心接下来会发生什么。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "(笑)"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "第二天，群消息："
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Jake私信你："
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "That's what neighbors are for."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake:** _(笑)_ \"You sound like Mrs. H.\"_第二天，群消息：_**Jake",
+              "text": "Started looking for new jobs today. 💪"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "So proud of you dear!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Thanks again. Also — if I can't find a job... I'm scared. Mrs. H's son lost his job too. That's why he had to leave."
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "📍 巩固区（2题）",
+          "content": "### 题目6 — 知识点③巩固【组装层】\n\n**巩固：** `lost my job` → 升级为句子拼装\n\n|  **项目**  |  **内容**  |\n| --- | --- |\n|  **题型**  |  T3 句子拼装 🔤  |\n|  **题目**  |  Jake wants to tell someone: I lost my job last week.  |\n|  **词块**  |  `I` / `lost` / `my job` / `last week`  |\n|  **干扰块**  |  `found`  |\n|  **正确**  |  \"I lost my job last week.\"  |\n|  **反馈**  |  \"lost my job = 失业。found a job = 找到工作（相反！）\"  |\n\n\n### 题目7 — 知识点①巩固【输出层】\n\n**巩固：** `Are you okay?` → 升级为语音跟读\n\n|  **项目**  |  **内容**  |\n| --- | --- |\n|  **题型**  |  T6 语音跟读 🗣️  |\n|  **题目**  |  Your friend looks sad. You want to check on them. Say:  |\n|  **提示**  |  \"Are you okay?\"  |\n|  **评估**  |  ✅ 完整 / ✅ 语调温和关切  |\n|  **反馈**  |  \"语调要柔和——是关心，不是质问。\"  |"
+        },
+        {
+          "type": "question",
+          "question_number": 6,
+          "question_title_zh": "题目6 — 知识点③巩固【组装层】",
+          "question_title_en": "",
+          "knowledge_point": "",
+          "reinforcement": "lost my job",
+          "question_type_code": "T3",
+          "question_type_label": "句子拼装 🔤",
+          "prompt": "Jake wants to tell someone: I lost my job last week.",
+          "audio": "",
+          "feedback": "\"lost my job = 失业。found a job = 找到工作（相反！）\"",
+          "options": [],
+          "correct_option": "",
+          "chunks": [
+            "I",
+            "lost",
+            "my job",
+            "last week"
+          ],
+          "distractors": [
+            "found"
+          ],
+          "correct_answer": "\"I lost my job last week.\""
+        },
+        {
+          "type": "question",
+          "question_number": 7,
+          "question_title_zh": "题目7 — 知识点①巩固【输出层】",
+          "question_title_en": "",
+          "knowledge_point": "",
+          "reinforcement": "Are you okay?",
+          "question_type_code": "T6",
+          "question_type_label": "语音跟读 🗣️",
+          "prompt": "Your friend looks sad. You want to check on them. Say:",
+          "audio": "",
+          "feedback": "\"语调要柔和——是关心，不是质问。\"",
+          "options": [],
+          "correct_option": "",
+          "hint": "\"Are you okay?\"",
+          "evaluation": [
+            "✅ 完整",
+            "✅ 语调温和关切"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "unit_title_en": "The Argument",
+      "unit_title_zh": "吵架",
+      "difficulty": "A1/A2难度",
+      "revision": "修订v2",
+      "summary": "你听到Mrs. Henderson跟Ryan打电话吵架。她在群里变安静。Jake私信你建议。你带蛋糕去陪她。她说\"You remind me of Ryan sometimes.\"",
+      "teaching_topics": [
+        "关心但不追问",
+        "简单陪伴表达",
+        "短信",
+        "私信英语",
+        "邻里分寸感"
+      ],
+      "target_level": "A1-A2",
+      "question_count_note": "7题（剧情区5题 + 巩固区2题）",
+      "items": [
+        {
+          "type": "story",
+          "title": "🎭 开场对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "You hear Mrs. Henderson's voice through the door — louder than usual. Something is wrong. （你隔着门听见Mrs. Henderson的声音，比平时大得多。一定出了什么事。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你下楼取快递，路过Mrs. Henderson的门。听到里面在大声说话。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "挂电话的声音。你犹豫了一下，继续走了。当天晚些时候，你看群消息——"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "没有回复。平时她秒回。Jake私信你："
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson (透过门)",
+              "text": "You PROMISED, Ryan! ...I just want to SEE you!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake (群消息)",
+              "text": "Hey Mrs. H, are those scones still available? 😋"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake (私信)",
+              "text": "Is Mrs. H okay? She didn't reply today. That never happens."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "I heard something... but I'm not sure."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Don't push. Just show up."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 1,
+          "question_title_zh": "📍 题目1 — 新知识点①首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-show up（出现/去陪她）",
+          "reinforcement": "",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "Jake says \"Just show up.\" What does he mean?",
+          "audio": "播放 Jake说 \"Don't push. Just show up.\"",
+          "feedback": "\"'Show up' = 出现/去到某人身边。Jake的意思是：别追问，去陪她就好。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "Go to her place, be with her"
+            },
+            {
+              "key": "B",
+              "label": "Show her your things"
+            },
+            {
+              "key": "C",
+              "label": "Push her door open"
+            }
+          ],
+          "correct_option": "A"
+        },
+        {
+          "type": "story",
+          "title": "🎭 推进对话",
+          "entries": [
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你决定去看Mrs. Henderson。你在超市买了一块蛋糕，敲了她的门。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Mrs. Henderson开门。眼睛有点红，但马上笑了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Oh! Dear! Come in, come in!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "I brought cake. For you."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Oh, you didn't have to! That's so sweet."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 2,
+          "question_title_zh": "📍 题目2 — 新知识点②首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "句型-You didn't have to（你不必这样/表达感动）",
+          "reinforcement": "",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "Mrs. Henderson says \"You didn't have to!\" She feels:",
+          "audio": "播放 Mrs. Henderson说 \"You didn't have to!\"",
+          "feedback": "\"'You didn't have to' = 你不必这么做（但我很感动）。是表达感激的常见方式。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "Angry — she doesn't want it"
+            },
+            {
+              "key": "B",
+              "label": "Touched — you're very kind"
+            },
+            {
+              "key": "C",
+              "label": "Confused — she doesn't understand"
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 深入对话",
+          "entries": [
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你坐在她客厅。她打开电视。你们看了一会儿节目，她没提电话的事，你也没问。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "This building was so quiet after Ryan left. Nobody knocked on my door."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 3,
+          "question_title_zh": "📍 题目3 — 新知识点③首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-That sounds lonely（听起来很孤单 = 表达同情）",
+          "reinforcement": "",
+          "question_type_code": "T2",
+          "question_type_label": "对话补全 💬",
+          "prompt": "Mrs. Henderson says nobody visited her for months. You want to show you care. What do you say?",
+          "audio": "",
+          "feedback": "\"'That sounds lonely' = 听起来很孤单。配合 'I'm sorry' 一起用，表达你理解她的感受。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"That's your problem.\""
+            },
+            {
+              "key": "B",
+              "label": "\"I'm sorry. That sounds lonely.\""
+            },
+            {
+              "key": "C",
+              "label": "\"Why didn't you go outside?\""
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 继续对话（题目后剧情继续）",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "You do not ask about the phone call. You just stay with her. That is enough. （你没有追问那通电话。你只是陪着她。这样就够了。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你准备离开。Mrs. Henderson送你到门口。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "I'm sorry. That sounds lonely."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "It was. But not anymore."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Thank you for coming, dear."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 4,
+          "question_title_zh": "📍 题目4 — 新知识点④首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-I'll come again soon（我会再来的）",
+          "reinforcement": "",
+          "question_type_code": "T2",
+          "question_type_label": "对话补全 💬",
+          "prompt": "You're leaving Mrs. Henderson's apartment. She says \"Thank you for coming.\" You want to let her know you'll be back. What do you say?",
+          "audio": "",
+          "feedback": "\"'I'll come again soon' = 我很快会再来。让对方感到安心和被在乎。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"Okay, bye.\"  太冷"
+            },
+            {
+              "key": "B",
+              "label": "\"I'll come again soon.\""
+            },
+            {
+              "key": "C",
+              "label": "\"Don't call me.\""
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 继续对话（题目后剧情继续）",
+          "entries": [
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "她停了一下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "I'll come again soon."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "I'd like that."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "You remind me of Ryan sometimes."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "...Good night, Mrs. Henderson."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Good night, dear."
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "title": "🎭 收尾对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "The next morning, the group chat comes alive again. Mrs. Henderson sounds more like herself. （第二天早上，群聊重新活跃起来。Mrs. Henderson又像平时的她了。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "第二天。群消息恢复正常了。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Jake私信你："
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson (群消息)",
+              "text": "Good morning everyone! ☀️ Fresh scones today! Jake, come get yours!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake (群消息)",
+              "text": "ON MY WAY 🏃"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake (私信)",
+              "text": "Mrs. H is back to normal. Whatever you did — thank you. 🙏"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "This weekend she wants brunch. You, me, Kevin, Lisa. You haven't met them yet."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 5,
+          "question_title_zh": "📍 题目5 — 新知识点⑤首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-Whatever you did（你做的不管是什么 = 起作用了）",
+          "reinforcement": "",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "Jake says \"Whatever you did — thank you.\" He means:",
+          "audio": "播放Jake说 \"Whatever you did — thank you.\"",
+          "feedback": "\"'Whatever you did' = 你做的不管是什么。Jake的意思是：我不知道你具体做了什么，但Mrs. H好了，谢谢你！\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "He doesn't know what you did, but it worked"
+            },
+            {
+              "key": "B",
+              "label": "He is angry about what you did"
+            },
+            {
+              "key": "C",
+              "label": "He wants to know exactly what you did"
+            }
+          ],
+          "correct_option": "A"
+        },
+        {
+          "type": "summary",
+          "title": "📍 巩固区（2题）",
+          "content": "### 题目6 — 知识点①巩固【组装层】\n\n**巩固：** `show up` → 升级为句子拼装\n\n|  **项目**  |  **内容**  |\n| --- | --- |\n|  **题型**  |  T3 句子拼装 🔤  |\n|  **题目**  |  Jake's advice: don't ask too many questions. Just go be with her.  |\n|  **词块**  |  `Don't` / `push` / `Just` / `show up`  |\n|  **干扰块**  |  `give up`  |\n|  **正确**  |  \"Don't push. Just show up.\"  |\n|  **反馈**  |  \"Don't push = 别逼问。Just show up = 去陪着就好。\"  |\n\n\n### 题目7 — 知识点④巩固【输出层】\n\n**巩固：** `I'll come again soon` → 升级为语音跟读\n\n|  **项目**  |  **内容**  |\n| --- | --- |\n|  **题型**  |  T6 语音跟读 🗣️  |\n|  **题目**  |  You're leaving a friend's home. You want them to know you'll be back. Say:  |\n|  **提示**  |  \"I'll come again soon.\"  |\n|  **评估**  |  ✅ 完整 / ✅ 语调温暖、让人安心  |\n|  **反馈**  |  \"'I'll come again soon.' 让朋友知道你会再来——这句话本身就是关心。\"  |"
+        },
+        {
+          "type": "question",
+          "question_number": 6,
+          "question_title_zh": "题目6 — 知识点①巩固【组装层】",
+          "question_title_en": "",
+          "knowledge_point": "",
+          "reinforcement": "show up",
+          "question_type_code": "T3",
+          "question_type_label": "句子拼装 🔤",
+          "prompt": "Jake's advice: don't ask too many questions. Just go be with her.",
+          "audio": "",
+          "feedback": "\"Don't push = 别逼问。Just show up = 去陪着就好。\"",
+          "options": [],
+          "correct_option": "",
+          "chunks": [
+            "Don't",
+            "push",
+            "Just",
+            "show up"
+          ],
+          "distractors": [
+            "give up"
+          ],
+          "correct_answer": "\"Don't push. Just show up.\""
+        },
+        {
+          "type": "question",
+          "question_number": 7,
+          "question_title_zh": "题目7 — 知识点④巩固【输出层】",
+          "question_title_en": "",
+          "knowledge_point": "",
+          "reinforcement": "I'll come again soon",
+          "question_type_code": "T6",
+          "question_type_label": "语音跟读 🗣️",
+          "prompt": "You're leaving a friend's home. You want them to know you'll be back. Say:",
+          "audio": "",
+          "feedback": "\"'I'll come again soon.' 让朋友知道你会再来——这句话本身就是关心。\"",
+          "options": [],
+          "correct_option": "",
+          "hint": "\"I'll come again soon.\"",
+          "evaluation": [
+            "✅ 完整",
+            "✅ 语调温暖、让人安心"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "unit_title_en": "The Brunch",
+      "unit_title_zh": "早午餐暗流",
+      "difficulty": "A1/A2难度",
+      "revision": "修订v2",
+      "summary": "Mrs. Henderson家brunch。你认识Kevin和Lisa。Mrs. Henderson说了尴尬的话。Kevin私下问你意见。",
+      "teaching_topics": [
+        "初次见面",
+        "夸食物",
+        "\"Maybe\"的含义",
+        "简单回应"
+      ],
+      "target_level": "A1-A2",
+      "question_count_note": "7题（剧情区5题 + 巩固区2题）",
+      "items": [
+        {
+          "type": "story",
+          "title": "🎭 开场对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "It's the first time everyone is together in Mrs. Henderson's apartment. The room is warm, loud, and full of food. （这是大家第一次一起聚在Mrs. Henderson家里。屋子里暖暖的、热热闹闹的，到处都是食物的香味。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "周末。你去Mrs. Henderson家参加brunch。敲门进去，看到两个新面孔。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "(点头)"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Come in, dear! Everyone, this is 4B!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kevin:** _(点头)_ \"Hey. Kevin. 3B.\"**Lisa",
+              "text": "Hi!! I'm Lisa! 2B! So nice to meet you!"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 1,
+          "question_title_zh": "📍 题目1 — 新知识点①首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "句型-初次见面回应",
+          "reinforcement": "",
+          "question_type_code": "T2",
+          "question_type_label": "对话补全 💬",
+          "prompt": "Lisa says \"So nice to meet you!\" What do you say?",
+          "audio": "",
+          "feedback": "\"别人说 'Nice to meet you'，回 'Nice to meet you too!' 简单又礼貌。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"Thank you, goodbye.\""
+            },
+            {
+              "key": "B",
+              "label": "\"Nice to meet you too!\""
+            },
+            {
+              "key": "C",
+              "label": "\"Yes, I know.\""
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 推进对话",
+          "entries": [
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "大家坐下来吃东西。Mrs. Henderson做了很多食物。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "(看向你)"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Please, eat! Try the scones!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake",
+              "text": "Mrs. H, these are SO good."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Lisa",
+              "text": "Oh my god, delicious!"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 2,
+          "question_title_zh": "📍 题目2 — 新知识点②首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "词汇-delicious（很好吃）+ 夸食物",
+          "reinforcement": "",
+          "question_type_code": "T2",
+          "question_type_label": "对话补全 💬",
+          "prompt": "Mrs. Henderson asks \"Do you like it?\" The food is very good. You say:",
+          "audio": "",
+          "feedback": "\"'It's delicious!' 是夸食物最常用的说法。别人请你吃东西时，热情地夸一句会让对方很开心！\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"It's okay.\""
+            },
+            {
+              "key": "B",
+              "label": "\"Yes! It's delicious!\""
+            },
+            {
+              "key": "C",
+              "label": "\"I don't eat this.\""
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 深入对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "At first, everything feels easy and fun. Then the conversation changes, and the room suddenly feels awkward. （一开始，一切都轻松又愉快。可接着，话题突然变了，屋里的气氛一下子变得有点尴尬。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "大家聊了一会儿。然后Mrs. Henderson突然说——"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Kevin脸红了。Lisa愣了一秒。"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Jake小声跟你说："
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Mrs. Henderson",
+              "text": "Lisa, you and Kevin should go to that food festival! You both love Thai food!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Lisa",
+              "text": "Maybe! We'll see."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Jake (小声)",
+              "text": "Kevin likes Lisa."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 3,
+          "question_title_zh": "📍 题目3 — 新知识点③首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-Maybe / We'll see（也许/再看看 = 委婉回避）",
+          "reinforcement": "",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "Lisa says \"Maybe! We'll see.\" She means:",
+          "audio": "播放Lisa说 \"Maybe! We'll see.\"",
+          "feedback": "\"'Maybe. We'll see.' = 也许吧，再看看。经常表示不想直接回答。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "Yes, she will go"
+            },
+            {
+              "key": "B",
+              "label": "She doesn't want to say yes or no"
+            },
+            {
+              "key": "C",
+              "label": "She is asking a question"
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 继续对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "Lisa leaves quickly. Kevin stays, but he looks embarrassed. When the others are busy, he quietly asks you what you think. （Lisa很快就走了。Kevin留了下来，可看起来很不好意思。等别人都在忙时，他悄悄来问你怎么看。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "Brunch结束了。Lisa先走了。Kevin留下来洗碗。你在收桌子。Kevin过来小声问你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kevin",
+              "text": "Hey... was that weird?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "What do you mean?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kevin",
+              "text": "Me and Lisa. Am I weird?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "No. I think she just needs time."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kevin",
+              "text": "Yeah... you're right. Thanks."
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 4,
+          "question_title_zh": "📍 题目4 — 新知识点④首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-She needs time（她需要时间）",
+          "reinforcement": "",
+          "question_type_code": "T1",
+          "question_type_label": "听音选义 🎧",
+          "prompt": "\"She just needs time\" means:",
+          "audio": "播放你说 \"I think she just needs time.\"",
+          "feedback": "\"'She needs time' = 她还没准备好，给她空间。温和不伤人的说法。\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "She needs a clock"
+            },
+            {
+              "key": "B",
+              "label": "She's not ready yet — give her space"
+            },
+            {
+              "key": "C",
+              "label": "She's always late"
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "story",
+          "title": "🎭 收尾对话",
+          "entries": [
+            {
+              "type": "narration",
+              "speaker": "旁白",
+              "text": "That night, the awkward moment isn't over yet. Lisa messages you directly. （那天晚上，那份尴尬并没有真正结束。Lisa直接给你发来了私信。）"
+            },
+            {
+              "type": "stage_direction",
+              "speaker": null,
+              "text": "你回到家。手机震动。Lisa私信你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Lisa (私信)",
+              "text": "Hey — sorry if today was awkward."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "It's okay!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Lisa",
+              "text": "Can we get coffee sometime? Just us?"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "You",
+              "text": "Sure!"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Lisa",
+              "text": "Cool 😊"
+            }
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 5,
+          "question_title_zh": "📍 题目5 — 新知识点⑤首现【识别层】",
+          "question_title_en": "",
+          "knowledge_point": "表达-Sure!（当然好！= 答应邀请）",
+          "reinforcement": "",
+          "question_type_code": "T7",
+          "question_type_label": "文化认知题 🔍",
+          "prompt": "Lisa asks \"Can we get coffee sometime?\" You want to say yes. Which is most natural?",
+          "audio": "",
+          "feedback": "\"'Sure!' 是答应朋友邀请最自然的说法。轻松、友好、不需要想太多！\"",
+          "options": [
+            {
+              "key": "A",
+              "label": "\"Yes, I agree to your invitation.\""
+            },
+            {
+              "key": "B",
+              "label": "\"Sure!\""
+            },
+            {
+              "key": "C",
+              "label": "\"I will think about it and let you know later.\"  太疏远"
+            }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "type": "summary",
+          "title": "📍 巩固区（2题）",
+          "content": "### 题目6 — 知识点②巩固【输出层】\n\n**巩固：** `delicious` → 升级为语音跟读\n\n|  **项目**  |  **内容**  |\n| --- | --- |\n|  **题型**  |  T6 语音跟读 🗣️  |\n|  **题目**  |  Your neighbor made food for you. It's very good. Say:  |\n|  **提示**  |  \"It's delicious!\"  |\n|  **评估**  |  ✅ \"delicious\" 发音清晰 / ✅ 语调带热情  |\n|  **反馈**  |  \"说的时候语调高一点，表达真心喜欢！\"  |\n\n\n### 题目7 — 知识点③巩固【组装层】\n\n**巩固：** `Maybe. We'll see.` → 升级为句子拼装\n\n|  **项目**  |  **内容**  |\n| --- | --- |\n|  **题型**  |  T3 句子拼装 🔤  |\n|  **题目**  |  Someone invites you somewhere but you're not sure. You say:  |\n|  **词块**  |  `Maybe` / `We'll` / `see`  |\n|  **干扰块**  |  `Sure`  |\n|  **正确**  |  \"Maybe. We'll see.\"  |\n|  **反馈**  |  \"'Maybe. We'll see.' = 不确定时的委婉说法。比直接说 'No' 柔和。\"  |"
+        },
+        {
+          "type": "question",
+          "question_number": 6,
+          "question_title_zh": "题目6 — 知识点②巩固【输出层】",
+          "question_title_en": "",
+          "knowledge_point": "",
+          "reinforcement": "delicious",
+          "question_type_code": "T6",
+          "question_type_label": "语音跟读 🗣️",
+          "prompt": "Your neighbor made food for you. It's very good. Say:",
+          "audio": "",
+          "feedback": "\"说的时候语调高一点，表达真心喜欢！\"",
+          "options": [],
+          "correct_option": "",
+          "hint": "\"It's delicious!\"",
+          "evaluation": [
+            "✅ \"delicious\" 发音清晰",
+            "✅ 语调带热情"
+          ]
+        },
+        {
+          "type": "question",
+          "question_number": 7,
+          "question_title_zh": "题目7 — 知识点③巩固【组装层】",
+          "question_title_en": "",
+          "knowledge_point": "",
+          "reinforcement": "Maybe. We'll see.",
+          "question_type_code": "T3",
+          "question_type_label": "句子拼装 🔤",
+          "prompt": "Someone invites you somewhere but you're not sure. You say:",
+          "audio": "",
+          "feedback": "\"'Maybe. We'll see.' = 不确定时的委婉说法。比直接说 'No' 柔和。\"",
+          "options": [],
+          "correct_option": "",
+          "chunks": [
+            "Maybe",
+            "We'll",
+            "see"
+          ],
+          "distractors": [
+            "Sure"
+          ],
+          "correct_answer": "\"Maybe. We'll see.\""
+        }
+      ]
+    }
+  ]
+}

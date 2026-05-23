@@ -1,0 +1,396 @@
+{
+  "title": "Episode 2: Jake's Bad Day（Jake的糟糕日）",
+  "steps": [
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "搬来一周，去还Jake工具，发现他状态很差——被裁员了。你陪他、煮咖啡、帮他查怎么申请补助。",
+      "text_cn": "（搬来一周，去还Jake工具，发现他状态很差——被裁员了。你陪他、煮咖啡、帮他查怎么申请补助。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "One week later, you go to return Jake's tool. When he opens the door, he looks tired and upset.",
+      "text_cn": "（一周后，你去还Jake的工具。他开门时，看起来又累又低落。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "一周后。你拿着上次借的工具去敲Jake的门。",
+      "text_cn": "（一周后。你拿着上次借的工具去敲Jake的门。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Jake开门。看起来很累，眼睛红红的。家里很乱。",
+      "text_cn": "（Jake开门。看起来很累，眼睛红红的。家里很乱。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "他明显状态不好。你想关心他。",
+      "text_cn": "（他明显状态不好。你想关心他。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Hey Jake, I'm returning your tool.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Oh. Hey. Thanks... just put it there.",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目1\nJake looks upset. You want to check on him. What do you say?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"What's wrong with you?\"",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "\"Are you okay?\"",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "\"Why is your face red?\"",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "他明显不想一个人待着。你没有走。",
+      "text_cn": "（他明显不想一个人待着。你没有走。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Are you okay?",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jacksorrow.png",
+      "text": "Yeah... not really. Bad day.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "I'll make coffee.",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目2\nYou say \"I'll make coffee.\" Why?",
+      "options": [
+        {
+          "label": "A",
+          "text": "You are thirsty",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "You want to stay and be with Jake",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Jake asked you to make coffee",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "You stay. You make coffee instead of asking more questions. After a moment, Jake finally starts talking.",
+      "text_cn": "（你没有离开。你先去煮咖啡，没有继续追问。过了一会儿，Jake终于开口了。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "你在Jake的厨房泡了咖啡递给他。他终于开口了。",
+      "text_cn": "（你在Jake的厨房泡了咖啡递给他。他终于开口了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jacksorrow.png",
+      "text": "I lost my job. The company cut my whole team.",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目3\n\"I lost my job\" means:",
+      "options": [
+        {
+          "label": "A",
+          "text": "我找到了新工作",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "我失业了",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "我迟到了",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Jake笑了一下。",
+      "text_cn": "（Jake笑了一下。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/yousorrow.png",
+      "text": "Oh no... I'm sorry.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "It's not about money... I just felt like I was doing well. And then — gone.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jacksorrow.png",
+      "text": "Sorry. You just moved in. You don't need my problems.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "You helped me on my first day. Now I'm here.",
+      "text_cn": ""
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Jake calms down a little. You take out your phone and start looking for practical help.",
+      "text_cn": "（Jake稍微冷静了一些。你拿出手机，开始帮他找实际能用的办法。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "你提议帮他查查能不能申请补助。",
+      "text_cn": "（你提议帮他查查能不能申请补助。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "你在手机上搜索，找到了网页。",
+      "text_cn": "（你在手机上搜索，找到了网页。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Maybe you can get help? From the government?",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Yeah... I should do that.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Let me help you look.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "It says... you need to apply online. And you need your ID.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Okay. I can do that. Thanks.",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "matching",
+      "instruction": "📍 题目4\nMatch the English words with their meanings:",
+      "pairs": [
+        {
+          "id": 1,
+          "word": "apply",
+          "image": "申请"
+        },
+        {
+          "id": 2,
+          "word": "online",
+          "image": "在网上"
+        },
+        {
+          "id": 3,
+          "word": "ID",
+          "image": "身份证件"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Hey. Thanks. For real.",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目5\nJake says \"Thanks. For real.\" You want to say: that's what neighbors do — we help each other. Best response?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"You're welcome, please don't bother me again.\"",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "\"That's what neighbors are for.\"",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "\"You owe me money now.\"",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "The next day, Jake seems a little stronger. But his last message shows he's still worried about what could happen next.",
+      "text_cn": "（第二天，Jake看起来振作了一些。但他最后那条消息说明，他心里还是很担心接下来会发生什么。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "(笑)",
+      "text_cn": "（(笑)）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "第二天，群消息：",
+      "text_cn": "（第二天，群消息：）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Jake私信你：",
+      "text_cn": "（Jake私信你：）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "That's what neighbors are for.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake:** _(笑)_ \"You sound like Mrs. H.\"_第二天，群消息：_**Jake",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "Started looking for new jobs today. 💪",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "So proud of you dear!",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jacksorrow.png",
+      "text": "Thanks again. Also — if I can't find a job... I'm scared. Mrs. H's son lost his job too. That's why he had to leave.",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "题目6\nJake wants to tell someone: I lost my job last week.",
+      "options": [
+        {
+          "label": "A",
+          "text": "I lost my job last week.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "found",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "题目7\nYour friend looks sad. You want to check on them. Say:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Are you okay?",
+          "is_correct": true
+        }
+      ]
+    }
+  ]
+}

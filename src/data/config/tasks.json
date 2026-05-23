@@ -1,0 +1,53 @@
+{
+  "_description": "任务模块配置 - 定义所有可完成的任务",
+  "tasks": [
+    {
+      "task_id": 1,
+      "title": "The Crash Landing",
+      "subtitle": "+8 words, +2 phrases",
+      "reward_image": "/assets/jiangli.png",
+      "reward_type": "decoration",
+      "reward_item_id": "coffee_cup_charm",
+      "linked_lesson_id": 1,
+      "sort_order": 1,
+      "cost_diamonds": 0,
+      "is_tutorial": true
+    },
+    {
+      "task_id": 2,
+      "title": "Jake's Bad Day",
+      "subtitle": "+6 words, +3 phrases",
+      "reward_image": "/assets/jiangli01.png",
+      "reward_type": "decoration",
+      "reward_item_id": "barista_apron",
+      "linked_lesson_id": 2,
+      "sort_order": 2,
+      "cost_diamonds": 0,
+      "is_tutorial": false
+    },
+    {
+      "task_id": 3,
+      "title": "The Argument",
+      "subtitle": "+7 words, +2 phrases",
+      "reward_image": "/assets/jianglichaji.png",
+      "reward_type": "decoration",
+      "reward_item_id": "mei_secret_latte_recipe",
+      "linked_lesson_id": 3,
+      "sort_order": 3,
+      "cost_diamonds": 0,
+      "is_tutorial": false
+    },
+    {
+      "task_id": 4,
+      "title": "What happened to Ryan?",
+      "subtitle": "+8 words, +2 phrases",
+      "reward_image": "/assets/jinagliditan.png",
+      "reward_type": "decoration",
+      "reward_item_id": "old_chen_shopping_bag",
+      "linked_lesson_id": 4,
+      "sort_order": 4,
+      "cost_diamonds": 0,
+      "is_tutorial": false
+    }
+  ]
+}

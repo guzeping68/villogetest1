@@ -1,0 +1,8 @@
+{
+  "name": "剧场版",
+  "description": "An interactive language learning game where you build and decorate a vibrant town through educational quizzes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

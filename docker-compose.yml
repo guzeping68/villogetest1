@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "80:3000"
+    restart: always
+    environment:
+      # 大模型相关配置
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GROQ_MODEL=${GROQ_MODEL}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL}
+      - OPENAI_MODEL=${OPENAI_MODEL}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODELS=${GEMINI_MODELS}
+      - AI_TIMEOUT_MS=${AI_TIMEOUT_MS}
+      # 进度存储配置
+      - DATABASE_URL=${DATABASE_URL}
+      - PGHOST=${PGHOST}
+      - PGPORT=${PGPORT}
+      - PGUSER=${PGUSER}
+      - PGPASSWORD=${PGPASSWORD}
+      - PGDATABASE=${PGDATABASE}
+      - DB_CONNECTION_TIMEOUT_MS=${DB_CONNECTION_TIMEOUT_MS}
+      - DB_IDLE_TIMEOUT_MS=${DB_IDLE_TIMEOUT_MS}
+      - DB_POOL_MAX=${DB_POOL_MAX}
+    networks:
+      - webnet
+
+networks:
+  webnet:

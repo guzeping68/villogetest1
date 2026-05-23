@@ -1,0 +1,171 @@
+{
+  "_description": "引导模块 - 新手引导流程配置",
+  "steps": [
+    {
+      "step": 1,
+      "type": "splash",
+      "title": "",
+      "subtitle": "Step into each scene and learn each expression",
+      "background": "/assets/quanbubg.png",
+      "button_text": null,
+      "auto_advance_ms": 3000
+    },
+    {
+      "step": 2,
+      "type": "carousel",
+      "title": "Learn by doing",
+      "subtitle": "",
+      "background": "/assets/quanbubg1.png",
+      "carousel_images": ["/assets/lunbo1.png", "/assets/lunbo2.png", "/assets/lunbo3.png"],
+      "button_text": "Continue"
+    },
+    {
+      "step": 3,
+      "type": "language_selection",
+      "title": "Choose your language",
+      "subtitle": "",
+      "background": "/assets/quanbubg1.png",
+      "show_progress": true,
+      "progress_step": 1,
+      "progress_total": 4,
+      "spoken_languages": [
+        { "name": "Chinese", "flag": "🇨🇳" },
+        { "name": "Japanese", "flag": "🇯🇵" },
+        { "name": "Korean", "flag": "🇰🇷" },
+        { "name": "Spanish", "flag": "🇪🇸" },
+        { "name": "French", "flag": "🇫🇷" }
+      ],
+      "learn_languages": [
+        { "code": "Spanish", "flag": "🇪🇸", "learners": "5.8M" },
+        { "code": "French", "flag": "🇫🇷", "learners": "3.2M" },
+        { "code": "German", "flag": "🇩🇪", "learners": "2.1M" },
+        { "code": "Japanese", "flag": "🇯🇵", "learners": "1.5M" }
+      ],
+      "button_text": "Continue"
+    },
+    {
+      "step": 4,
+      "type": "native_language",
+      "title": "Your native language",
+      "subtitle": "We'll use this language to help you learn. You can change it in Settings.",
+      "background": "/assets/quanbubg1.png",
+      "show_progress": true,
+      "progress_step": 2,
+      "progress_total": 4,
+      "options": ["English", "Chinese"],
+      "button_text": "Continue"
+    },
+    {
+      "step": 5,
+      "type": "knowledge_level",
+      "title": "Your current level",
+      "subtitle": "This will help to adapt the first lesson to your level.",
+      "background": "/assets/quanbubg1.png",
+      "show_progress": true,
+      "progress_step": 3,
+      "progress_total": 4,
+      "options": [
+        { "text": "Not very much", "level": 1 },
+        { "text": "I know some", "level": 2 },
+        { "text": "I know a lot", "level": 3 }
+      ],
+      "button_text": "Continue"
+    },
+    {
+      "step": 6,
+      "type": "learning_goals",
+      "title": "Why are you learning?",
+      "subtitle": "We'll tailor lessons to your goal.",
+      "background": "/assets/quanbubg1.png",
+      "show_progress": true,
+      "progress_step": 4,
+      "progress_total": 4,
+      "options": [
+        { "id": "travel", "text": "Travel & explore cultures", "icon": "Plane" },
+        { "id": "move", "text": "Move to another country", "icon": "Home" },
+        { "id": "education", "text": "Support my education", "icon": "GraduationCap" },
+        { "id": "career", "text": "Boost my career", "icon": "Briefcase" },
+        { "id": "connect", "text": "Connect with people", "icon": "Users" },
+        { "id": "fun", "text": "Just for fun", "icon": "Smile" },
+        { "id": "other", "text": "Other", "icon": "MoreHorizontal" }
+      ],
+      "multiple_select": true,
+      "button_text": "Continue"
+    },
+    {
+      "step": 7,
+      "type": "name_setup",
+      "title": "Let's personalize!",
+      "subtitle": "What should I call you?",
+      "background": "/assets/quanbubg1.png",
+      "button_text": "Continue"
+    },
+    {
+      "step": 8,
+      "type": "name_setup_dialogue",
+      "title": "Your plan...",
+      "subtitle": "Let's get started.",
+      "background": "/assets/quanbubg1.png",
+      "dialogues": [
+        {
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Welcome to Maple Town!",
+          "text_cn": "欢迎来到枫叶小镇！"
+        },
+        {
+          "speaker": "Amili",
+          "avatar": "/assets/Amilitouxiang.png",
+          "text_en": "It's so cozy here.",
+          "text_cn": "这里真温馨。"
+        },
+        {
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Okay, your new home is just ahead. Why don't you check it out?",
+          "text_cn": "好的，前面就是你在这里的新家了，去看看吧。"
+        },
+        {
+          "speaker": "Amili",
+          "avatar": "/assets/Amilitouxiang.png",
+          "text_en": "I'll go take a look. I hope you're an honest agent.",
+          "text_cn": "我这就去看看，希望你是个有良心的中介。"
+        }
+      ],
+      "button_text": "Enter"
+    },
+    {
+      "step": 9,
+      "type": "loading",
+      "title": "Creating your plan",
+      "subtitle": "",
+      "background": "/assets/quanbubg1.png",
+      "loading_texts": [
+        { "text": "Analyzing your learning needs", "threshold_percent": 0 },
+        { "text": "Creating a personalized learning plan", "threshold_percent": 33 },
+        { "text": "Customizing exclusive content", "threshold_percent": 66 }
+      ],
+      "duration_ms": 5000,
+      "button_text": "Start Learning"
+    },
+    {
+      "step": 10,
+      "type": "summary",
+      "title": "Your personalized plan",
+      "subtitle": "Tailored to your goals, level, and interests and preference.",
+      "background": "/assets/quanbubg1.png",
+      "display_fields": ["English Level", "Learning Goal", "Language"],
+      "button_text": "Continue"
+    },
+    {
+      "step": 11,
+      "type": "celebration",
+      "title": "Perfect!",
+      "subtitle": "",
+      "background": "/assets/quanbubg1.png",
+      "character_image": "/assets/xiaotuzijiemian.png",
+      "button_text": "Let's Start"
+    }
+
+  ]
+}

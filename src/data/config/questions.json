@@ -1,0 +1,876 @@
+{
+  "_description": "课程题目配置 - Maple Town 新内容",
+  "questions": [
+    {
+      "lesson_id": 1,
+      "question_id": "L01_Q01",
+      "sort_order": 1,
+      "type": "situational_response",
+      "instruction": "You want an Americano. How do you order?",
+      "scene_media": "L01_Q01.png",
+      "correct_answer": "A",
+      "correct_feedback": "'Can I get + item + please' is the universal ordering sentence!\n\"Can I get + 东西 + please\" —— 万能点单句！",
+      "incorrect_feedback": "The polite way to order is 'Can I get an Americano, please?'\n礼貌点单用 'Can I get an Americano, please?'",
+      "options": [
+        {
+          "label": "A",
+          "text": "Can I get an Americano, please?",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Give me Americano now.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "I need... that... black coffee thing?",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "01.mp3",
+      "audio_slow": "01.mp3"
+    },
+    {
+      "lesson_id": 1,
+      "question_id": "L01_Q02",
+      "sort_order": 2,
+      "type": "situational_response",
+      "instruction": "The barista asks: 'What size? Small, medium, or large?' You want a medium.",
+      "scene_media": "L01_Q02.png",
+      "correct_answer": "B",
+      "correct_feedback": "Small/Medium/Large = 小/中/大. Works at any store!\nSmall/Medium/Large = 小/中/大，哪家店都用得上。",
+      "incorrect_feedback": "Medium means the middle size.\nMedium 是中间尺寸。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Small",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Medium",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Large",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "02.mp3",
+      "audio_slow": "02.mp3"
+    },
+    {
+      "lesson_id": 1,
+      "question_id": "L01_Q03",
+      "sort_order": 3,
+      "type": "situational_response",
+      "instruction": "The croissant looks great. You want to add one. What do you say?",
+      "scene_media": "L01_Q03.png",
+      "correct_answer": "A",
+      "correct_feedback": "'And a...' is the universal way to add items. Croissant = 可颂🥐\n\"And a...\" 追加点单万能用法。",
+      "incorrect_feedback": "Use 'And a croissant, please' to add to your order.\n用 'And a croissant, please' 来追加。",
+      "options": [
+        {
+          "label": "A",
+          "text": "And a croissant, please.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "That's all, thanks.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Also bread.",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "03.mp3",
+      "audio_slow": "03.mp3"
+    },
+    {
+      "lesson_id": 1,
+      "question_id": "L01_Q04",
+      "sort_order": 4,
+      "type": "situational_response",
+      "instruction": "The total is $7.25. 'Cash or card?' You want to pay by card.",
+      "scene_media": "L01_Q04.png",
+      "correct_answer": "A",
+      "correct_feedback": "Card = pay by card, Cash = pay with money.\nCard = 刷卡，Cash = 现金。",
+      "incorrect_feedback": "To pay by card, say 'Card, please.'\n刷卡就说 'Card, please.'",
+      "options": [
+        {
+          "label": "A",
+          "text": "Card, please.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Cash, please.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Money. Here.",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "04.mp3",
+      "audio_slow": "04.mp3"
+    },
+    {
+      "lesson_id": 1,
+      "question_id": "L01_Q05",
+      "sort_order": 5,
+      "type": "situational_response",
+      "instruction": "At American coffee shops, why do they ask for your name?",
+      "scene_media": "L01_Q05.png",
+      "correct_answer": "B",
+      "correct_feedback": "They write your name on the cup to call out when ready. Misspelled names are a universal immigrant experience 😂\n名字被写错是全球移民共同经历😂",
+      "incorrect_feedback": "They write names on cups to call out orders.\n他们写名字是为了叫号。",
+      "options": [
+        {
+          "label": "A",
+          "text": "To sign you up for membership",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "To write on the cup and call your name",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "To do a background check",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "05.mp3",
+      "audio_slow": "05.mp3"
+    },
+    {
+      "lesson_id": 2,
+      "question_id": "L02_Q01",
+      "sort_order": 1,
+      "type": "listening_selection",
+      "instruction": "Customer: 'Can I get a latte with oat milk, no sugar?' What does she want?",
+      "scene_media": "L02_Q01.png",
+      "audio_normal": "06.mp3",
+      "audio_slow": "06.mp3",
+      "listening_transcript": "Can I get a latte with oat milk, no sugar?",
+      "audio_content": {
+        "speaker": "Customer",
+        "text_cn": "我要一杯拿铁，加燕麦奶，不加糖。",
+        "text_en": "Can I get a latte with oat milk, no sugar?"
+      },
+      "correct_answer": "A",
+      "correct_feedback": "'with oat milk' = add oat milk. 'no sugar' = don't add sugar.\nwith = 加，no = 不加。",
+      "incorrect_feedback": "'with' means add, 'no' means remove.\n'with' 表示加，'no' 表示不加。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Latte with oat milk, no sugar",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Americano with oat milk, no sugar",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Latte with milk, extra sugar",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "question_id": "L02_Q02",
+      "sort_order": 2,
+      "type": "listening_selection",
+      "instruction": "Customer: 'Large iced tea. That's it.' What does he want?",
+      "scene_media": "L02_Q02.png",
+      "audio_normal": "07.mp3",
+      "audio_slow": "07.mp3",
+      "listening_transcript": "Large iced tea. That's it.",
+      "audio_content": {
+        "speaker": "Customer",
+        "text_cn": "大杯冰茶。就这样。",
+        "text_en": "Large iced tea. That's it."
+      },
+      "correct_answer": "A",
+      "correct_feedback": "'That's it' = that's all.\n\"That's it\" = 就这些。",
+      "incorrect_feedback": "He said 'Large iced tea'.\n他说 'Large iced tea' —— 大杯冰茶。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Large iced tea",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Medium iced tea",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Large hot chocolate",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "question_id": "L02_Q03",
+      "sort_order": 3,
+      "type": "situational_response",
+      "instruction": "A little girl says 'Can I get a hot chocolate? The big one!' What size is 'the big one'?",
+      "scene_media": "L02_Q03.png",
+      "correct_answer": "C",
+      "correct_feedback": "'The big one' is the casual way to say 'Large'.\n\"The big one\" 就是Large的口语说法。",
+      "incorrect_feedback": "'Big' = large.\nBig = 大。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Small",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Medium",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Large",
+          "is_correct": true
+        }
+      ],
+      "audio_normal": "08.mp3",
+      "audio_slow": "08.mp3"
+    },
+    {
+      "lesson_id": 2,
+      "question_id": "L02_Q04",
+      "sort_order": 4,
+      "type": "situational_response",
+      "instruction": "'One cappuccino, one Americano, and two croissants.' How many items total?",
+      "scene_media": "L02_Q04.png",
+      "correct_answer": "B",
+      "correct_feedback": "Don't miss 'two croissants' — 1+1+2 = 4 items!\n别漏 'two croissants' —— 1+1+2 = 4样！",
+      "incorrect_feedback": "1 cappuccino + 1 Americano + 2 croissants = 4.\n1+1+2 = 4样。",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 items",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "4 items",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "2 items",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "09.mp3",
+      "audio_slow": "09.mp3"
+    },
+    {
+      "lesson_id": 2,
+      "question_id": "L02_Q05",
+      "sort_order": 5,
+      "type": "situational_response",
+      "instruction": "Calculate: Cappuccino $4.50 + Americano $3.75 + 2× Croissant $3.50 = ?",
+      "scene_media": "L02_Q05.png",
+      "correct_answer": "B",
+      "correct_feedback": "$4.50 + $3.75 + $7.00 = $15.25!",
+      "incorrect_feedback": "$4.50 + $3.75 + $3.50 + $3.50 = $15.25.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$13.25",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "$15.25",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "$11.75",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "10.mp3",
+      "audio_slow": "10.mp3"
+    },
+    {
+      "lesson_id": 2,
+      "question_id": "L02_Q06",
+      "sort_order": 6,
+      "type": "situational_response",
+      "instruction": "An old lady asks 'What do you recommend?' You want to recommend the Americano.",
+      "scene_media": "L02_Q06.png",
+      "correct_answer": "A",
+      "correct_feedback": "'I recommend...' = 我推荐…… Blogger instinct in English!\n\"I recommend...\" 博主本能！",
+      "incorrect_feedback": "Use 'I recommend the Americano. It's really good!'",
+      "options": [
+        {
+          "label": "A",
+          "text": "I recommend the Americano. It's really good!",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Everything is fine.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "I don't know, I just work here.",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "11.mp3",
+      "audio_slow": "11.mp3"
+    },
+    {
+      "lesson_id": 3,
+      "question_id": "L03_Q01",
+      "sort_order": 1,
+      "type": "listening_selection",
+      "instruction": "Karen: 'I ordered a large latte but got a cappuccino. I want a replacement.' What's her problem?",
+      "scene_media": "L03_Q01.png",
+      "audio_normal": "12.mp3",
+      "audio_slow": "12.mp3",
+      "listening_transcript": "I ordered a large latte yesterday, but I got a cappuccino. I want a replacement.",
+      "audio_content": {
+        "speaker": "Karen",
+        "text_cn": "我昨天点了大杯拿铁，但拿到的是卡布奇诺。我要换一杯。",
+        "text_en": "I ordered a large latte yesterday, but I got a cappuccino. I want a replacement."
+      },
+      "correct_answer": "A",
+      "correct_feedback": "'I ordered A but I got B' — the most common complaint pattern!\n\"I ordered A but I got B\" —— 投诉最常见句式。",
+      "incorrect_feedback": "She ordered a latte but received a cappuccino.\n她点了拿铁但拿到了卡布奇诺。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ordered latte, got cappuccino",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Coffee too expensive",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Wants a full refund only",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "lesson_id": 3,
+      "question_id": "L03_Q02",
+      "sort_order": 2,
+      "type": "situational_response",
+      "instruction": "You apologize on behalf of the store. What do you say?",
+      "scene_media": "L03_Q02.png",
+      "correct_answer": "A",
+      "correct_feedback": "'I'm sorry about that' + 'Let me fix it' = Apologize + solve!\n道歉+主动解决，万能客诉话术。",
+      "incorrect_feedback": "Always apologize first: 'I'm sorry about that. Let me fix it for you.'\n先道歉再解决。",
+      "options": [
+        {
+          "label": "A",
+          "text": "I'm sorry about that. Let me fix it for you.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Not my problem.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Are you sure you didn't order wrong?",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "13.mp3",
+      "audio_slow": "13.mp3"
+    },
+    {
+      "lesson_id": 3,
+      "question_id": "L03_Q03",
+      "sort_order": 3,
+      "type": "situational_response",
+      "instruction": "Confirm her order. She wants a large latte with oat milk.",
+      "scene_media": "L03_Q03.png",
+      "correct_answer": "A",
+      "correct_feedback": "'So that's... right?' — professional and reassuring!\n\"So that's... right?\" 确认订单，专业又安心。",
+      "incorrect_feedback": "Use 'So that's a large latte with oat milk, right?'",
+      "options": [
+        {
+          "label": "A",
+          "text": "So that's a large latte with oat milk, right?",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Large cappuccino with oat milk?",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "What did you want again?",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "14.mp3",
+      "audio_slow": "14.mp3"
+    },
+    {
+      "lesson_id": 3,
+      "question_id": "L03_Q04",
+      "sort_order": 4,
+      "type": "situational_response",
+      "instruction": "Karen asks 'Can I get a refund?' What does 'refund' mean?",
+      "scene_media": "L03_Q04.png",
+      "correct_answer": "B",
+      "correct_feedback": "Refund = 退款. Standard refund request.\nRefund = 退款。标准退款说法。",
+      "incorrect_feedback": "Refund = getting money back.\nRefund 是退钱。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Discount (打折)",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Refund (退款)",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Top-up (充值)",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "15.mp3",
+      "audio_slow": "15.mp3"
+    },
+    {
+      "lesson_id": 3,
+      "question_id": "L03_Q05",
+      "sort_order": 5,
+      "type": "situational_response",
+      "instruction": "Tell her she can get a refund.",
+      "scene_media": "L03_Q05.png",
+      "correct_answer": "A",
+      "correct_feedback": "'We can give you a refund' — professional and clear.\n\"We can give you a refund\" 专业又清晰。",
+      "incorrect_feedback": "Say 'Sure, we can give you a refund.'",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sure, we can give you a refund.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "No refund.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "You need to call the manager.",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "16.mp3",
+      "audio_slow": "16.mp3"
+    },
+    {
+      "lesson_id": 3,
+      "question_id": "L03_Q06",
+      "sort_order": 6,
+      "type": "situational_response",
+      "instruction": "Conflict resolved. Recommend something else while she's happy.",
+      "scene_media": "L03_Q06.png",
+      "correct_answer": "A",
+      "correct_feedback": "'No worries' = 没关系. Recommend while the mood is good!\n\"No worries\" = 没关系。趁心情好推荐——博主本能！",
+      "incorrect_feedback": "'No worries! Next time, try the croissant too.' is friendly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "No worries! Next time, try the croissant too. It's amazing.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Bye.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Please don't leave a bad review.",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "17.mp3",
+      "audio_slow": "17.mp3"
+    },
+    {
+      "lesson_id": 4,
+      "question_id": "L04_Q01",
+      "sort_order": 1,
+      "type": "situational_response",
+      "instruction": "You want to find milk. How do you ask?",
+      "scene_media": "L04_Q01.png",
+      "correct_answer": "A",
+      "correct_feedback": "'Where can I find...?' — universal store sentence!\n\"Where can I find...?\" 超市找东西万能句。",
+      "incorrect_feedback": "Use 'Where can I find milk?' — polite and clear.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Where can I find milk?",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Milk. Where.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Do you have cow water?",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "18.mp3",
+      "audio_slow": "18.mp3"
+    },
+    {
+      "lesson_id": 4,
+      "question_id": "L04_Q02",
+      "sort_order": 2,
+      "type": "listening_selection",
+      "instruction": "Old Chen: 'Aisle 3, on your left.' Where is the milk?",
+      "scene_media": "L04_Q02.png",
+      "audio_normal": "19.mp3",
+      "audio_slow": "19.mp3",
+      "listening_transcript": "Aisle 3, on your left.",
+      "audio_content": {
+        "speaker": "Old Chen",
+        "text_cn": "第三排，在你左边。",
+        "text_en": "Aisle 3, on your left."
+      },
+      "correct_answer": "A",
+      "correct_feedback": "Aisle = store row. 'On your left' = left side.\nAisle = 货架排。\"On your left\" = 左边。",
+      "incorrect_feedback": "Aisle 3, left side.\n第3排，左边。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Aisle 3, left side",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Aisle 3, right side",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Next to checkout",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "lesson_id": 4,
+      "question_id": "L04_Q03",
+      "sort_order": 3,
+      "type": "situational_response",
+      "instruction": "You want the cheapest milk. Whole $3.99, Low-fat $3.79, Oat $5.49. Which one?",
+      "scene_media": "L04_Q03.png",
+      "correct_answer": "B",
+      "correct_feedback": "Low-fat $3.79 is cheapest. Reading price tags = survival skill!\nLow-fat $3.79最便宜。看价签是生存技能！",
+      "incorrect_feedback": "$3.79 < $3.99 < $5.49. Low-fat is cheapest.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Whole Milk $3.99",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Low-fat Milk $3.79",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Oat Milk $5.49",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "20.mp3",
+      "audio_slow": "20.mp3"
+    },
+    {
+      "lesson_id": 4,
+      "question_id": "L04_Q04",
+      "sort_order": 4,
+      "type": "situational_response",
+      "instruction": "You see a sign that says 'SALE'. What does it mean?",
+      "scene_media": "L04_Q04.png",
+      "correct_answer": "B",
+      "correct_feedback": "SALE = on sale / discount. Bargains ahead!\nSALE = 打折促销。有便宜捡！",
+      "incorrect_feedback": "SALE means discounted, not sold out.\nSALE 是打折，不是售完。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sold out",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "On sale / discount",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "New arrival",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "21.mp3",
+      "audio_slow": "21.mp3"
+    },
+    {
+      "lesson_id": 4,
+      "question_id": "L04_Q05",
+      "sort_order": 5,
+      "type": "listening_selection",
+      "instruction": "Old Chen: 'Did you find everything okay?' What is he asking?",
+      "scene_media": "L04_Q05.png",
+      "audio_normal": "22.mp3",
+      "audio_slow": "22.mp3",
+      "listening_transcript": "Did you find everything okay?",
+      "audio_content": {
+        "speaker": "Old Chen",
+        "text_cn": "东西都找到了吗？",
+        "text_en": "Did you find everything okay?"
+      },
+      "correct_answer": "B",
+      "correct_feedback": "'Did you find everything okay?' — standard American cashier greeting. Reply 'Yes, thanks!'\n美国收银员标准开场白。回答 'Yes, thanks!'",
+      "incorrect_feedback": "He's asking if you found everything you needed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Asking about membership",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Asking if you found everything",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Asking if you want a bag",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "question_id": "L05_Q01",
+      "sort_order": 1,
+      "type": "situational_response",
+      "instruction": "You can't find eggs. How do you ask?",
+      "scene_media": "L05_Q01.png",
+      "correct_answer": "A",
+      "correct_feedback": "Review! 'Where can I find + item' works every time.\n复习！\"Where can I find + 东西\" 每次都管用。",
+      "incorrect_feedback": "Use 'Where can I find eggs?'",
+      "options": [
+        {
+          "label": "A",
+          "text": "Where can I find eggs?",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Eggs?",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "I look for eggs everywhere.",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "23.mp3",
+      "audio_slow": "23.mp3"
+    },
+    {
+      "lesson_id": 5,
+      "question_id": "L05_Q02",
+      "sort_order": 2,
+      "type": "listening_selection",
+      "instruction": "Old Chen: 'Aisle 1, next to the bread.' Where are the eggs?",
+      "scene_media": "L05_Q02.png",
+      "audio_normal": "24.mp3",
+      "audio_slow": "24.mp3",
+      "listening_transcript": "Aisle 1, next to the bread.",
+      "audio_content": {
+        "speaker": "Old Chen",
+        "text_cn": "第一排，面包旁边。",
+        "text_en": "Aisle 1, next to the bread."
+      },
+      "correct_answer": "A",
+      "correct_feedback": "'next to' = beside. Eggs are in Aisle 1, next to bread.\n\"next to\" = 旁边。",
+      "incorrect_feedback": "'Next to the bread' means right beside the bread.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Aisle 1, next to bread",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Aisle 1, next to milk",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Aisle 3, on the left",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "question_id": "L05_Q03",
+      "sort_order": 3,
+      "type": "situational_response",
+      "instruction": "Two types of eggs: Free-range (6) $4.99, Regular (12) $3.49. You want the cheaper one.",
+      "scene_media": "L05_Q03.png",
+      "correct_answer": "B",
+      "correct_feedback": "Regular = normal. Free-range = free-roaming (expensive).\nRegular = 普通。Free-range = 散养（贵）。",
+      "incorrect_feedback": "Regular Eggs $3.49 < Free-range $4.99.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Free-range Eggs $4.99",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Regular Eggs $3.49",
+          "is_correct": true
+        }
+      ],
+      "audio_normal": "25.mp3",
+      "audio_slow": "25.mp3"
+    },
+    {
+      "lesson_id": 5,
+      "question_id": "L05_Q04",
+      "sort_order": 4,
+      "type": "situational_response",
+      "instruction": "Three bottles look similar: Olive Oil, Sesame Oil, Vegetable Oil. You need sesame oil.",
+      "scene_media": "L05_Q04.png",
+      "correct_answer": "B",
+      "correct_feedback": "Sesame = 芝麻. Read labels correctly!\nSesame = 芝麻。读懂标签不会买错！",
+      "incorrect_feedback": "Sesame Oil = 芝麻油。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Olive Oil (橄榄油)",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sesame Oil (芝麻油)",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Vegetable Oil (植物油)",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "26.mp3",
+      "audio_slow": "26.mp3"
+    },
+    {
+      "lesson_id": 5,
+      "question_id": "L05_Q05",
+      "sort_order": 5,
+      "type": "situational_response",
+      "instruction": "Old Chen asks 'You want a bag?' You want one.",
+      "scene_media": "L05_Q05.png",
+      "correct_answer": "A",
+      "correct_feedback": "'Yes, please.' Simple!\n\"Yes, please.\" 简单搞定。",
+      "incorrect_feedback": "Just say 'Yes, please.'",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yes, please.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Give me bag.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "No, thanks.",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "27.mp3",
+      "audio_slow": "27.mp3"
+    },
+    {
+      "lesson_id": 5,
+      "question_id": "L05_Q06",
+      "sort_order": 6,
+      "type": "situational_response",
+      "instruction": "Old Chen gives you hot sauce and says 'On the house.' What does that mean?",
+      "scene_media": "L05_Q06.png",
+      "correct_answer": "B",
+      "correct_feedback": "'On the house' = free / store's treat. Old Chen is tough outside, soft inside!\n\"On the house\" = 免费送。老陈嘴硬心软！",
+      "incorrect_feedback": "'On the house' means free of charge.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Put it on the roof",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "It's free (免费赠送)",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Only use in store",
+          "is_correct": false
+        }
+      ],
+      "audio_normal": "28.mp3",
+      "audio_slow": "28.mp3"
+    }
+  ]
+}

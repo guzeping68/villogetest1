@@ -1,0 +1,368 @@
+{
+  "title": "Episode 4: The Brunch（早午餐暗流）",
+  "steps": [
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Mrs. Henderson家brunch。你认识Kevin和Lisa。Mrs. Henderson说了尴尬的话。Kevin私下问你意见。",
+      "text_cn": "（Mrs. Henderson家brunch。你认识Kevin和Lisa。Mrs. Henderson说了尴尬的话。Kevin私下问你意见。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "It's the first time everyone is together in Mrs. Henderson's apartment. The room is warm, loud, and full of food.",
+      "text_cn": "（这是大家第一次一起聚在Mrs. Henderson家里。屋子里暖暖的、热热闹闹的，到处都是食物的香味。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "周末。你去Mrs. Henderson家参加brunch。敲门进去，看到两个新面孔。",
+      "text_cn": "（周末。你去Mrs. Henderson家参加brunch。敲门进去，看到两个新面孔。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "(点头)",
+      "text_cn": "（(点头)）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "Come in, dear! Everyone, this is 4B!",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Kevin:** _(点头)_ \"Hey. Kevin. 3B.\"**Lisa",
+      "avatar": "/assets/NPC.png",
+      "text": "Hi!! I'm Lisa! 2B! So nice to meet you!",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目1\nLisa says \"So nice to meet you!\" What do you say?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"Thank you, goodbye.\"",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "\"Nice to meet you too!\"",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "\"Yes, I know.\"",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "大家坐下来吃东西。Mrs. Henderson做了很多食物。",
+      "text_cn": "（大家坐下来吃东西。Mrs. Henderson做了很多食物。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "(看向你)",
+      "text_cn": "（(看向你)）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "Please, eat! Try the scones!",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Mrs. H, these are SO good.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/NPC.png",
+      "text": "Oh my god, delicious!",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目2\nMrs. Henderson asks \"Do you like it?\" The food is very good. You say:",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"It's okay.\"",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "\"Yes! It's delicious!\"",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "\"I don't eat this.\"",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "At first, everything feels easy and fun. Then the conversation changes, and the room suddenly feels awkward.",
+      "text_cn": "（一开始，一切都轻松又愉快。可接着，话题突然变了，屋里的气氛一下子变得有点尴尬。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "大家聊了一会儿。然后Mrs. Henderson突然说——",
+      "text_cn": "（大家聊了一会儿。然后Mrs. Henderson突然说——）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Kevin脸红了。Lisa愣了一秒。",
+      "text_cn": "（Kevin脸红了。Lisa愣了一秒。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Jake小声跟你说：",
+      "text_cn": "（Jake小声跟你说：）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappiness.png",
+      "text": "Lisa, you and Kevin should go to that food festival! You both love Thai food!",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/lisahappy.png",
+      "text": "Maybe! We'll see.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Kevin likes Lisa.",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目3\nLisa says \"Maybe! We'll see.\" She means:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yes, she will go",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "She doesn't want to say yes or no",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "She is asking a question",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Lisa leaves quickly. Kevin stays, but he looks embarrassed. When the others are busy, he quietly asks you what you think.",
+      "text_cn": "（Lisa很快就走了。Kevin留了下来，可看起来很不好意思。等别人都在忙时，他悄悄来问你怎么看。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "Brunch结束了。Lisa先走了。Kevin留下来洗碗。你在收桌子。Kevin过来小声问你。",
+      "text_cn": "（Brunch结束了。Lisa先走了。Kevin留下来洗碗。你在收桌子。Kevin过来小声问你。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Kevin",
+      "avatar": "/assets/Kevinhappy.png",
+      "text": "Hey... was that weird?",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "What do you mean?",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Kevin",
+      "avatar": "/assets/Kevinhappy.png",
+      "text": "Me and Lisa. Am I weird?",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "No. I think she just needs time.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Kevin",
+      "avatar": "/assets/NPC.png",
+      "text": "Yeah... you're right. Thanks.",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目4\n\"She just needs time\" means:",
+      "options": [
+        {
+          "label": "A",
+          "text": "She needs a clock",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "She's not ready yet — give her space",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "She's always late",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "That night, the awkward moment isn't over yet. Lisa messages you directly.",
+      "text_cn": "（那天晚上，那份尴尬并没有真正结束。Lisa直接给你发来了私信。）"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/NPC.png",
+      "text": "你回到家。手机震动。Lisa私信你。",
+      "text_cn": "（你回到家。手机震动。Lisa私信你。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/NPC.png",
+      "text": "Hey — sorry if today was awkward.",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "It's okay!",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/NPC.png",
+      "text": "Can we get coffee sometime? Just us?",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Sure!",
+      "text_cn": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/NPC.png",
+      "text": "Cool 😊",
+      "text_cn": ""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "📍 题目5\nLisa asks \"Can we get coffee sometime?\" You want to say yes. Which is most natural?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"Yes, I agree to your invitation.\"",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "\"Sure!\"",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "\"I will think about it and let you know later.\"  太疏远",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "题目6\nYour neighbor made food for you. It's very good. Say:",
+      "options": [
+        {
+          "label": "A",
+          "text": "It's delicious!",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "instruction": "题目7\nSomeone invites you somewhere but you're not sure. You say:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Maybe. We'll see.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sure",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

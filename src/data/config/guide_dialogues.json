@@ -1,0 +1,195 @@
+{
+  "_description": "引导剧情表 - 游戏中各事件触发的NPC对话",
+  "events": [
+    {
+      "event_id": "game_start",
+      "event_type": "first_enter",
+      "trigger": "进入游戏后的第一段对话（序章：Bun欢迎Amili来到枫叶小镇）",
+      "skippable": false,
+      "dialogues": [
+        {
+          "speaker": "bun",
+          "speaker_name": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Alright, your new home is just ahead. Go take a look!",
+          "text_cn": "好的，前面就是你在这里的新家了，去看看吧",
+          "delay_ms": 0
+        },
+        {
+          "is_player": true,
+          "speaker_name": "Amili",
+          "avatar": "/assets/Amilitouxiang.png",
+          "text_en": "Amili is my old account, don't call me that anymore. My new account is called...",
+          "text_cn": "Amili是过气老号了，别叫了。我新号叫——",
+          "delay_ms": 1500
+        },
+        {
+          "is_player": true,
+          "action": "name_input"
+        },
+        {
+          "speaker": "bun",
+          "speaker_name": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "{player_name}! Got it! Then why don't you try the Fog & Brew cafe down the street first? But they speak English in there, can you handle it? 😏",
+          "text_cn": "{player_name}！记住了！那你先去街口 Fog & Brew 咖啡馆尝尝？不过里面说英语哦，你行吗？😏",
+          "delay_ms": 1500
+        },
+        {
+          "is_player": true,
+          "speaker_name": "{player_name}",
+          "avatar": "/assets/Amilitouxiang.png",
+          "text_en": "I'll go take a look right now. I hope you're an honest agent.",
+          "text_cn": "我这就去看看，希望你是个有良心的中介",
+          "delay_ms": 1500
+        },
+        {
+          "speaker": "bun",
+          "speaker_name": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Don't worry! Go try it!",
+          "text_cn": "放心！快去吧！",
+          "delay_ms": 1500
+        }
+      ]
+    },
+    {
+      "event_id": "fog_brew_unlock",
+      "event_type": "building_unlock",
+      "trigger": "进入Fog & Brew咖啡馆",
+      "skippable": true,
+      "dialogues": [
+        {
+          "speaker": "mei",
+          "speaker_name": "Mei",
+          "avatar": "/assets/mei_avatar.png",
+          "text_en": "Welcome to Fog & Brew! I'm Mei. You look like you could use a warm drink.",
+          "text_cn": "欢迎来到Fog & Brew！我是Mei。你看起来需要一杯热饮。",
+          "delay_ms": 0
+        },
+        {
+          "speaker": "bun",
+          "speaker_name": "Bun",
+          "avatar": "/assets/bun_avatar.png",
+          "text_en": "Mei makes the best lattes in town! Let's learn how to order one.",
+          "text_cn": "Mei做的拿铁是镇上最好的！我们来学学怎么点单吧。",
+          "delay_ms": 1500
+        }
+      ]
+    },
+    {
+      "event_id": "mirror_mart_unlock",
+      "event_type": "building_unlock",
+      "trigger": "解锁Mirror Mart超市后",
+      "skippable": true,
+      "dialogues": [
+        {
+          "speaker": "bun",
+          "speaker_name": "Bun",
+          "avatar": "/assets/bun_avatar.png",
+          "text_en": "Look, Amili! Mirror Mart just opened its doors to us! Old Chen runs the place.",
+          "text_cn": "看，Amili！镜湖超市向我们敞开了大门！老陈在这里经营。",
+          "delay_ms": 0
+        },
+        {
+          "speaker": "old_chen",
+          "speaker_name": "Old Chen",
+          "avatar": "/assets/old_chen_avatar.png",
+          "text_en": "Ah, a new face! Welcome to Mirror Mart. Need help finding anything? I know every shelf in this store!",
+          "text_cn": "啊，新面孔！欢迎来到镜湖超市。需要帮你找什么吗？这店里的每个货架我都了如指掌！",
+          "delay_ms": 1500
+        }
+      ]
+    },
+    {
+      "event_id": "fog_brew_upgrade_lv2",
+      "event_type": "building_upgrade",
+      "trigger": "Fog & Brew升级到2级后",
+      "skippable": true,
+      "dialogues": [
+        {
+          "speaker": "mei",
+          "speaker_name": "Mei",
+          "avatar": "/assets/mei_avatar.png",
+          "text_en": "The cafe is getting more popular thanks to you! I've added some new drinks to the menu.",
+          "text_cn": "多亏了你，咖啡馆越来越受欢迎了！我在菜单上加了一些新饮品。",
+          "delay_ms": 0
+        },
+        {
+          "speaker": "bun",
+          "speaker_name": "Bun",
+          "avatar": "/assets/bun_avatar.png",
+          "text_en": "Nice work, Amili! Your English is really helping Maple Town come alive!",
+          "text_cn": "干得好，Amili！你的英语真的让枫叶小镇变得更有活力了！",
+          "delay_ms": 1500
+        }
+      ]
+    },
+    {
+      "event_id": "first_lesson_complete",
+      "event_type": "lesson_complete",
+      "trigger": "完成第一节课后",
+      "skippable": true,
+      "dialogues": [
+        {
+          "speaker": "bun",
+          "speaker_name": "Bun",
+          "avatar": "/assets/bun_avatar.png",
+          "text_en": "You did it, Amili! Your first coffee order was a success!",
+          "text_cn": "你做到了，Amili！你的第一次咖啡点单成功了！",
+          "delay_ms": 0
+        },
+        {
+          "speaker": "mei",
+          "speaker_name": "Mei",
+          "avatar": "/assets/mei_avatar.png",
+          "text_en": "Not bad at all! Here, take this coffee cup charm as a little gift from me.",
+          "text_cn": "真不错！来，这个咖啡杯挂饰送给你，算是我的小礼物。",
+          "delay_ms": 1500
+        },
+        {
+          "speaker": "bun",
+          "speaker_name": "Bun",
+          "avatar": "/assets/bun_avatar.png",
+          "text_en": "Keep practicing and we'll explore more of Maple Town together!",
+          "text_cn": "继续加油练习，我们一起探索更多枫叶小镇的地方！",
+          "delay_ms": 1500
+        }
+      ]
+    },
+    {
+      "event_id": "decoration_coffee_cup_charm",
+      "event_type": "decoration_placed",
+      "trigger": "放置咖啡杯挂饰后",
+      "target_decoration_id": "coffee_cup_charm",
+      "skippable": true,
+      "dialogues": [
+        {
+          "speaker": "mei",
+          "speaker_name": "Mei",
+          "avatar": "/assets/mei_avatar.png",
+          "text_en": "Oh, you placed the coffee cup charm! It looks perfect there.",
+          "text_cn": "哦，你放了咖啡杯挂饰！放在那里看起来太合适了。",
+          "delay_ms": 0
+        }
+      ]
+    },
+    {
+      "event_id": "decoration_barista_apron",
+      "event_type": "decoration_placed",
+      "trigger": "放置咖啡师围裙后",
+      "target_decoration_id": "barista_apron",
+      "skippable": true,
+      "dialogues": [
+        {
+          "speaker": "mei",
+          "speaker_name": "Mei",
+          "avatar": "/assets/mei_avatar.png",
+          "text_en": "That apron suits you! You're becoming a real barista, Amili!",
+          "text_cn": "那件围裙很适合你！你正在成为一个真正的咖啡师，Amili！",
+          "delay_ms": 0
+        }
+      ]
+    }
+  ]
+}

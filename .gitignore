@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+server-dist/
+coverage/
+.DS_Store
+*.log
+*.zip
+debug.txt
+grep_pointer.txt
+grep_pointer_all.txt
+states.txt
+.env*
+!.env.example

@@ -1,0 +1,82 @@
+{
+  "_description": "资源模块 - Maple Town 游戏中用到的图片、音频等资源路径映射",
+  "characters": {
+    "amili": {
+      "name": "Amili",
+      "name_cn": "Amili",
+      "avatar": "/assets/xiaotuzijiemian.png",
+      "full_body": "/assets/xiaotuzijiemian.png",
+      "description": "A Chinese food/lifestyle blogger trying to make a comeback by exploring Maple Town."
+    },
+    "bun": {
+      "name": "Bun",
+      "name_cn": "Bun",
+      "avatar": "/assets/laonainaitouxiang.png",
+      "full_body": "/assets/laonainai_full.png",
+      "description": "A friendly rabbit guide who helps Amili navigate Maple Town and learn English."
+    },
+    "mei": {
+      "name": "Mei",
+      "name_cn": "Mei",
+      "avatar": "/assets/mei_avatar.png",
+      "full_body": "/assets/mei_full.png",
+      "description": "The owner of Fog & Brew café. Chinese-American, immigrated 15 years ago. Quick-witted and warm-hearted."
+    },
+    "old_chen": {
+      "name": "Old Chen",
+      "name_cn": "老陈",
+      "avatar": "/assets/old_chen_avatar.png",
+      "full_body": "/assets/old_chen_full.png",
+      "description": "The owner of Mirror Mart supermarket. Korean-American, has run the store for 20 years. Tough on the outside, soft on the inside."
+    },
+    "kevin": {
+      "name": "Kevin",
+      "name_cn": "Kevin",
+      "avatar": "/assets/Kevinhappy.png",
+      "description": "A neighbor."
+    },
+    "lisa": {
+      "name": "Lisa",
+      "name_cn": "Lisa",
+      "avatar": "/assets/lisahappy.png",
+      "description": "A neighbor."
+    }
+  },
+  "ui": {
+    "backgrounds": {
+      "onboarding_1": "/assets/quanbubg.png",
+      "onboarding_2": "/assets/quanbubg1.png",
+      "level_bg": "/assets/guanqia1bg.png",
+      "win_streak": "/assets/lianshengjiemian.png",
+      "streak_draw": "/assets/lianxuechoujiang.png",
+      "streak_reward": "/assets/lianxuejiangpin.png"
+    },
+    "buttons": {
+      "primary": "/assets/423anniu.png",
+      "task_btn": "/assets/renwuanniu.png",
+      "close_btn": "/assets/renwuguanbi.png",
+      "back_btn": "/assets/fanhui.png"
+    },
+    "panels": {
+      "task_panel": "/assets/renwudiban.png"
+    }
+  },
+  "scenes": {
+    "exterior": {
+      "town_base": "/assets/town_base.png",
+      "fog_brew": "/assets/fog_brew_exterior.png",
+      "mirror_mart": "/assets/mirror_mart_exterior.png"
+    },
+    "interior": {
+      "fog_brew": "/assets/fog_brew_interior.png",
+      "mirror_mart": "/assets/mirror_mart_interior.png"
+    }
+  },
+  "audio": {
+    "bgm": {
+      "town": "/audio/town_bgm.mp3",
+      "cafe": "/audio/cafe_bgm.mp3",
+      "supermarket": "/audio/supermarket_bgm.mp3"
+    }
+  }
+}

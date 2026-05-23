@@ -1,0 +1,77 @@
+{
+  "_description": "课程模块 - 课程基本信息配置",
+  "lessons": [
+    {
+      "lesson_id": 1,
+      "title": "The Crash Landing",
+      "title_cn": "硬着陆",
+      "description": "搬进4B，走廊箱子摔了，Mrs. Henderson和Jake帮你搬东西。暖气不热，Jake帮修。",
+      "speaker_name": "Jake & Mrs. H",
+      "speaker_avatar": "/assets/jackhappy.png",
+      "scene": "Apartment 4B",
+      "unit_id": "Unit 1",
+      "total_questions": 7,
+      "stars_available": 3,
+      "unlock_building": null,
+      "reward_once": {
+        "type": "decoration",
+        "item_id": "coffee_cup_charm",
+        "image": "/assets/shafa1.png"
+      }
+    },
+    {
+      "lesson_id": 2,
+      "title": "Jake's Bad Day",
+      "title_cn": "Jake的糟糕日",
+      "description": "搬来一周，去还Jake工具，发现他状态很差——被裁员了。你陪他查申请补助。",
+      "speaker_name": "Jake",
+      "speaker_avatar": "/assets/jackhappy.png",
+      "scene": "Apartment 5B",
+      "unit_id": "Unit 2",
+      "total_questions": 7,
+      "stars_available": 3,
+      "unlock_building": null,
+      "reward_once": {
+        "type": "decoration",
+        "item_id": "barista_apron",
+        "image": "/assets/drawer.png"
+      }
+    },
+    {
+      "lesson_id": 3,
+      "title": "The Argument",
+      "title_cn": "吵架",
+      "description": "听到Mrs. Henderson跟Ryan打电话吵架。带蛋糕去陪她。她说你让她想起Ryan。",
+      "speaker_name": "Mrs. Henderson",
+      "speaker_avatar": "/assets/MrsHendersonhappy.png",
+      "scene": "Apartment 4A",
+      "unit_id": "Unit 3",
+      "total_questions": 7,
+      "stars_available": 3,
+      "unlock_building": "mirror_mart",
+      "reward_once": {
+        "type": "decoration",
+        "item_id": "mei_secret_latte_recipe",
+        "image": "/assets/box.png"
+      }
+    },
+    {
+      "lesson_id": 4,
+      "title": "What happened to Ryan?",
+      "title_cn": "Ryan怎么了？",
+      "description": "发现Mrs. H在楼梯间哭。Jake说出真相：Ryan以前也住5B，失业破产后搬走。",
+      "speaker_name": "Jake & Mrs. H",
+      "speaker_avatar": "/assets/jackhappy.png",
+      "scene": "Hallway",
+      "unit_id": "Unit 4",
+      "total_questions": 7,
+      "stars_available": 3,
+      "unlock_building": null,
+      "reward_once": {
+        "type": "decoration",
+        "item_id": "old_chen_shopping_bag",
+        "image": "/assets/basket.png"
+      }
+    }
+  ]
+}

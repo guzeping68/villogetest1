@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Language Learning App</string>
+    <string name="title_activity_main">Language Learning App</string>
+    <string name="package_name">com.aistudio.languageapp</string>
+    <string name="custom_url_scheme">com.aistudio.languageapp</string>
+</resources>
