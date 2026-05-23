@@ -1,4 +1,5 @@
 import express from "express";
+import fs from "fs";
 import path from "path";
 import { GoogleGenAI } from "@google/genai";
 import OpenAI from "openai";
@@ -613,10 +614,18 @@ async function setupVite() {
       app.use(vite.middlewares);
     } else {
       const distPath = path.join(process.cwd(), "dist");
-      app.use(express.static(distPath));
-      app.get("*", (req, res) => {
-        res.sendFile(path.join(distPath, "index.html"));
-      });
+      const indexPath = path.join(distPath, "index.html");
+
+      if (fs.existsSync(indexPath)) {
+        app.use(express.static(distPath));
+        app.get("*", (req, res) => {
+          res.sendFile(indexPath);
+        });
+      } else {
+        app.get("/", (req, res) => {
+          res.json({ status: "ok", service: "LingoVille API" });
+        });
+      }
     }
 
     app.listen(PORT, "0.0.0.0", () => {
