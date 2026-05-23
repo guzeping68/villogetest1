@@ -62,6 +62,7 @@ initDb();
 
 const app = express();
 const PORT = Number(process.env.PORT || 3000);
+const PLAYER_ID_PATTERN = /^[A-Z]{4}$/;
 
 app.use(cors());
 app.use(express.json());
@@ -72,6 +73,79 @@ app.get("/api/health", (req, res) => {
 
 // --- Database API Routes ---
 
+function normalizePlayerId(value: unknown) {
+  return String(value || "").trim().toUpperCase();
+}
+
+function isValidPlayerId(value: string) {
+  return PLAYER_ID_PATTERN.test(value);
+}
+
+app.get("/api/users/:userId", async (req, res) => {
+  try {
+    const userId = normalizePlayerId(req.params.userId);
+    if (!isValidPlayerId(userId)) {
+      return res.status(400).json({ error: "Player ID must be exactly 4 letters." });
+    }
+
+    if (!pool) {
+      return res.json({ exists: false });
+    }
+
+    const result = await pool.query(
+      "SELECT progress_data, last_updated FROM app_user_progress WHERE user_id = $1",
+      [userId]
+    );
+
+    if (result.rows.length === 0) {
+      return res.json({ exists: false });
+    }
+
+    res.json({
+      exists: true,
+      progressData: result.rows[0].progress_data,
+      lastUpdated: result.rows[0].last_updated,
+    });
+  } catch (err: any) {
+    console.error("Error checking user:", err);
+    res.status(500).json({ error: "Failed to check player ID" });
+  }
+});
+
+app.post("/api/users/register", async (req, res) => {
+  try {
+    const userId = normalizePlayerId(req.body?.userId);
+    if (!isValidPlayerId(userId)) {
+      return res.status(400).json({ error: "Player ID must be exactly 4 letters." });
+    }
+
+    if (!pool) {
+      return res.status(201).json({ success: true, userId, skipped: "database_not_configured" });
+    }
+
+    const initialProgress = req.body?.initialProgress && typeof req.body.initialProgress === "object"
+      ? req.body.initialProgress
+      : {};
+
+    const result = await pool.query(
+      `INSERT INTO app_user_progress (user_id, progress_data, last_updated)
+       VALUES ($1, $2, CURRENT_TIMESTAMP)
+       ON CONFLICT (user_id) DO NOTHING
+       RETURNING user_id`,
+      [userId, { ...initialProgress, playerId: userId, preOnboardingName: userId }]
+    );
+
+    if (result.rows.length === 0) {
+      return res.status(409).json({ exists: true, error: "Player ID already exists." });
+    }
+
+    res.status(201).json({ success: true, userId });
+  } catch (err: any) {
+    console.error("Error registering user:", err);
+    res.status(500).json({ error: "Failed to register player ID" });
+  }
+});
+
 // Get user progress
 app.get("/api/progress/:userId", async (req, res) => {
   try {
@@ -80,7 +154,11 @@ app.get("/api/progress/:userId", async (req, res) => {
       return;
     }
 
-    const { userId } = req.params;
+    const userId = normalizePlayerId(req.params.userId);
+    if (!isValidPlayerId(userId)) {
+      return res.status(400).json({ error: "Player ID must be exactly 4 letters." });
+    }
+
     const result = await pool.query(
       "SELECT progress_data FROM app_user_progress WHERE user_id = $1",
       [userId]
@@ -104,7 +182,11 @@ app.post("/api/progress/:userId", async (req, res) => {
       return;
     }
 
-    const { userId } = req.params;
+    const userId = normalizePlayerId(req.params.userId);
+    if (!isValidPlayerId(userId)) {
+      return res.status(400).json({ success: false, error: "Player ID must be exactly 4 letters." });
+    }
+
     const progressData = req.body;
     
     await pool.query(

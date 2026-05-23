@@ -88,6 +88,11 @@ const EXTERIOR_TASKS = tasksConfig.tasks
     ...t,
   }));
 
+const PLAYER_ID_PATTERN = /^[A-Z]{4}$/;
+
+const normalizePlayerId = (value: string) =>
+  value.trim().toUpperCase().replace(/[^A-Z]/g, "").slice(0, 4);
+
 const LoadingDots = () => {
   const [dots, setDots] = useState("");
   useEffect(() => {
@@ -1201,6 +1206,21 @@ export default function App() {
   const [step1Progress, setStep1Progress] = useState(0);
   const [introStep, setIntroStep] = useState(0);
   const [preOnboardingName, setPreOnboardingName] = useState("");
+  const [appUserId, setAppUserId] = useState<string | null>(() => {
+    try {
+      const stored = (localStorage.getItem("app_user_id") || "").trim().toUpperCase();
+      return PLAYER_ID_PATTERN.test(stored) ? stored : null;
+    } catch {
+      return null;
+    }
+  });
+  const [nameRegistrationStatus, setNameRegistrationStatus] = useState<
+    "idle" | "checking" | "loading"
+  >("idle");
+  const [nameInputError, setNameInputError] = useState<string | null>(null);
+  const [existingPlayerIdPrompt, setExistingPlayerIdPrompt] = useState<
+    string | null
+  >(null);
   const [preOnboardingDialogueStep, setPreOnboardingDialogueStep] = useState(0);
   const chatEndRef = useRef<HTMLDivElement>(null);
 
@@ -1723,30 +1743,51 @@ export default function App() {
   const [isInitializing, setIsInitializing] = useState(true);
   const [hasLoadedInitialProgress, setHasLoadedInitialProgress] = useState(false);
 
-  useEffect(() => {
-    let uid = localStorage.getItem("app_user_id");
-    if (!uid) {
-      uid = "user_" + Date.now() + "_" + Math.floor(Math.random() * 1000000);
-      localStorage.setItem("app_user_id", uid);
+  const applyRemoteProgress = useCallback((data: any, fallbackUserId?: string) => {
+    if (!data || Object.keys(data).length === 0) return;
+
+    if (data.quizIndex !== undefined) {
+      setQuizIndex(data.quizIndex);
+      lastQuizIndexRef.current = data.quizIndex;
+      setLastAnimatedLessonId(data.quizIndex);
     }
+    if (data.townEventStep !== undefined) setTownEventStep(data.townEventStep);
+    if (data.diamonds !== undefined) setDiamonds(data.diamonds);
+    if (data.onboardingStep !== undefined) setOnboardingStep(data.onboardingStep);
+    if (data.dismissedCardPhase !== undefined) setDismissedCardPhase(data.dismissedCardPhase);
+    if (data.scene !== undefined) setScene(data.scene);
+    if (data.furniture) setFurniture(data.furniture);
+    if (data.isRestaurantUnlocked !== undefined) setIsRestaurantUnlocked(data.isRestaurantUnlocked);
+    if (data.preOnboardingName !== undefined) {
+      setPreOnboardingName(normalizePlayerId(data.preOnboardingName));
+    } else if (fallbackUserId) {
+      setPreOnboardingName(fallbackUserId);
+    }
+    if (data.preOnboardingDialogueStep !== undefined) {
+      setPreOnboardingDialogueStep(data.preOnboardingDialogueStep);
+    }
+    if (Array.isArray(data.userMistakes)) setUserMistakes(data.userMistakes);
+  }, []);
+
+  useEffect(() => {
+    const uid = appUserId;
+    if (!uid) {
+      try {
+        const legacyUid = localStorage.getItem("app_user_id");
+        if (legacyUid && !PLAYER_ID_PATTERN.test(legacyUid.trim().toUpperCase())) {
+          localStorage.removeItem("app_user_id");
+        }
+      } catch (e) {
+        console.error(e);
+      }
+      setIsInitializing(false);
+      return;
+    }
+
     fetch(getApiUrl("/api/progress/" + uid))
       .then(res => res.json())
       .then(data => {
-        if (data && Object.keys(data).length > 0) {
-          if (data.quizIndex !== undefined) {
-            setQuizIndex(data.quizIndex);
-            lastQuizIndexRef.current = data.quizIndex;
-            setLastAnimatedLessonId(data.quizIndex);
-          }
-          if (data.townEventStep !== undefined) setTownEventStep(data.townEventStep);
-          if (data.diamonds !== undefined) setDiamonds(data.diamonds);
-          if (data.onboardingStep !== undefined) setOnboardingStep(data.onboardingStep);
-          if (data.dismissedCardPhase !== undefined) setDismissedCardPhase(data.dismissedCardPhase);
-          if (data.scene !== undefined) setScene(data.scene);
-          if (data.furniture) setFurniture(data.furniture);
-          if (data.isRestaurantUnlocked !== undefined) setIsRestaurantUnlocked(data.isRestaurantUnlocked);
-          if (data.preOnboardingName !== undefined) setPreOnboardingName(data.preOnboardingName);
-        }
+        applyRemoteProgress(data, uid);
         setIsInitializing(false);
       })
       .catch(err => {
@@ -1763,12 +1804,12 @@ export default function App() {
 
   useEffect(() => {
     if (hasLoadedInitialProgress) {
-      const uid = localStorage.getItem("app_user_id");
-      if (uid) {
-        fetch(getApiUrl("/api/progress/" + uid), {
+      if (appUserId) {
+        fetch(getApiUrl("/api/progress/" + appUserId), {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
+            playerId: appUserId,
             quizIndex,
             townEventStep,
             diamonds,
@@ -1777,12 +1818,14 @@ export default function App() {
             scene,
             furniture,
             isRestaurantUnlocked,
-            preOnboardingName
+            preOnboardingName: appUserId,
+            preOnboardingDialogueStep,
+            userMistakes,
           })
         }).catch(err => console.error("Failed to save progress", err));
       }
     }
-  }, [quizIndex, townEventStep, diamonds, onboardingStep, dismissedCardPhase, scene, furniture, isRestaurantUnlocked, preOnboardingName, hasLoadedInitialProgress]);
+  }, [appUserId, quizIndex, townEventStep, diamonds, onboardingStep, dismissedCardPhase, scene, furniture, isRestaurantUnlocked, preOnboardingDialogueStep, userMistakes, hasLoadedInitialProgress]);
 
   useEffect(() => {
     const updateSize = () => {
@@ -1917,6 +1960,103 @@ export default function App() {
   const showMessage = (msg: string) => {
     setToast(msg);
     setTimeout(() => setToast(null), 2000);
+  };
+
+  const confirmNewPlayerId = async () => {
+    const playerId = normalizePlayerId(preOnboardingName);
+    setPreOnboardingName(playerId);
+    setNameInputError(null);
+
+    if (!PLAYER_ID_PATTERN.test(playerId)) {
+      setNameInputError("请输入 4 个英文字母作为你的 ID。");
+      return;
+    }
+
+    try {
+      setNameRegistrationStatus("checking");
+      const checkResp = await fetch(getApiUrl(`/api/users/${playerId}`));
+      if (!checkResp.ok) throw new Error("check_failed");
+
+      const checkData = await checkResp.json();
+      if (checkData.exists) {
+        setExistingPlayerIdPrompt(playerId);
+        return;
+      }
+
+      const registerResp = await fetch(getApiUrl("/api/users/register"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          userId: playerId,
+          initialProgress: {
+            playerId,
+            quizIndex,
+            townEventStep,
+            diamonds,
+            onboardingStep,
+            dismissedCardPhase,
+            scene,
+            furniture,
+            isRestaurantUnlocked,
+            preOnboardingName: playerId,
+            preOnboardingDialogueStep,
+            userMistakes,
+          },
+        }),
+      });
+
+      if (registerResp.status === 409) {
+        setExistingPlayerIdPrompt(playerId);
+        return;
+      }
+      if (!registerResp.ok) throw new Error("register_failed");
+
+      localStorage.setItem("app_user_id", playerId);
+      setAppUserId(playerId);
+      hapticFeedback.success?.();
+      setPreOnboardingDialogueStep(3);
+      setTimeout(() => {
+        if (chatEndRef.current) {
+          chatEndRef.current.scrollTop = chatEndRef.current.scrollHeight;
+        }
+      }, 50);
+    } catch (err) {
+      console.error("Failed to register player ID", err);
+      setNameInputError("连接服务器失败，请检查网络后重试。");
+    } finally {
+      setNameRegistrationStatus("idle");
+    }
+  };
+
+  const loadExistingPlayerId = async () => {
+    if (!existingPlayerIdPrompt) return;
+
+    try {
+      setNameRegistrationStatus("loading");
+      const playerId = existingPlayerIdPrompt;
+      const resp = await fetch(getApiUrl(`/api/progress/${playerId}`));
+      if (!resp.ok) throw new Error("load_failed");
+      const data = await resp.json();
+
+      localStorage.setItem("app_user_id", playerId);
+      setAppUserId(playerId);
+      applyRemoteProgress({ ...data, preOnboardingName: data.preOnboardingName || playerId }, playerId);
+      setExistingPlayerIdPrompt(null);
+      setNameInputError(null);
+      showMessage(`已读取 ID ${playerId}`);
+    } catch (err) {
+      console.error("Failed to load player ID", err);
+      setNameInputError("读取进度失败，请稍后再试。");
+    } finally {
+      setNameRegistrationStatus("idle");
+    }
+  };
+
+  const rejectExistingPlayerId = () => {
+    hapticFeedback.light?.();
+    setExistingPlayerIdPrompt(null);
+    setPreOnboardingName("");
+    setNameInputError("这个 ID 已被注册，请重新输入。");
   };
 
   const [isVideoMutedForQuestion, setIsVideoMutedForQuestion] = useState(false);
@@ -6161,6 +6301,7 @@ export default function App() {
                             onClick={() => {
                               if (preOnboardingName.length < 4) {
                                 hapticFeedback.light?.();
+                                setNameInputError(null);
                                 setPreOnboardingName((prev) => prev + letter);
                               }
                             }}
@@ -6176,6 +6317,7 @@ export default function App() {
                         <button
                           onClick={() => {
                             hapticFeedback.light?.();
+                            setNameInputError(null);
                             setPreOnboardingName((prev) => prev.slice(0, -1));
                           }}
                           className="flex-[1.5_1.5_0] min-w-0 bg-stone-400 text-white font-extrabold text-[11px] rounded-md border-b-2 border-stone-500 shadow-xs active:border-b-0 active:translate-y-0.5 active:shadow-none flex items-center justify-center hover:bg-stone-500"
@@ -6188,6 +6330,7 @@ export default function App() {
                             onClick={() => {
                               if (preOnboardingName.length < 4) {
                                 hapticFeedback.light?.();
+                                setNameInputError(null);
                                 setPreOnboardingName((prev) => prev + letter);
                               }
                             }}
@@ -6202,25 +6345,66 @@ export default function App() {
                       <motion.button
                         whileHover={{ scale: 1.01 }}
                         whileTap={{ scale: 0.99 }}
-                        disabled={preOnboardingName.length < 4}
-                        onClick={() => {
-                          if (preOnboardingName.length === 4) {
-                            hapticFeedback.success?.();
-                            setPreOnboardingDialogueStep(3);
-                            setTimeout(() => { 
-                              if (chatEndRef.current) chatEndRef.current.scrollTop = chatEndRef.current.scrollHeight;
-                            }, 50);
-                          }
-                        }}
+                        disabled={preOnboardingName.length < 4 || nameRegistrationStatus !== "idle"}
+                        onClick={confirmNewPlayerId}
                         className={`w-full py-4 mt-1.5 rounded-2xl shadow-md border-b-4 transition-all uppercase tracking-widest font-black text-lg text-white ${
-                          preOnboardingName.length < 4
+                          preOnboardingName.length < 4 || nameRegistrationStatus !== "idle"
                             ? "bg-stone-400 border-stone-500 cursor-not-allowed opacity-50"
                             : "bg-[#1CB0F6] hover:bg-[#1899D6] border-[#127ea6] active:border-b-0 active:translate-y-1"
                         }`}
                       >
-                        Confirm Name
+                        {nameRegistrationStatus === "checking" ? "Checking..." : "Confirm Name"}
                       </motion.button>
+                      {nameInputError && (
+                        <p className="text-center text-rose-500 text-[12px] font-black leading-snug px-2">
+                          {nameInputError}
+                        </p>
+                      )}
                     </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+
+              <AnimatePresence>
+                {existingPlayerIdPrompt && (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="absolute inset-0 z-[90] bg-black/65 backdrop-blur-sm flex items-center justify-center px-6 pointer-events-auto"
+                  >
+                    <motion.div
+                      initial={{ scale: 0.92, y: 18 }}
+                      animate={{ scale: 1, y: 0 }}
+                      exit={{ scale: 0.92, y: 18 }}
+                      className="w-full max-w-sm bg-white rounded-[28px] p-6 shadow-2xl border-4 border-sky-100 text-center"
+                    >
+                      <div className="mx-auto w-16 h-16 rounded-2xl bg-sky-100 flex items-center justify-center mb-4">
+                        <User className="w-8 h-8 text-sky-500" />
+                      </div>
+                      <h2 className="text-stone-800 font-black text-xl mb-2">
+                        ID 已注册
+                      </h2>
+                      <p className="text-stone-500 font-bold text-sm leading-relaxed mb-5">
+                        {existingPlayerIdPrompt} 已经有学习记录。要读取这个 ID 的课程进度和错题记录吗？
+                      </p>
+                      <div className="flex flex-col gap-3">
+                        <button
+                          disabled={nameRegistrationStatus === "loading"}
+                          onClick={loadExistingPlayerId}
+                          className="w-full bg-[#58CC02] text-white py-3.5 rounded-2xl font-black shadow-[0_4px_0_#3b8a02] active:translate-y-1 active:shadow-none disabled:opacity-60"
+                        >
+                          {nameRegistrationStatus === "loading" ? "读取中..." : "读取此 ID"}
+                        </button>
+                        <button
+                          disabled={nameRegistrationStatus === "loading"}
+                          onClick={rejectExistingPlayerId}
+                          className="w-full bg-stone-100 text-stone-700 py-3.5 rounded-2xl font-black shadow-[0_4px_0_#d6d3d1] active:translate-y-1 active:shadow-none disabled:opacity-60"
+                        >
+                          重新起名
+                        </button>
+                      </div>
+                    </motion.div>
                   </motion.div>
                 )}
               </AnimatePresence>
