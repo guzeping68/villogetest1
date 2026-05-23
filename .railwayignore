@@ -1,0 +1,17 @@
+.git
+node_modules
+dist
+server-dist
+build
+coverage
+ios
+android
+.DS_Store
+*.log
+*.zip
+.env
+.env.*
+debug.txt
+grep_pointer.txt
+grep_pointer_all.txt
+states.txt
