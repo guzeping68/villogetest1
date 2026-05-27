@@ -146,6 +146,38 @@ app.post("/api/users/register", async (req, res) => {
   }
 });
 
+app.delete("/api/users/:userId", async (req, res) => {
+  try {
+    const userId = normalizePlayerId(req.params.userId);
+    if (!isValidPlayerId(userId)) {
+      return res.status(400).json({ error: "Player ID must be exactly 4 letters." });
+    }
+
+    if (!pool) {
+      return res.json({ success: true, userId, skipped: "database_not_configured" });
+    }
+
+    const customContentResult = await pool.query(
+      "DELETE FROM custom_content WHERE user_id = $1",
+      [userId]
+    );
+    const progressResult = await pool.query(
+      "DELETE FROM app_user_progress WHERE user_id = $1",
+      [userId]
+    );
+
+    res.json({
+      success: true,
+      userId,
+      deletedProgressRows: progressResult.rowCount || 0,
+      deletedCustomContentRows: customContentResult.rowCount || 0,
+    });
+  } catch (err: any) {
+    console.error("Error deleting user:", err);
+    res.status(500).json({ error: "Failed to delete player ID" });
+  }
+});
+
 // Get user progress
 app.get("/api/progress/:userId", async (req, res) => {
   try {
@@ -555,10 +587,11 @@ app.post("/api/review/generate", async (req, res) => {
       ? [{ instruction: "I want to learn about ordering coffee or food at a cafe.", options: ["coffee", "scone", "tea"] }] 
       : mistakes;
 
-    const prompt = `You are an expert language teacher. Based on the following mistakes made by a student during their lessons, generate 1-3 review study items (Reading items) to help them strengthen their weak areas.
+    const targetCount = Math.min(5, aiMistakes.length);
+    const prompt = `You are an expert language teacher. Based on the following mistakes made by a student during their lessons, generate ${targetCount} review study items (Reading items), one item for each selected mistake, to help them strengthen their weak areas.
 
 Context of mistakes (or current topics):
-${aiMistakes.map((m: any, i: number) => `${i + 1}. Instruction/Question: ${m.instruction}\n   Details: ${JSON.stringify(m.options || m.pairs)}`).join("\n\n")}
+${aiMistakes.slice(0, targetCount).map((m: any, i: number) => `${i + 1}. Core word hint: ${m.review_word || "choose the most useful word from the mistake"}\n   Instruction/Question: ${m.instruction || m.source_sentence || m.text || ""}\n   Correct/source sentence: ${m.source_sentence || m.listening_transcript || ""}\n   Details: ${JSON.stringify(m.options || m.pairs || [])}`).join("\n\n")}
 
 Requirements:
 1. Generate items in JSON format.
@@ -567,27 +600,29 @@ Requirements:
    - sentence_en: A natural English sentence that uses the key vocabulary from the mistake.
    - sentence_cn: The Chinese translation of that sentence.
    - key_vocabulary: { 
-       word: The specific word they got wrong,
+       word: Use the Core word hint when it is present,
        phonetic: IPA phonetic,
        translation: Chinese meaning of the word,
        example_en: Another short example sentence,
        example_cn: Translation of the second example
      }
+3. Keep the English beginner-friendly and suitable for a mobile comic review card.
 
-Strictly return ONLY a JSON array. Do not include markdown formatting.`;
+Strictly return ONLY this JSON object, with no markdown: {"items":[...]}`;
 
-    const fallbackItems = aiMistakes.slice(0, 3).map((m: any, idx: number) => {
-      const topicSource = m.instruction || m.question || "this topic";
+    const fallbackItems = aiMistakes.slice(0, targetCount).map((m: any, idx: number) => {
+      const topicSource = m.review_word || m.source_sentence || m.instruction || m.question || "this topic";
+      const word = m.review_word || "Practice";
       return {
         "type": "reading",
-        "sentence_en": `Let's practice the concept from: ${topicSource.slice(0, 30)}.`,
-        "sentence_cn": `让我们练习刚才做错的知识点：'${topicSource.slice(0, 30)}'。`,
+        "sentence_en": `${word} appears again in a new scene today.`,
+        "sentence_cn": `今天我们在新场景里再练一次 ${word}。`,
         "key_vocabulary": {
-          "word": "Practice",
+          "word": word,
           "phonetic": "/ˈpræktɪs/",
           "translation": "练习",
-          "example_en": "Practice makes perfect.",
-          "example_cn": "熟能生巧。"
+          "example_en": String(topicSource).slice(0, 80),
+          "example_cn": "这是从错题中提取出的重点。"
         }
       };
     });
@@ -606,7 +641,7 @@ Strictly return ONLY a JSON array. Do not include markdown formatting.`;
       });
     }
 
-    const content = await generateAIContentWithFallback(prompt, fallbackItems);
+    const content = await generateAIContentWithFallback(prompt, { items: fallbackItems });
     console.log("AI Response received:", content);
     
     let text = content || "[]";

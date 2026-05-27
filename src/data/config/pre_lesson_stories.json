@@ -1,33 +1,33 @@
 {
-  "_description": "课前引导剧情流配置 - 点击START后进入课程前的对话",
+  "_description": "课前引导剧情流配置 - 8节新家主线课程",
   "lessons": [
     {
       "lesson_id": 1,
       "unit_id": "Unit 1",
-      "bg_image": "/assets/bg_start.png",
+      "bg_image": "/assets/lesson-scenes/lesson_1_start.png",
       "dialogues": [
         {
-          "speaker": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
-          "text_en": "Maple Town taste-test episode one. Let's start with a coffee and see what they've got.",
-          "text_cn": "Maple Town探店第一弹，先来杯咖啡测测水平。",
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Today's story is \"The Crash Landing\". Listen for the useful neighbor English in each scene.",
+          "text_cn": "今天的故事是《硬着陆》。注意每个场景里的邻里生活英语。",
+          "position": "left",
+          "audio": null
+        },
+        {
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "搬进4B的第一天，Mrs. Henderson和Jake帮你处理摔落的箱子和坏掉的暖气。",
+          "text_cn": "这节课会把剧情和表达放在一起练。",
           "position": "right",
           "audio": null
         },
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "The barista will say 'What can I get you' — that means 'what do you want to order'. Don't panic~",
-          "text_cn": "店员会说'What can I get you'，就是问你要啥。别慌～",
+          "text_en": "Tap through the story when you understand it, then answer the questions in the chat.",
+          "text_cn": "听懂后可以点屏幕推进剧情，然后在聊天里答题。",
           "position": "left",
-          "audio": null
-        },
-        {
-          "speaker": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
-          "text_en": "It's just a cup of coffee. Why would I panic?",
-          "text_cn": "一杯咖啡而已，慌什么。",
-          "position": "right",
           "audio": null
         }
       ]
@@ -35,29 +35,29 @@
     {
       "lesson_id": 2,
       "unit_id": "Unit 2",
-      "bg_image": "/assets/bg_start.png",
+      "bg_image": "/assets/lesson-scenes/lesson_2_start.png",
       "dialogues": [
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "Today you're behind the counter taking orders!",
-          "text_cn": "今天你站柜台接单！",
+          "text_en": "Today's story is \"First Week\". Listen for the useful neighbor English in each scene.",
+          "text_cn": "今天的故事是《第一周》。注意每个场景里的邻里生活英语。",
           "position": "left",
           "audio": null
         },
         {
-          "speaker": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
-          "text_en": "Blogger turned barista... whatever, 'forced to work' will make a great title. Start recording.",
-          "text_cn": "博主变打工人……算了，'被迫营业'这标题能火。开录。",
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "Jake几乎每天来敲门，你认识Kevin，也第一次感受到这栋楼的邻里节奏。",
+          "text_cn": "这节课会把剧情和表达放在一起练。",
           "position": "right",
           "audio": null
         },
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "Customers will make special requests — 'with' means add something, 'without' means remove it. Just remember that!",
-          "text_cn": "客人会提特殊要求——with = 加什么，without = 不加什么。记住就行！",
+          "text_en": "Tap through the story when you understand it, then answer the questions in the chat.",
+          "text_cn": "听懂后可以点屏幕推进剧情，然后在聊天里答题。",
           "position": "left",
           "audio": null
         }
@@ -66,29 +66,29 @@
     {
       "lesson_id": 3,
       "unit_id": "Unit 3",
-      "bg_image": "/assets/bg_start.png",
+      "bg_image": "/assets/lesson-scenes/lesson_3_start.png",
       "dialogues": [
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "That customer who left a bad review is coming in today. Mei is a bit nervous.",
-          "text_cn": "那个差评客人今天要来店里。Mei有点紧张。",
+          "text_en": "Today's story is \"The Argument\". Listen for the useful neighbor English in each scene.",
+          "text_cn": "今天的故事是《那场争吵》。注意每个场景里的邻里生活英语。",
           "position": "left",
           "audio": null
         },
         {
-          "speaker": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
-          "text_en": "After years as a blogger, I've seen plenty of bad reviews. Let me handle this. Start recording — 'Blogger handles customer complaint live'.",
-          "text_cn": "做博主这么久，差评我见多了。让我来。开录——'博主处理客诉现场'。",
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "你听见Mrs. Henderson和Ryan通电话争吵，带着蛋糕去陪她坐一会儿。",
+          "text_cn": "这节课会把剧情和表达放在一起练。",
           "position": "right",
           "audio": null
         },
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "For returns you can say 'Can I get a replacement'. Good luck!",
-          "text_cn": "退换可以说'Can I get a replacement'。加油！",
+          "text_en": "Tap through the story when you understand it, then answer the questions in the chat.",
+          "text_cn": "听懂后可以点屏幕推进剧情，然后在聊天里答题。",
           "position": "left",
           "audio": null
         }
@@ -97,29 +97,29 @@
     {
       "lesson_id": 4,
       "unit_id": "Unit 4",
-      "bg_image": "/assets/bg_start.png",
+      "bg_image": "/assets/lesson-scenes/lesson_4_start.png",
       "dialogues": [
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "Here's Mirror Mart! Old Chen's imported ingredients are really interesting, but nobody knows about them.",
-          "text_cn": "Mirror Mart到了！Old Chen的进口食材特别有意思，但没人知道。",
+          "text_en": "Today's story is \"The Brunch\". Listen for the useful neighbor English in each scene.",
+          "text_cn": "今天的故事是《早午餐》。注意每个场景里的邻里生活英语。",
           "position": "left",
           "audio": null
         },
         {
-          "speaker": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
-          "text_en": "What kind of content can a grocery store give me? Let me take a look.",
-          "text_cn": "超市能有什么内容？我去看看吧。",
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "Mrs. Henderson邀请大家吃早午餐，你终于见到Lisa，也看见Kevin的小心思。",
+          "text_cn": "这节课会把剧情和表达放在一起练。",
           "position": "right",
           "audio": null
         },
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "If you can't find something, ask 'Where can I find...'. Go for it!",
-          "text_cn": "找不到东西可以问'Where can I find...'。去吧！",
+          "text_en": "Tap through the story when you understand it, then answer the questions in the chat.",
+          "text_cn": "听懂后可以点屏幕推进剧情，然后在聊天里答题。",
           "position": "left",
           "audio": null
         }
@@ -128,29 +128,122 @@
     {
       "lesson_id": 5,
       "unit_id": "Unit 5",
-      "bg_image": "/assets/bg_start.png",
+      "bg_image": "/assets/lesson-scenes/lesson_5_start.png",
       "dialogues": [
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "Today Old Chen is teaching you to make Korean bibimbap! First, find all the ingredients yourself.",
-          "text_cn": "今天Old Chen教你做韩式拌饭！先自己找齐食材。",
+          "text_en": "Today's story is \"Coffee with Lisa\". Listen for the useful neighbor English in each scene.",
+          "text_cn": "今天的故事是《和Lisa喝咖啡》。注意每个场景里的邻里生活英语。",
           "position": "left",
           "audio": null
         },
         {
-          "speaker": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
-          "text_en": "Film while shopping — 'Learning to cook with the grocery store owner'.",
-          "text_cn": "一边找一边拍，'跟着超市老板学做饭'。",
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "Lisa邀请你去家里喝咖啡，聊起重新开始，也撞见Jake遇到麻烦。",
+          "text_cn": "这节课会把剧情和表达放在一起练。",
           "position": "right",
           "audio": null
         },
         {
           "speaker": "Bun",
           "avatar": "/assets/buntouxiang.png",
-          "text_en": "Here's your ingredient list — all in English!",
-          "text_cn": "食材清单给你——都是英文哦！",
+          "text_en": "Tap through the story when you understand it, then answer the questions in the chat.",
+          "text_cn": "听懂后可以点屏幕推进剧情，然后在聊天里答题。",
+          "position": "left",
+          "audio": null
+        }
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "unit_id": "Unit 6",
+      "bg_image": "/assets/lesson-scenes/lesson_6_start.png",
+      "dialogues": [
+        {
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Today's story is \"Jake's Bad News\". Listen for the useful neighbor English in each scene.",
+          "text_cn": "今天的故事是《Jake的坏消息》。注意每个场景里的邻里生活英语。",
+          "position": "left",
+          "audio": null
+        },
+        {
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "Jake收到涨租通知，Kevin和Lisa开始帮忙，你也加入一起听他说清楚发生了什么。",
+          "text_cn": "这节课会把剧情和表达放在一起练。",
+          "position": "right",
+          "audio": null
+        },
+        {
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Tap through the story when you understand it, then answer the questions in the chat.",
+          "text_cn": "听懂后可以点屏幕推进剧情，然后在聊天里答题。",
+          "position": "left",
+          "audio": null
+        }
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "unit_id": "Unit 7",
+      "bg_image": "/assets/lesson-scenes/lesson_7_start.png",
+      "dialogues": [
+        {
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Today's story is \"The Call\". Listen for the useful neighbor English in each scene.",
+          "text_cn": "今天的故事是《那通电话》。注意每个场景里的邻里生活英语。",
+          "position": "left",
+          "audio": null
+        },
+        {
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "你陪Mrs. Henderson给Ryan打电话，终于把多年没说出口的话重新接上。",
+          "text_cn": "这节课会把剧情和表达放在一起练。",
+          "position": "right",
+          "audio": null
+        },
+        {
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Tap through the story when you understand it, then answer the questions in the chat.",
+          "text_cn": "听懂后可以点屏幕推进剧情，然后在聊天里答题。",
+          "position": "left",
+          "audio": null
+        }
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "unit_id": "Unit 8",
+      "bg_image": "/assets/lesson-scenes/lesson_8_start.png",
+      "dialogues": [
+        {
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Today's story is \"The Potluck\". Listen for the useful neighbor English in each scene.",
+          "text_cn": "今天的故事是《百家饭聚会》。注意每个场景里的邻里生活英语。",
+          "position": "left",
+          "audio": null
+        },
+        {
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "邻居们在院子里办potluck，Ryan也要来，4B终于像一个真正的新家。",
+          "text_cn": "这节课会把剧情和表达放在一起练。",
+          "position": "right",
+          "audio": null
+        },
+        {
+          "speaker": "Bun",
+          "avatar": "/assets/buntouxiang.png",
+          "text_en": "Tap through the story when you understand it, then answer the questions in the chat.",
+          "text_cn": "听懂后可以点屏幕推进剧情，然后在聊天里答题。",
           "position": "left",
           "audio": null
         }

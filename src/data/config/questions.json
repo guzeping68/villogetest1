@@ -1,225 +1,195 @@
 {
-  "_description": "课程题目配置 - Maple Town 新内容",
+  "_description": "课程题目配置 - 从8节新家主线课程生成",
   "questions": [
     {
       "lesson_id": 1,
       "question_id": "L01_Q01",
       "sort_order": 1,
-      "type": "situational_response",
-      "instruction": "You want an Americano. How do you order?",
-      "scene_media": "L01_Q01.png",
-      "correct_answer": "A",
-      "correct_feedback": "'Can I get + item + please' is the universal ordering sentence!\n\"Can I get + 东西 + please\" —— 万能点单句！",
-      "incorrect_feedback": "The polite way to order is 'Can I get an Americano, please?'\n礼貌点单用 'Can I get an Americano, please?'",
-      "options": [
-        {
-          "label": "A",
-          "text": "Can I get an Americano, please?",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "Give me Americano now.",
-          "is_correct": false
-        },
-        {
-          "label": "C",
-          "text": "I need... that... black coffee thing?",
-          "is_correct": false
-        }
-      ],
-      "audio_normal": "01.mp3",
-      "audio_slow": "01.mp3"
+      "type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "correct_answer": "1-B, 2-C, 3-A",
+      "correct_feedback": "Nice! You know where your neighbors live! / 很棒！你知道邻居们住哪儿了！",
+      "incorrect_feedback": "Almost! 'Next door' means 隔壁, 'right above you' means 你正楼上, 'downstairs' means 楼下。",
+      "options": {
+        "english": [
+          "next door",
+          "right above you",
+          "downstairs"
+        ],
+        "chinese": [
+          "A. 楼下",
+          "B. 就在隔壁",
+          "C. 你正楼上"
+        ]
+      }
     },
     {
       "lesson_id": 1,
       "question_id": "L01_Q02",
       "sort_order": 2,
-      "type": "situational_response",
-      "instruction": "The barista asks: 'What size? Small, medium, or large?' You want a medium.",
-      "scene_media": "L01_Q02.png",
-      "correct_answer": "B",
-      "correct_feedback": "Small/Medium/Large = 小/中/大. Works at any store!\nSmall/Medium/Large = 小/中/大，哪家店都用得上。",
-      "incorrect_feedback": "Medium means the middle size.\nMedium 是中间尺寸。",
+      "type": "T1 听音选义",
+      "instruction": "\"Your heater's off.\" — What does Jake mean?",
+      "correct_answer": "A",
+      "correct_feedback": "Correct! The heater is off — no heat! / 对了！暖气关着——没有暖气！",
+      "incorrect_feedback": "Almost! 'Heater's off' means the heating is not working. / 'Heater's off' 意思是暖气没开。",
       "options": [
         {
-          "label": "A",
-          "text": "Small",
-          "is_correct": false
+          "key": "A",
+          "label": "Your heating is not working"
         },
         {
-          "label": "B",
-          "text": "Medium",
-          "is_correct": true
+          "key": "B",
+          "label": "Your door is open"
         },
         {
-          "label": "C",
-          "text": "Large",
-          "is_correct": false
+          "key": "C",
+          "label": "Your light is on"
         }
-      ],
-      "audio_normal": "02.mp3",
-      "audio_slow": "02.mp3"
+      ]
     },
     {
       "lesson_id": 1,
       "question_id": "L01_Q03",
       "sort_order": 3,
-      "type": "situational_response",
-      "instruction": "The croissant looks great. You want to add one. What do you say?",
-      "scene_media": "L01_Q03.png",
+      "type": "T2 对话补全",
+      "instruction": "Jake: \"The guy before you must've closed it when he left.\" 你接下来该问什么？",
       "correct_answer": "A",
-      "correct_feedback": "'And a...' is the universal way to add items. Croissant = 可颂🥐\n\"And a...\" 追加点单万能用法。",
-      "incorrect_feedback": "Use 'And a croissant, please' to add to your order.\n用 'And a croissant, please' 来追加。",
+      "correct_feedback": "Good question! You want to know about the last person here. / 好问题！你想知道之前住这里的人。",
+      "incorrect_feedback": "Almost! Jake mentioned 'the guy before you' — you'd naturally ask 'Who lived here before?' / Jake提到了'之前的人'——你自然会问'之前谁住这里？'",
       "options": [
         {
-          "label": "A",
-          "text": "And a croissant, please.",
-          "is_correct": true
+          "key": "A",
+          "label": "Who lived here before?"
         },
         {
-          "label": "B",
-          "text": "That's all, thanks.",
-          "is_correct": false
+          "key": "B",
+          "label": "Where is the kitchen?"
         },
         {
-          "label": "C",
-          "text": "Also bread.",
-          "is_correct": false
+          "key": "C",
+          "label": "Can I open the window?"
         }
-      ],
-      "audio_normal": "03.mp3",
-      "audio_slow": "03.mp3"
+      ]
     },
     {
       "lesson_id": 1,
       "question_id": "L01_Q04",
       "sort_order": 4,
-      "type": "situational_response",
-      "instruction": "The total is $7.25. 'Cash or card?' You want to pay by card.",
-      "scene_media": "L01_Q04.png",
+      "type": "T1 听音选义",
+      "instruction": "\"My son used to live with me.\" — Why did Mrs. Henderson's son move into 4B before you?",
       "correct_answer": "A",
-      "correct_feedback": "Card = pay by card, Cash = pay with money.\nCard = 刷卡，Cash = 现金。",
-      "incorrect_feedback": "To pay by card, say 'Card, please.'\n刷卡就说 'Card, please.'",
+      "correct_feedback": "Right! Her son got a place of his own. / 对！她的儿子想要独立空间。",
+      "incorrect_feedback": "Almost! She said 'my son' — her son lived in 4B for his own place. / 她说了'my son'——她的儿子住在4B因为想要独立空间。",
       "options": [
         {
-          "label": "A",
-          "text": "Card, please.",
-          "is_correct": true
+          "key": "A",
+          "label": "Her son wanted his own place."
         },
         {
-          "label": "B",
-          "text": "Cash, please.",
-          "is_correct": false
+          "key": "B",
+          "label": "Her son didn't love Mrs. Henderson."
         },
         {
-          "label": "C",
-          "text": "Money. Here.",
-          "is_correct": false
+          "key": "C",
+          "label": "Mrs. Henderson's brother wanted to move into 4A."
         }
-      ],
-      "audio_normal": "04.mp3",
-      "audio_slow": "04.mp3"
+      ]
     },
     {
       "lesson_id": 1,
       "question_id": "L01_Q05",
       "sort_order": 5,
-      "type": "situational_response",
-      "instruction": "At American coffee shops, why do they ask for your name?",
-      "scene_media": "L01_Q05.png",
-      "correct_answer": "B",
-      "correct_feedback": "They write your name on the cup to call out when ready. Misspelled names are a universal immigrant experience 😂\n名字被写错是全球移民共同经历😂",
-      "incorrect_feedback": "They write names on cups to call out orders.\n他们写名字是为了叫号。",
+      "type": "T4 紧急反应",
+      "instruction": "Mrs. Henderson is asking if you need blankets. Answer quickly!",
+      "correct_answer": "A",
+      "correct_feedback": "Quick and polite! 'I think so' is a great soft answer. / 又快又礼貌！'I think so' 是很好的委婉回答。",
+      "incorrect_feedback": "Almost! She asked about blankets — 'I think so, thank you' fits best. / 她问的是毯子够不够——'I think so, thank you' 最合适。",
       "options": [
         {
-          "label": "A",
-          "text": "To sign you up for membership",
-          "is_correct": false
+          "key": "A",
+          "label": "I think so, thank you"
         },
         {
-          "label": "B",
-          "text": "To write on the cup and call your name",
-          "is_correct": true
+          "key": "B",
+          "label": "I don't have a key"
         },
         {
-          "label": "C",
-          "text": "To do a background check",
-          "is_correct": false
+          "key": "C",
+          "label": "The door is closed"
         }
-      ],
-      "audio_normal": "05.mp3",
-      "audio_slow": "05.mp3"
+      ]
+    },
+    {
+      "lesson_id": 1,
+      "question_id": "L01_Q06",
+      "sort_order": 6,
+      "type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "correct_answer": "Your heater is off.",
+      "correct_feedback": "Perfect! Now you can tell someone about the heating. / 完美！现在你可以告诉别人暖气的情况了。",
+      "incorrect_feedback": "Almost! The correct sentence is 'Your heater is off.' / 正确句子是 'Your heater is off.'（你的暖气关着。）",
+      "options": [
+        "Your",
+        "heater",
+        "is",
+        "off",
+        "door"
+      ]
+    },
+    {
+      "lesson_id": 1,
+      "question_id": "L01_Q07",
+      "sort_order": 7,
+      "type": "T6 语音跟读",
+      "instruction": "请跟读：Who lived here before?",
+      "correct_answer": "Who lived here before.（AI评估发音可懂度）",
+      "correct_feedback": "Great pronunciation! You sound natural. / 发音很棒！听起来很自然。",
+      "incorrect_feedback": "Almost! Try again: WHO lived HERE before? Stress the bold words. / 再试一次：重读WHO和HERE。",
+      "options": null
     },
     {
       "lesson_id": 2,
       "question_id": "L02_Q01",
       "sort_order": 1,
-      "type": "listening_selection",
-      "instruction": "Customer: 'Can I get a latte with oat milk, no sugar?' What does she want?",
-      "scene_media": "L02_Q01.png",
-      "audio_normal": "06.mp3",
-      "audio_slow": "06.mp3",
-      "listening_transcript": "Can I get a latte with oat milk, no sugar?",
-      "audio_content": {
-        "speaker": "Customer",
-        "text_cn": "我要一杯拿铁，加燕麦奶，不加糖。",
-        "text_en": "Can I get a latte with oat milk, no sugar?"
-      },
-      "correct_answer": "A",
-      "correct_feedback": "'with oat milk' = add oat milk. 'no sugar' = don't add sugar.\nwith = 加，no = 不加。",
-      "incorrect_feedback": "'with' means add, 'no' means remove.\n'with' 表示加，'no' 表示不加。",
-      "options": [
-        {
-          "label": "A",
-          "text": "Latte with oat milk, no sugar",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "Americano with oat milk, no sugar",
-          "is_correct": false
-        },
-        {
-          "label": "C",
-          "text": "Latte with milk, extra sugar",
-          "is_correct": false
-        }
-      ]
+      "type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "correct_answer": "1-B, 2-C, 3-A",
+      "correct_feedback": "Great! You understand how Jake visits you. / 很好！你理解了Jake怎么来找你的。",
+      "incorrect_feedback": "Almost! 'Knocks on your door' = 敲你的门, 'comes round' = 来访, 'downstairs' = 在楼下。",
+      "options": {
+        "english": [
+          "knocks on your door",
+          "comes round",
+          "downstairs"
+        ],
+        "chinese": [
+          "A. 在楼下",
+          "B. 敲你的门",
+          "C. 来访"
+        ]
+      }
     },
     {
       "lesson_id": 2,
       "question_id": "L02_Q02",
       "sort_order": 2,
-      "type": "listening_selection",
-      "instruction": "Customer: 'Large iced tea. That's it.' What does he want?",
-      "scene_media": "L02_Q02.png",
-      "audio_normal": "07.mp3",
-      "audio_slow": "07.mp3",
-      "listening_transcript": "Large iced tea. That's it.",
-      "audio_content": {
-        "speaker": "Customer",
-        "text_cn": "大杯冰茶。就这样。",
-        "text_en": "Large iced tea. That's it."
-      },
-      "correct_answer": "A",
-      "correct_feedback": "'That's it' = that's all.\n\"That's it\" = 就这些。",
-      "incorrect_feedback": "He said 'Large iced tea'.\n他说 'Large iced tea' —— 大杯冰茶。",
+      "type": "T2 对话补全",
+      "instruction": "Jake: \"Let's go.\" You walk out together. Jake says: \"Taco truck is outside. We go...\"",
+      "correct_answer": "B",
+      "correct_feedback": "Right! The taco truck is outside — you go downstairs. / 对！餐车在外面——你们下楼出去。",
+      "incorrect_feedback": "Almost! The truck is outside the building — you go downstairs and outside. / 餐车在楼外面——你们要下楼出去。",
       "options": [
         {
-          "label": "A",
-          "text": "Large iced tea",
-          "is_correct": true
+          "key": "A",
+          "label": "Upstairs to the roof"
         },
         {
-          "label": "B",
-          "text": "Medium iced tea",
-          "is_correct": false
+          "key": "B",
+          "label": "Downstairs and outside"
         },
         {
-          "label": "C",
-          "text": "Large hot chocolate",
-          "is_correct": false
+          "key": "C",
+          "label": "To the bedroom"
         }
       ]
     },
@@ -227,155 +197,123 @@
       "lesson_id": 2,
       "question_id": "L02_Q03",
       "sort_order": 3,
-      "type": "situational_response",
-      "instruction": "A little girl says 'Can I get a hot chocolate? The big one!' What size is 'the big one'?",
-      "scene_media": "L02_Q03.png",
-      "correct_answer": "C",
-      "correct_feedback": "'The big one' is the casual way to say 'Large'.\n\"The big one\" 就是Large的口语说法。",
-      "incorrect_feedback": "'Big' = large.\nBig = 大。",
+      "type": "T1 听音选义",
+      "instruction": "\"Kevin — meet our new neighbor, 4B!\" — What does Jake mean?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! Jake is introducing you as the new neighbor. / 对！Jake在介绍你是新邻居。",
+      "incorrect_feedback": "Almost! 'Meet our new neighbor' means Jake is introducing you to Kevin. / 'Meet our new neighbor' 意思是Jake在把你介绍给Kevin。",
       "options": [
         {
-          "label": "A",
-          "text": "Small",
-          "is_correct": false
+          "key": "A",
+          "label": "Jake wants to introduce you to Kevin."
         },
         {
-          "label": "B",
-          "text": "Medium",
-          "is_correct": false
+          "key": "B",
+          "label": "Jake wants to have a meeting with Kevin in 4B."
         },
         {
-          "label": "C",
-          "text": "Large",
-          "is_correct": true
+          "key": "C",
+          "label": "Jake wants to let Kevin fix something for you."
         }
-      ],
-      "audio_normal": "08.mp3",
-      "audio_slow": "08.mp3"
+      ]
     },
     {
       "lesson_id": 2,
       "question_id": "L02_Q04",
       "sort_order": 4,
-      "type": "situational_response",
-      "instruction": "'One cappuccino, one Americano, and two croissants.' How many items total?",
-      "scene_media": "L02_Q04.png",
-      "correct_answer": "B",
-      "correct_feedback": "Don't miss 'two croissants' — 1+1+2 = 4 items!\n别漏 'two croissants' —— 1+1+2 = 4样！",
-      "incorrect_feedback": "1 cappuccino + 1 Americano + 2 croissants = 4.\n1+1+2 = 4样。",
+      "type": "T4 紧急反应",
+      "instruction": "Kevin offered to help fix things. You want to say thank you and introduce yourself — quick!",
+      "correct_answer": "A",
+      "correct_feedback": "Quick and friendly! You introduced yourself well. / 又快又友好！你很好地介绍了自己。",
+      "incorrect_feedback": "Almost! Kevin is being friendly — 'Thanks! I'm your new neighbor' is the best reply. / Kevin在表示友好——'Thanks! I'm your new neighbor' 是最佳回应。",
       "options": [
         {
-          "label": "A",
-          "text": "3 items",
-          "is_correct": false
+          "key": "A",
+          "label": "Thanks! I'm your new neighbor."
         },
         {
-          "label": "B",
-          "text": "4 items",
-          "is_correct": true
+          "key": "B",
+          "label": "I wash the stairs."
         },
         {
-          "label": "C",
-          "text": "2 items",
-          "is_correct": false
+          "key": "C",
+          "label": "The ceiling is clean."
         }
-      ],
-      "audio_normal": "09.mp3",
-      "audio_slow": "09.mp3"
+      ]
     },
     {
       "lesson_id": 2,
       "question_id": "L02_Q05",
       "sort_order": 5,
-      "type": "situational_response",
-      "instruction": "Calculate: Cappuccino $4.50 + Americano $3.75 + 2× Croissant $3.50 = ?",
-      "scene_media": "L02_Q05.png",
-      "correct_answer": "B",
-      "correct_feedback": "$4.50 + $3.75 + $7.00 = $15.25!",
-      "incorrect_feedback": "$4.50 + $3.75 + $3.50 + $3.50 = $15.25.",
+      "type": "T7 文化认知",
+      "instruction": "Lisa sends \"Sunday walk, who's in?\" to the building group chat. She lives downstairs with her kid. What is happening?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! In the US, neighbors often plan group activities casually. / 对！在美国，邻居们经常随意组织集体活动。",
+      "incorrect_feedback": "Almost! 'Who's in?' is a friendly way to invite people to join. It's very common in US neighborhoods. / 'Who's in?'是友好邀请大家参加的方式。在美国小区很常见。",
       "options": [
         {
-          "label": "A",
-          "text": "$13.25",
-          "is_correct": false
+          "key": "A",
+          "label": "Lisa invites neighbors to do something together"
         },
         {
-          "label": "B",
-          "text": "$15.25",
-          "is_correct": true
+          "key": "B",
+          "label": "Lisa is angry at her kid"
         },
         {
-          "label": "C",
-          "text": "$11.75",
-          "is_correct": false
+          "key": "C",
+          "label": "Lisa wants to move to a new apartment"
         }
-      ],
-      "audio_normal": "10.mp3",
-      "audio_slow": "10.mp3"
+      ]
     },
     {
       "lesson_id": 2,
       "question_id": "L02_Q06",
       "sort_order": 6,
-      "type": "situational_response",
-      "instruction": "An old lady asks 'What do you recommend?' You want to recommend the Americano.",
-      "scene_media": "L02_Q06.png",
-      "correct_answer": "A",
-      "correct_feedback": "'I recommend...' = 我推荐…… Blogger instinct in English!\n\"I recommend...\" 博主本能！",
-      "incorrect_feedback": "Use 'I recommend the Americano. It's really good!'",
+      "type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "correct_answer": "I'm your new neighbor.",
+      "correct_feedback": "Perfect! You can introduce yourself to neighbors now. / 完美！你现在能向邻居自我介绍了。",
+      "incorrect_feedback": "Almost! The correct sentence is 'I'm your new neighbor.' / 正确句子是 'I'm your new neighbor.'（我是你的新邻居。）",
       "options": [
-        {
-          "label": "A",
-          "text": "I recommend the Americano. It's really good!",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "Everything is fine.",
-          "is_correct": false
-        },
-        {
-          "label": "C",
-          "text": "I don't know, I just work here.",
-          "is_correct": false
-        }
-      ],
-      "audio_normal": "11.mp3",
-      "audio_slow": "11.mp3"
+        "I'm",
+        "your",
+        "new",
+        "neighbor",
+        "kitchen"
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "question_id": "L02_Q07",
+      "sort_order": 7,
+      "type": "T6 语音跟读",
+      "instruction": "请跟读：Let's go downstairs.",
+      "correct_answer": "Let's go downstairs.（AI评估发音可懂度）",
+      "correct_feedback": "Great! You can suggest going downstairs naturally. / 发音很棒！你能自然地说'我们下楼吧'了。",
+      "incorrect_feedback": "Almost! Try again: Let's GO DOWNstairs. Stress 'go' and 'down'. / 再试一次：重读GO和DOWN。",
+      "options": null
     },
     {
       "lesson_id": 3,
       "question_id": "L03_Q01",
       "sort_order": 1,
-      "type": "listening_selection",
-      "instruction": "Karen: 'I ordered a large latte but got a cappuccino. I want a replacement.' What's her problem?",
-      "scene_media": "L03_Q01.png",
-      "audio_normal": "12.mp3",
-      "audio_slow": "12.mp3",
-      "listening_transcript": "I ordered a large latte yesterday, but I got a cappuccino. I want a replacement.",
-      "audio_content": {
-        "speaker": "Karen",
-        "text_cn": "我昨天点了大杯拿铁，但拿到的是卡布奇诺。我要换一杯。",
-        "text_en": "I ordered a large latte yesterday, but I got a cappuccino. I want a replacement."
-      },
-      "correct_answer": "A",
-      "correct_feedback": "'I ordered A but I got B' — the most common complaint pattern!\n\"I ordered A but I got B\" —— 投诉最常见句式。",
-      "incorrect_feedback": "She ordered a latte but received a cappuccino.\n她点了拿铁但拿到了卡布奇诺。",
+      "type": "T1 听音选义",
+      "instruction": "\"I don't care about the money, Ryan. I just want to SEE you...\" — Why does Mrs. Henderson want to see Ryan?",
+      "correct_answer": "B",
+      "correct_feedback": "Right! She's talking to her son, Ryan, and she misses him so much. / 对！她在跟儿子Ryan打电话，她很想他。",
+      "incorrect_feedback": "Almost! 'Her son' means 她的儿子. She's on the phone with Ryan, her son. / 'Her son' 是她的儿子。她在跟儿子Ryan通话。",
       "options": [
         {
-          "label": "A",
-          "text": "Ordered latte, got cappuccino",
-          "is_correct": true
+          "key": "A",
+          "label": "She wants to get money from Ryan."
         },
         {
-          "label": "B",
-          "text": "Coffee too expensive",
-          "is_correct": false
+          "key": "B",
+          "label": "She misses her son."
         },
         {
-          "label": "C",
-          "text": "Wants a full refund only",
-          "is_correct": false
+          "key": "C",
+          "label": "Her husband wants to see Ryan."
         }
       ]
     },
@@ -383,215 +321,167 @@
       "lesson_id": 3,
       "question_id": "L03_Q02",
       "sort_order": 2,
-      "type": "situational_response",
-      "instruction": "You apologize on behalf of the store. What do you say?",
-      "scene_media": "L03_Q02.png",
-      "correct_answer": "A",
-      "correct_feedback": "'I'm sorry about that' + 'Let me fix it' = Apologize + solve!\n道歉+主动解决，万能客诉话术。",
-      "incorrect_feedback": "Always apologize first: 'I'm sorry about that. Let me fix it for you.'\n先道歉再解决。",
-      "options": [
-        {
-          "label": "A",
-          "text": "I'm sorry about that. Let me fix it for you.",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "Not my problem.",
-          "is_correct": false
-        },
-        {
-          "label": "C",
-          "text": "Are you sure you didn't order wrong?",
-          "is_correct": false
-        }
-      ],
-      "audio_normal": "13.mp3",
-      "audio_slow": "13.mp3"
+      "type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "correct_answer": "1-C, 2-B, 3-A",
+      "correct_feedback": "Nice! Jake's advice: don't ask questions, just be there. / 很好！Jake的建议：别追问，去陪着就好。",
+      "incorrect_feedback": "Almost! 'Show up' = 去陪陪/出现, 'don't push' = 别追问, 'come in' = 进来。",
+      "options": {
+        "english": [
+          "show up",
+          "don't push",
+          "come in"
+        ],
+        "chinese": [
+          "A. 进来",
+          "B. 别追问",
+          "C. 去陪陪（出现）"
+        ]
+      }
     },
     {
       "lesson_id": 3,
       "question_id": "L03_Q03",
       "sort_order": 3,
-      "type": "situational_response",
-      "instruction": "Confirm her order. She wants a large latte with oat milk.",
-      "scene_media": "L03_Q03.png",
+      "type": "T2 对话补全",
+      "instruction": "旁白：You knock on her door. Mrs. Henderson opens the door. 你该说什么？",
       "correct_answer": "A",
-      "correct_feedback": "'So that's... right?' — professional and reassuring!\n\"So that's... right?\" 确认订单，专业又安心。",
-      "incorrect_feedback": "Use 'So that's a large latte with oat milk, right?'",
+      "correct_feedback": "Sweet! 'I brought you something' is a warm way to offer a gift. / 暖心！'I brought you something' 是送东西时很温暖的说法。",
+      "incorrect_feedback": "Almost! You have cake for her — 'I brought you something' is the natural thing to say. / 你给她带了蛋糕——'I brought you something' 是最自然的说法。",
       "options": [
         {
-          "label": "A",
-          "text": "So that's a large latte with oat milk, right?",
-          "is_correct": true
+          "key": "A",
+          "label": "I brought you something."
         },
         {
-          "label": "B",
-          "text": "Large cappuccino with oat milk?",
-          "is_correct": false
+          "key": "B",
+          "label": "I want to wash up."
         },
         {
-          "label": "C",
-          "text": "What did you want again?",
-          "is_correct": false
+          "key": "C",
+          "label": "I need to close the window."
         }
-      ],
-      "audio_normal": "14.mp3",
-      "audio_slow": "14.mp3"
+      ]
     },
     {
       "lesson_id": 3,
       "question_id": "L03_Q04",
       "sort_order": 4,
-      "type": "situational_response",
-      "instruction": "Karen asks 'Can I get a refund?' What does 'refund' mean?",
-      "scene_media": "L03_Q04.png",
+      "type": "T1 听音选义",
+      "instruction": "\"Come in, dear. Sit with me.\" — What does Mrs. Henderson want you to do?",
       "correct_answer": "B",
-      "correct_feedback": "Refund = 退款. Standard refund request.\nRefund = 退款。标准退款说法。",
-      "incorrect_feedback": "Refund = getting money back.\nRefund 是退钱。",
+      "correct_feedback": "Yes! She wants your company — come in and sit. / 对！她想要你的陪伴——进来坐坐。",
+      "incorrect_feedback": "Almost! 'Come in' = 进来, 'sit with me' = 陪我坐坐。She wants you to stay. / 她想让你留下来陪她。",
       "options": [
         {
-          "label": "A",
-          "text": "Discount (打折)",
-          "is_correct": false
+          "key": "A",
+          "label": "Go upstairs and sleep"
         },
         {
-          "label": "B",
-          "text": "Refund (退款)",
-          "is_correct": true
+          "key": "B",
+          "label": "Stay with her"
         },
         {
-          "label": "C",
-          "text": "Top-up (充值)",
-          "is_correct": false
+          "key": "C",
+          "label": "Open the door and leave"
         }
-      ],
-      "audio_normal": "15.mp3",
-      "audio_slow": "15.mp3"
+      ]
     },
     {
       "lesson_id": 3,
       "question_id": "L03_Q05",
       "sort_order": 5,
-      "type": "situational_response",
-      "instruction": "Tell her she can get a refund.",
-      "scene_media": "L03_Q05.png",
+      "type": "T7 文化认知",
+      "instruction": "Mrs. Henderson is sad because her son left. You visit her with cake and watch TV together. You don't ask about the phone call. Is this a good thing to do?",
       "correct_answer": "A",
-      "correct_feedback": "'We can give you a refund' — professional and clear.\n\"We can give you a refund\" 专业又清晰。",
-      "incorrect_feedback": "Say 'Sure, we can give you a refund.'",
+      "correct_feedback": "Exactly! In the US, just 'showing up' for someone is a powerful way to care. / 没错！在美国，'出现在某人身边'本身就是很有力的关心方式。",
+      "incorrect_feedback": "Almost! Sometimes people don't want to talk — just being there shows you care. / 有时候人们不想说话——在旁边陪着就是关心。",
       "options": [
         {
-          "label": "A",
-          "text": "Sure, we can give you a refund.",
-          "is_correct": true
+          "key": "A",
+          "label": "Yes — sometimes being there is enough"
         },
         {
-          "label": "B",
-          "text": "No refund.",
-          "is_correct": false
+          "key": "B",
+          "label": "No — you should ask many questions"
         },
         {
-          "label": "C",
-          "text": "You need to call the manager.",
-          "is_correct": false
+          "key": "C",
+          "label": "No — neighbors should not visit"
         }
-      ],
-      "audio_normal": "16.mp3",
-      "audio_slow": "16.mp3"
+      ]
     },
     {
       "lesson_id": 3,
       "question_id": "L03_Q06",
       "sort_order": 6,
-      "type": "situational_response",
-      "instruction": "Conflict resolved. Recommend something else while she's happy.",
-      "scene_media": "L03_Q06.png",
-      "correct_answer": "A",
-      "correct_feedback": "'No worries' = 没关系. Recommend while the mood is good!\n\"No worries\" = 没关系。趁心情好推荐——博主本能！",
-      "incorrect_feedback": "'No worries! Next time, try the croissant too.' is friendly.",
+      "type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "correct_answer": "I brought you something.",
+      "correct_feedback": "Well done! You can offer a gift naturally now. / 做得好！你现在能自然地表达带了东西给别人。",
+      "incorrect_feedback": "Almost! The correct sentence is 'I brought you something.' 'Brought' is past tense of 'bring'. / 正确句子是 'I brought you something.'（我给你带了东西。）'brought'是'bring'的过去式。",
       "options": [
-        {
-          "label": "A",
-          "text": "No worries! Next time, try the croissant too. It's amazing.",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "Bye.",
-          "is_correct": false
-        },
-        {
-          "label": "C",
-          "text": "Please don't leave a bad review.",
-          "is_correct": false
-        }
-      ],
-      "audio_normal": "17.mp3",
-      "audio_slow": "17.mp3"
+        "I",
+        "brought",
+        "you",
+        "something",
+        "carried"
+      ]
+    },
+    {
+      "lesson_id": 3,
+      "question_id": "L03_Q07",
+      "sort_order": 7,
+      "type": "T6 语音跟读",
+      "instruction": "请跟读：Come in and sit with me.",
+      "correct_answer": "Come in and sit with me.（AI评估发音可懂度）",
+      "correct_feedback": "Warm and clear! You sound welcoming. / 温暖又清晰！听起来很热情好客。",
+      "incorrect_feedback": "Almost! Try again: COME in and SIT with me. Stress 'come' and 'sit'. / 再试一次：重读COME和SIT。",
+      "options": null
     },
     {
       "lesson_id": 4,
       "question_id": "L04_Q01",
       "sort_order": 1,
-      "type": "situational_response",
-      "instruction": "You want to find milk. How do you ask?",
-      "scene_media": "L04_Q01.png",
-      "correct_answer": "A",
-      "correct_feedback": "'Where can I find...?' — universal store sentence!\n\"Where can I find...?\" 超市找东西万能句。",
-      "incorrect_feedback": "Use 'Where can I find milk?' — polite and clear.",
-      "options": [
-        {
-          "label": "A",
-          "text": "Where can I find milk?",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "Milk. Where.",
-          "is_correct": false
-        },
-        {
-          "label": "C",
-          "text": "Do you have cow water?",
-          "is_correct": false
-        }
-      ],
-      "audio_normal": "18.mp3",
-      "audio_slow": "18.mp3"
+      "type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "correct_answer": "1-C, 2-B, 3-A",
+      "correct_feedback": "Great! You know the rooms for eating and cooking. / 很好！你知道吃饭和做饭的房间了。",
+      "incorrect_feedback": "Almost! 'Dining room' = 餐厅, 'table' = 桌子, 'kitchen' = 厨房。",
+      "options": {
+        "english": [
+          "dining room",
+          "table",
+          "kitchen"
+        ],
+        "chinese": [
+          "A. 厨房",
+          "B. 桌子",
+          "C. 餐厅"
+        ]
+      }
     },
     {
       "lesson_id": 4,
       "question_id": "L04_Q02",
       "sort_order": 2,
-      "type": "listening_selection",
-      "instruction": "Old Chen: 'Aisle 3, on your left.' Where is the milk?",
-      "scene_media": "L04_Q02.png",
-      "audio_normal": "19.mp3",
-      "audio_slow": "19.mp3",
-      "listening_transcript": "Aisle 3, on your left.",
-      "audio_content": {
-        "speaker": "Old Chen",
-        "text_cn": "第三排，在你左边。",
-        "text_en": "Aisle 3, on your left."
-      },
+      "type": "T1 听音选义",
+      "instruction": "\"Kevin likes Lisa. Everyone knows.\" — What does \"everyone knows\" mean?",
       "correct_answer": "A",
-      "correct_feedback": "Aisle = store row. 'On your left' = left side.\nAisle = 货架排。\"On your left\" = 左边。",
-      "incorrect_feedback": "Aisle 3, left side.\n第3排，左边。",
+      "correct_feedback": "Right! 'Everyone' means all the people. / 对！'Everyone' 意思是所有人。",
+      "incorrect_feedback": "Almost! 'Everyone knows' = all the people know. It's not a secret! / 'Everyone knows' = 所有人都知道。这不是秘密！",
       "options": [
         {
-          "label": "A",
-          "text": "Aisle 3, left side",
-          "is_correct": true
+          "key": "A",
+          "label": "All the people here know"
         },
         {
-          "label": "B",
-          "text": "Aisle 3, right side",
-          "is_correct": false
+          "key": "B",
+          "label": "Only one person knows"
         },
         {
-          "label": "C",
-          "text": "Next to checkout",
-          "is_correct": false
+          "key": "C",
+          "label": "Nobody knows"
         }
       ]
     },
@@ -599,161 +489,148 @@
       "lesson_id": 4,
       "question_id": "L04_Q03",
       "sort_order": 3,
-      "type": "situational_response",
-      "instruction": "You want the cheapest milk. Whole $3.99, Low-fat $3.79, Oat $5.49. Which one?",
-      "scene_media": "L04_Q03.png",
-      "correct_answer": "B",
-      "correct_feedback": "Low-fat $3.79 is cheapest. Reading price tags = survival skill!\nLow-fat $3.79最便宜。看价签是生存技能！",
-      "incorrect_feedback": "$3.79 < $3.99 < $5.49. Low-fat is cheapest.",
+      "type": "T7 文化认知",
+      "instruction": "Mrs. Henderson invited all the neighbors for brunch at her place. People eat, talk, and laugh together. In the US, is this common?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! In the US, neighbors often become like family. Brunch together is very normal! / 对！在美国，邻居常常像家人一样。一起吃早午餐很正常！",
+      "incorrect_feedback": "Almost! In the US, neighbors often invite each other for meals. It's a way to build community. / 在美国，邻居们经常互相请吃饭。这是建立社区感的方式。",
       "options": [
         {
-          "label": "A",
-          "text": "Whole Milk $3.99",
-          "is_correct": false
+          "key": "A",
+          "label": "Yes — neighbors often share meals together"
         },
         {
-          "label": "B",
-          "text": "Low-fat Milk $3.79",
-          "is_correct": true
+          "key": "B",
+          "label": "No — neighbors never talk to each other"
         },
         {
-          "label": "C",
-          "text": "Oat Milk $5.49",
-          "is_correct": false
+          "key": "C",
+          "label": "No — only family can eat together"
         }
-      ],
-      "audio_normal": "20.mp3",
-      "audio_slow": "20.mp3"
+      ]
     },
     {
       "lesson_id": 4,
       "question_id": "L04_Q04",
       "sort_order": 4,
-      "type": "situational_response",
-      "instruction": "You see a sign that says 'SALE'. What does it mean?",
-      "scene_media": "L04_Q04.png",
+      "type": "T1 听音选义",
+      "instruction": "\"Kevin pulls you aside in the hall.\" — What did Kevin do?",
       "correct_answer": "B",
-      "correct_feedback": "SALE = on sale / discount. Bargains ahead!\nSALE = 打折促销。有便宜捡！",
-      "incorrect_feedback": "SALE means discounted, not sold out.\nSALE 是打折，不是售完。",
+      "correct_feedback": "Yes! 'Pull aside' means he wants to talk to you privately. / 对！'Pull aside' 意思是他想私下跟你说话。",
+      "incorrect_feedback": "Almost! 'Pull you aside' = 把你拉到一边，想私下说话。'Push' means the opposite! / 'Pull' 和 'push' 是相反的！",
       "options": [
         {
-          "label": "A",
-          "text": "Sold out",
-          "is_correct": false
+          "key": "A",
+          "label": "He pushed you outside"
         },
         {
-          "label": "B",
-          "text": "On sale / discount",
-          "is_correct": true
+          "key": "B",
+          "label": "He wanted to talk privately"
         },
         {
-          "label": "C",
-          "text": "New arrival",
-          "is_correct": false
+          "key": "C",
+          "label": "He closed the door on you"
         }
-      ],
-      "audio_normal": "21.mp3",
-      "audio_slow": "21.mp3"
+      ]
     },
     {
       "lesson_id": 4,
       "question_id": "L04_Q05",
       "sort_order": 5,
-      "type": "listening_selection",
-      "instruction": "Old Chen: 'Did you find everything okay?' What is he asking?",
-      "scene_media": "L04_Q05.png",
-      "audio_normal": "22.mp3",
-      "audio_slow": "22.mp3",
-      "listening_transcript": "Did you find everything okay?",
-      "audio_content": {
-        "speaker": "Old Chen",
-        "text_cn": "东西都找到了吗？",
-        "text_en": "Did you find everything okay?"
-      },
-      "correct_answer": "B",
-      "correct_feedback": "'Did you find everything okay?' — standard American cashier greeting. Reply 'Yes, thanks!'\n美国收银员标准开场白。回答 'Yes, thanks!'",
-      "incorrect_feedback": "He's asking if you found everything you needed.",
+      "type": "T2 对话补全",
+      "instruction": "Kevin: \"Was that weird? Am I being weird?\" 你该怎么安慰他？",
+      "correct_answer": "A",
+      "correct_feedback": "Thoughtful advice! 'She needs time' is kind and wise. / 很贴心的建议！'She needs time' 既善良又明智。",
+      "incorrect_feedback": "Almost! Kevin is nervous about Lisa — 'She needs time' is the best comfort here. / Kevin在紧张关于Lisa的事——'She needs time' 是最好的安慰。",
       "options": [
         {
-          "label": "A",
-          "text": "Asking about membership",
-          "is_correct": false
+          "key": "A",
+          "label": "She needs time."
         },
         {
-          "label": "B",
-          "text": "Asking if you found everything",
-          "is_correct": true
+          "key": "B",
+          "label": "She needs furniture."
         },
         {
-          "label": "C",
-          "text": "Asking if you want a bag",
-          "is_correct": false
+          "key": "C",
+          "label": "She needs a shower."
         }
       ]
+    },
+    {
+      "lesson_id": 4,
+      "question_id": "L04_Q06",
+      "sort_order": 6,
+      "type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "correct_answer": "He pulled me aside to talk.",
+      "correct_feedback": "Perfect! 'Pull aside' = take someone to talk privately. / 完美！'Pull aside' = 把某人拉到一边私下说话。",
+      "incorrect_feedback": "Almost! 'Pulled me aside' is correct — 'pushed' means the opposite direction. / 'Pulled me aside' 才对——'pushed' 是相反方向。",
+      "options": [
+        "He",
+        "pulled",
+        "me",
+        "aside",
+        "to talk",
+        "pushed"
+      ]
+    },
+    {
+      "lesson_id": 4,
+      "question_id": "L04_Q07",
+      "sort_order": 7,
+      "type": "T6 语音跟读",
+      "instruction": "请跟读：She needs time.",
+      "correct_answer": "She needs time.（AI评估发音可懂度）",
+      "correct_feedback": "Clear and gentle! Great advice-giving tone. / 清晰又温和！很好的建议语气。",
+      "incorrect_feedback": "Almost! Try again: She NEEDS TIME. Stress 'needs' and 'time'. / 再试一次：重读NEEDS和TIME。",
+      "options": null
     },
     {
       "lesson_id": 5,
       "question_id": "L05_Q01",
       "sort_order": 1,
-      "type": "situational_response",
-      "instruction": "You can't find eggs. How do you ask?",
-      "scene_media": "L05_Q01.png",
-      "correct_answer": "A",
-      "correct_feedback": "Review! 'Where can I find + item' works every time.\n复习！\"Where can I find + 东西\" 每次都管用。",
-      "incorrect_feedback": "Use 'Where can I find eggs?'",
-      "options": [
-        {
-          "label": "A",
-          "text": "Where can I find eggs?",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "Eggs?",
-          "is_correct": false
-        },
-        {
-          "label": "C",
-          "text": "I look for eggs everywhere.",
-          "is_correct": false
-        }
-      ],
-      "audio_normal": "23.mp3",
-      "audio_slow": "23.mp3"
+      "type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "correct_answer": "1-C, 2-D, 3-A, 4-B",
+      "correct_feedback": "Nice! You know the furniture words in Lisa's home. / 很好！你认识Lisa家里的家具词了。",
+      "incorrect_feedback": "Almost! Chair = 椅子, table = 桌子, window = 窗户, living room = 客厅。",
+      "options": {
+        "english": [
+          "chair",
+          "table",
+          "window",
+          "living room"
+        ],
+        "chinese": [
+          "A. 窗户",
+          "B. 客厅",
+          "C. 椅子",
+          "D. 桌子"
+        ]
+      }
     },
     {
       "lesson_id": 5,
       "question_id": "L05_Q02",
       "sort_order": 2,
-      "type": "listening_selection",
-      "instruction": "Old Chen: 'Aisle 1, next to the bread.' Where are the eggs?",
-      "scene_media": "L05_Q02.png",
-      "audio_normal": "24.mp3",
-      "audio_slow": "24.mp3",
-      "listening_transcript": "Aisle 1, next to the bread.",
-      "audio_content": {
-        "speaker": "Old Chen",
-        "text_cn": "第一排，面包旁边。",
-        "text_en": "Aisle 1, next to the bread."
-      },
+      "type": "T1 听音选义",
+      "instruction": "\"I moved here after my divorce.\" — What happened to Lisa?",
       "correct_answer": "A",
-      "correct_feedback": "'next to' = beside. Eggs are in Aisle 1, next to bread.\n\"next to\" = 旁边。",
-      "incorrect_feedback": "'Next to the bread' means right beside the bread.",
+      "correct_feedback": "Right! After divorce, she has no husband anymore. / 对！离婚后，她不再有丈夫了。",
+      "incorrect_feedback": "Almost! 'Divorce' means her marriage ended — she no longer has a husband. / 'Divorce' 意思是婚姻结束了——她不再有丈夫了。",
       "options": [
         {
-          "label": "A",
-          "text": "Aisle 1, next to bread",
-          "is_correct": true
+          "key": "A",
+          "label": "She lost her husband"
         },
         {
-          "label": "B",
-          "text": "Aisle 1, next to milk",
-          "is_correct": false
+          "key": "B",
+          "label": "She found a new apartment"
         },
         {
-          "label": "C",
-          "text": "Aisle 3, on the left",
-          "is_correct": false
+          "key": "C",
+          "label": "She moved with her family"
         }
       ]
     },
@@ -761,116 +638,547 @@
       "lesson_id": 5,
       "question_id": "L05_Q03",
       "sort_order": 3,
-      "type": "situational_response",
-      "instruction": "Two types of eggs: Free-range (6) $4.99, Regular (12) $3.49. You want the cheaper one.",
-      "scene_media": "L05_Q03.png",
-      "correct_answer": "B",
-      "correct_feedback": "Regular = normal. Free-range = free-roaming (expensive).\nRegular = 普通。Free-range = 散养（贵）。",
-      "incorrect_feedback": "Regular Eggs $3.49 < Free-range $4.99.",
+      "type": "T2 对话补全",
+      "instruction": "Lisa says Kevin is great but she's not ready. What do you say?",
+      "correct_answer": "A",
+      "correct_feedback": "Kind and honest! Telling a person how you feel is brave. / 善良又坦诚！告诉一个人你的感受是勇敢的。",
+      "incorrect_feedback": "Almost! Lisa is confused — the best advice is 'tell him how you feel.' / Lisa很迷茫——最好的建议是'告诉他你的感受'。",
       "options": [
         {
-          "label": "A",
-          "text": "Free-range Eggs $4.99",
-          "is_correct": false
+          "key": "A",
+          "label": "Maybe tell him how you feel."
         },
         {
-          "label": "B",
-          "text": "Regular Eggs $3.49",
-          "is_correct": true
+          "key": "B",
+          "label": "Maybe close the door on him."
+        },
+        {
+          "key": "C",
+          "label": "Maybe bring him some food."
         }
-      ],
-      "audio_normal": "25.mp3",
-      "audio_slow": "25.mp3"
+      ]
     },
     {
       "lesson_id": 5,
       "question_id": "L05_Q04",
       "sort_order": 4,
-      "type": "situational_response",
-      "instruction": "Three bottles look similar: Olive Oil, Sesame Oil, Vegetable Oil. You need sesame oil.",
-      "scene_media": "L05_Q04.png",
-      "correct_answer": "B",
-      "correct_feedback": "Sesame = 芝麻. Read labels correctly!\nSesame = 芝麻。读懂标签不会买错！",
-      "incorrect_feedback": "Sesame Oil = 芝麻油。",
+      "type": "T1 听音选义",
+      "instruction": "\"I started over too.\" — What does \"I started over\" mean?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! 'Started over' = began a new life in a new place. / 对！'Started over' = 在新的地方开始新生活。",
+      "incorrect_feedback": "Almost! 'Started over' means you began again — new place, new life. / 'Started over' 意思是重新开始——新地方、新生活。",
       "options": [
         {
-          "label": "A",
-          "text": "Olive Oil (橄榄油)",
-          "is_correct": false
+          "key": "A",
+          "label": "I began a new life in a new place"
         },
         {
-          "label": "B",
-          "text": "Sesame Oil (芝麻油)",
-          "is_correct": true
+          "key": "B",
+          "label": "I went back to my old home"
         },
         {
-          "label": "C",
-          "text": "Vegetable Oil (植物油)",
-          "is_correct": false
+          "key": "C",
+          "label": "I cleaned my apartment again"
         }
-      ],
-      "audio_normal": "26.mp3",
-      "audio_slow": "26.mp3"
+      ]
     },
     {
       "lesson_id": 5,
       "question_id": "L05_Q05",
       "sort_order": 5,
-      "type": "situational_response",
-      "instruction": "Old Chen asks 'You want a bag?' You want one.",
-      "scene_media": "L05_Q05.png",
-      "correct_answer": "A",
-      "correct_feedback": "'Yes, please.' Simple!\n\"Yes, please.\" 简单搞定。",
-      "incorrect_feedback": "Just say 'Yes, please.'",
+      "type": "T4 紧急反应",
+      "instruction": "You see Jake arguing with a man in the hall. What do you do?",
+      "correct_answer": "B",
+      "correct_feedback": "Good instinct! You check on your neighbor. / 好直觉！你去看看邻居的情况。",
+      "incorrect_feedback": "Almost! Jake is your neighbor and friend — you'd walk over to check on him. / Jake是你的邻居和朋友——你会走过去看看他。",
       "options": [
         {
-          "label": "A",
-          "text": "Yes, please.",
-          "is_correct": true
+          "key": "A",
+          "label": "Go upstairs and sleep"
         },
         {
-          "label": "B",
-          "text": "Give me bag.",
-          "is_correct": false
+          "key": "B",
+          "label": "Walk over to Jake"
         },
         {
-          "label": "C",
-          "text": "No, thanks.",
-          "is_correct": false
+          "key": "C",
+          "label": "Close the gate and leave"
         }
-      ],
-      "audio_normal": "27.mp3",
-      "audio_slow": "27.mp3"
+      ]
     },
     {
       "lesson_id": 5,
       "question_id": "L05_Q06",
       "sort_order": 6,
-      "type": "situational_response",
-      "instruction": "Old Chen gives you hot sauce and says 'On the house.' What does that mean?",
-      "scene_media": "L05_Q06.png",
-      "correct_answer": "B",
-      "correct_feedback": "'On the house' = free / store's treat. Old Chen is tough outside, soft inside!\n\"On the house\" = 免费送。老陈嘴硬心软！",
-      "incorrect_feedback": "'On the house' means free of charge.",
+      "type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "correct_answer": "We sat in chairs by the window.",
+      "correct_feedback": "Perfect! You can describe where you sat at a café. / 完美！你能描述在咖啡馆坐在哪里了。",
+      "incorrect_feedback": "Almost! 'We sat in chairs by the window.' 'Door' doesn't fit here — they're at the window. / 正确是 'We sat in chairs by the window.'（我们坐在靠窗的椅子上。）",
+      "options": [
+        "We",
+        "sat",
+        "in",
+        "chairs",
+        "by the",
+        "window",
+        "door"
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "question_id": "L05_Q07",
+      "sort_order": 7,
+      "type": "T6 语音跟读",
+      "instruction": "请跟读：Maybe tell him how you feel.（重音：tell / feel；语速：慢速，语气温和、像给朋友建议）",
+      "correct_answer": "Maybe tell him how you feel.（AI评估发音可懂度）",
+      "correct_feedback": "Gentle and clear! You sound like a caring friend. / 温和又清晰！你听起来像个贴心的朋友。",
+      "incorrect_feedback": "Almost! Try again: Maybe TELL him how you FEEL. Stress 'tell' and 'feel'. / 再试一次：重读TELL和FEEL。",
+      "options": null
+    },
+    {
+      "lesson_id": 6,
+      "question_id": "L06_Q01",
+      "sort_order": 1,
+      "type": "T1 听音选义",
+      "instruction": "\"The company is raising his rent.\" — What is happening to Jake's apartment?",
+      "correct_answer": "A",
+      "correct_feedback": "Right! 'Raising rent' means the apartment costs more. / 对！'Raising rent' 意思是公寓要花更多钱了。",
+      "incorrect_feedback": "Almost! 'Raising rent' means they want more money for the apartment. / 'Raising rent' 意思是他们要更多的公寓租金。",
       "options": [
         {
-          "label": "A",
-          "text": "Put it on the roof",
-          "is_correct": false
+          "key": "A",
+          "label": "It costs more money now"
         },
         {
-          "label": "B",
-          "text": "It's free (免费赠送)",
-          "is_correct": true
+          "key": "B",
+          "label": "It needs new furniture"
         },
         {
-          "label": "C",
-          "text": "Only use in store",
-          "is_correct": false
+          "key": "C",
+          "label": "It has a new address"
         }
-      ],
-      "audio_normal": "28.mp3",
-      "audio_slow": "28.mp3"
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "question_id": "L06_Q02",
+      "sort_order": 2,
+      "type": "T4 紧急反应",
+      "instruction": "Dan shows Jake a contract. Jake looks scared. You need to help — quick!",
+      "correct_answer": "A",
+      "correct_feedback": "Quick thinking! You stepped in to help your neighbor. / 反应快！你站出来帮邻居了。",
+      "incorrect_feedback": "Almost! Jake needs help with the letter — 'Let me see the letter' is the right move. / Jake需要信件方面的帮助——'Let me see the letter' 是正确的做法。",
+      "options": [
+        {
+          "key": "A",
+          "label": "Let me see the letter."
+        },
+        {
+          "key": "B",
+          "label": "Let me close the window."
+        },
+        {
+          "key": "C",
+          "label": "Let me tidy the room."
+        }
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "question_id": "L06_Q03",
+      "sort_order": 3,
+      "type": "T7 文化认知",
+      "instruction": "Kevin says \"That's how they got Ryan out.\" Ryan is Mrs. Henderson's son. What does this mean?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! The same thing happened to Ryan before — they raised rent until he left. / 对！同样的事以前发生在Ryan身上——他们涨租直到他离开。",
+      "incorrect_feedback": "Almost! 'Got Ryan out' means they forced him to leave his apartment by raising rent. / 'Got Ryan out' 意思是他们通过涨租逼Ryan离开了公寓。",
+      "options": [
+        {
+          "key": "A",
+          "label": "The company used the same way to make Ryan leave"
+        },
+        {
+          "key": "B",
+          "label": "Ryan closed his door and went to sleep"
+        },
+        {
+          "key": "C",
+          "label": "Ryan added new furniture to his flat"
+        }
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "question_id": "L06_Q04",
+      "sort_order": 4,
+      "type": "T2 对话补全",
+      "instruction": "Kevin found a lawyer. Lisa will write. Now it's your turn to help Jake. What do you say?",
+      "correct_answer": "A",
+      "correct_feedback": "Supportive and clear! You're helping Jake explain his problem. / 又支持又清晰！你在帮Jake理清问题。",
+      "incorrect_feedback": "Almost! Jake needs to explain the situation — 'Tell me what happened' is how you help. / Jake需要解释情况——'Tell me what happened' 是你帮忙的方式。",
+      "options": [
+        {
+          "key": "A",
+          "label": "Tell me what happened, slowly."
+        },
+        {
+          "key": "B",
+          "label": "Bring me a blanket, slowly."
+        },
+        {
+          "key": "C",
+          "label": "Open the door for me, slowly."
+        }
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "question_id": "L06_Q05",
+      "sort_order": 5,
+      "type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "correct_answer": "1-B, 2-C, 3-A",
+      "correct_feedback": "Great! 'Person' is one, 'people' is many. / 很好！'Person' 是一个人，'people' 是很多人。",
+      "incorrect_feedback": "Almost! Person = 一个人, people = 很多人, neighbor = 邻居。",
+      "options": {
+        "english": [
+          "person",
+          "people",
+          "neighbor"
+        ],
+        "chinese": [
+          "A. 邻居",
+          "B. 人（一个）",
+          "C. 人们（多个）"
+        ]
+      }
+    },
+    {
+      "lesson_id": 6,
+      "question_id": "L06_Q06",
+      "sort_order": 6,
+      "type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "correct_answer": "You're the only person I can hear.",
+      "correct_feedback": "Well done! 'Person' is for one — 'people' is for many. / 做得好！'Person' 指一个人——'people' 指很多人。",
+      "incorrect_feedback": "Almost! 'The only person' = one person. Use 'person' here, not 'people'. / 'The only person' = 唯一一个人。这里用 'person'，不用 'people'。",
+      "options": [
+        "You're",
+        "the only",
+        "person",
+        "I can",
+        "hear",
+        "people"
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "question_id": "L06_Q07",
+      "sort_order": 7,
+      "type": "T6 语音跟读",
+      "instruction": "请跟读：Tell me what happened.（重音：Tell / happened；语速：慢速，语气关心、耐心）",
+      "correct_answer": "Tell me what happened.（AI评估发音可懂度）",
+      "correct_feedback": "Clear and caring! You sound like a trusted friend. / 清晰又关心！你听起来像一个值得信赖的朋友。",
+      "incorrect_feedback": "Almost! Try again: TELL me what HAPPENED. Stress 'tell' and 'happened'. / 再试一次：重读TELL和HAPPENED。",
+      "options": null
+    },
+    {
+      "lesson_id": 7,
+      "question_id": "L07_Q01",
+      "sort_order": 1,
+      "type": "T1 听音选义",
+      "instruction": "\"They did the same thing to Ryan. They pushed him out.\" — What happened to Mrs. Henderson's son?",
+      "correct_answer": "A",
+      "correct_feedback": "Right! 'Pushed out' means they forced her son to leave. / 对！'Pushed out' 意思是他们逼她儿子离开了。",
+      "incorrect_feedback": "Almost! 'Push out' means to force someone to leave — Ryan had to go. / 'Push out' 意思是逼某人离开——Ryan不得不走。",
+      "options": [
+        {
+          "key": "A",
+          "label": "They forced him to leave"
+        },
+        {
+          "key": "B",
+          "label": "They pulled him upstairs"
+        },
+        {
+          "key": "C",
+          "label": "They brought him home"
+        }
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "question_id": "L07_Q02",
+      "sort_order": 2,
+      "type": "T2 对话补全",
+      "instruction": "Mrs. Henderson says her son won't answer. She looks sad. What do you offer?",
+      "correct_answer": "A",
+      "correct_feedback": "Brave and kind! You offered to help a mother call her son. / 又勇敢又善良！你提议帮一位母亲打电话给儿子。",
+      "incorrect_feedback": "Almost! She needs help calling her son — 'I can call with you' is the best support. / 她需要帮助打电话给儿子——'I can call with you' 是最好的支持。",
+      "options": [
+        {
+          "key": "A",
+          "label": "I can call with you."
+        },
+        {
+          "key": "B",
+          "label": "I can wash up for you."
+        },
+        {
+          "key": "C",
+          "label": "I can close the curtains."
+        }
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "question_id": "L07_Q03",
+      "sort_order": 3,
+      "type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "correct_answer": "1-C, 2-B, 3-A",
+      "correct_feedback": "Great! You know the difference between knocking, visiting, and entering. / 很好！你知道敲门、来访和进来的区别了。",
+      "incorrect_feedback": "Almost! 'Knocks on your door' = 敲你的门, 'come round' = 来访, 'come in' = 进来。",
+      "options": {
+        "english": [
+          "knocks on your door",
+          "come round",
+          "come in"
+        ],
+        "chinese": [
+          "A. 进来",
+          "B. 来访",
+          "C. 敲你的门"
+        ]
+      }
+    },
+    {
+      "lesson_id": 7,
+      "question_id": "L07_Q04",
+      "sort_order": 4,
+      "type": "T1 听音选义",
+      "instruction": "\"He's coming to visit next month.\" — What will Ryan do?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! Ryan will visit his mum — the family will be together again. / 对！Ryan要来看妈妈——一家人又能团聚了。",
+      "incorrect_feedback": "Almost! 'Coming to visit' means Ryan will come to see his mother. / 'Coming to visit' 意思是Ryan会来看望他的母亲。",
+      "options": [
+        {
+          "key": "A",
+          "label": "He will come to see his mother"
+        },
+        {
+          "key": "B",
+          "label": "He will move to a new flat"
+        },
+        {
+          "key": "C",
+          "label": "He will close his door forever"
+        }
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "question_id": "L07_Q05",
+      "sort_order": 5,
+      "type": "T7 文化认知",
+      "instruction": "You helped Mrs. Henderson call her son. In the US, what does this show about neighbors?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! In the US, neighbors often become your support system — like a second family. / 对！在美国，邻居常常成为你的支持系统——像第二个家。",
+      "incorrect_feedback": "Almost! In the US, neighbors can be very close — helping each other is what makes a place feel like home. / 在美国，邻居可以非常亲近——互相帮助是让一个地方有家的感觉的原因。",
+      "options": [
+        {
+          "key": "A",
+          "label": "Good neighbors can become like family"
+        },
+        {
+          "key": "B",
+          "label": "Neighbors must always stay apart"
+        },
+        {
+          "key": "C",
+          "label": "Only family can help with problems"
+        }
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "question_id": "L07_Q06",
+      "sort_order": 6,
+      "type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "correct_answer": "They pushed him out of his apartment.",
+      "correct_feedback": "Perfect! 'Push out' = force to leave. 'Pull' is the opposite. / 完美！'Push out' = 逼迫离开。'Pull' 是相反的动作。",
+      "incorrect_feedback": "Almost! 'Pushed him out' is correct — they forced Ryan to leave. 'Pulled' means the opposite direction. / 'Pushed him out' 才对——他们逼Ryan离开了。'Pulled' 是相反方向。",
+      "options": [
+        "They",
+        "pushed",
+        "him",
+        "out",
+        "of his",
+        "apartment",
+        "pulled"
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "question_id": "L07_Q07",
+      "sort_order": 7,
+      "type": "T6 语音跟读",
+      "instruction": "请跟读：I can call with you.（重音：call / you；语速：慢速，语气温暖、给人安心感）",
+      "correct_answer": "I can call with you.（AI评估发音可懂度）",
+      "correct_feedback": "Warm and steady! You sound supportive. / 温暖又稳定！你听起来很有支持感。",
+      "incorrect_feedback": "Almost! Try again: I can CALL with YOU. Stress 'call' and 'you'. / 再试一次：重读CALL和YOU。",
+      "options": null
+    },
+    {
+      "lesson_id": 8,
+      "question_id": "L08_Q01",
+      "sort_order": 1,
+      "type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "correct_answer": "1-C, 2-D, 3-B, 4-A",
+      "correct_feedback": "Nice! You can describe an outdoor party scene. / 很好！你能描述户外聚会的场景了。",
+      "incorrect_feedback": "Almost! Light = 灯, garden = 花园/院子, gate = 大门, table = 桌子。",
+      "options": {
+        "english": [
+          "light",
+          "garden",
+          "gate",
+          "table"
+        ],
+        "chinese": [
+          "A. 桌子",
+          "B. 大门",
+          "C. 灯",
+          "D. 花园/院子"
+        ]
+      }
+    },
+    {
+      "lesson_id": 8,
+      "question_id": "L08_Q02",
+      "sort_order": 2,
+      "type": "T1 听音选义",
+      "instruction": "\"I want him to meet all of you.\" — What does Mrs. Henderson want?",
+      "correct_answer": "A",
+      "correct_feedback": "Right! She wants her son to meet all the people here. / 对！她想让儿子认识这里所有的人。",
+      "incorrect_feedback": "Almost! 'Meet all of you' = she wants Ryan to know all the neighbors. / 'Meet all of you' = 她想让Ryan认识所有邻居。",
+      "options": [
+        {
+          "key": "A",
+          "label": "Ryan to meet all the neighbors"
+        },
+        {
+          "key": "B",
+          "label": "Ryan to clean the apartment"
+        },
+        {
+          "key": "C",
+          "label": "Ryan to carry the furniture"
+        }
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "question_id": "L08_Q03",
+      "sort_order": 3,
+      "type": "T1 听音选义",
+      "instruction": "\"Only five of you left under the lights.\" — Where are the five people?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! They're still outside under the string lights. / 对！他们还在外面的彩灯下。",
+      "incorrect_feedback": "Almost! 'Under the lights' = outside in the garden where the lights hang. / 'Under the lights' = 在外面彩灯挂着的花园里。",
+      "options": [
+        {
+          "key": "A",
+          "label": "Outside under the lights"
+        },
+        {
+          "key": "B",
+          "label": "Upstairs in the bedroom"
+        },
+        {
+          "key": "C",
+          "label": "Downstairs in the kitchen"
+        }
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "question_id": "L08_Q04",
+      "sort_order": 4,
+      "type": "T2 对话补全",
+      "instruction": "Jake just told everyone how you helped him. Everyone looks at you. What do you say?",
+      "correct_answer": "A",
+      "correct_feedback": "Humble and warm! That's what neighbors do. / 谦虚又温暖！这就是邻居该做的。",
+      "incorrect_feedback": "Almost! Jake thanked you — 'We're neighbors. That's what we do.' is the heartfelt reply. / Jake在感谢你——'We're neighbors. That's what we do.' 是最真诚的回应。",
+      "options": [
+        {
+          "key": "A",
+          "label": "We're neighbors. That's what we do."
+        },
+        {
+          "key": "B",
+          "label": "I want to go upstairs now."
+        },
+        {
+          "key": "C",
+          "label": "I need to wash the table."
+        }
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "question_id": "L08_Q05",
+      "sort_order": 5,
+      "type": "T7 文化认知",
+      "instruction": "Lisa says \"This place feels like home now.\" What makes a place feel like home in this story?",
+      "correct_answer": "A",
+      "correct_feedback": "Yes! A home isn't just a place — it's the people in it. / 对！家不只是一个地方——是里面的人。",
+      "incorrect_feedback": "Almost! In this story, 'home' means feeling safe and cared for by neighbors — not about things. / 在这个故事里，'home' 意味着被邻居关心和安全感——不是关于东西。",
+      "options": [
+        {
+          "key": "A",
+          "label": "Having good neighbors who care"
+        },
+        {
+          "key": "B",
+          "label": "Having expensive furniture inside"
+        },
+        {
+          "key": "C",
+          "label": "Having a big garden outside"
+        }
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "question_id": "L08_Q06",
+      "sort_order": 6,
+      "type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "correct_answer": "Lights hang from the garden gate.",
+      "correct_feedback": "Perfect! You can describe the party scene. / 完美！你能描述聚会场景了。",
+      "incorrect_feedback": "Almost! 'Lights hang from the garden gate.' The lights are outside, not in the kitchen. / 正确是 'Lights hang from the garden gate.'（彩灯挂在花园大门上。）灯在外面，不在厨房。",
+      "options": [
+        "Lights",
+        "hang",
+        "from",
+        "the",
+        "garden gate",
+        "kitchen door"
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "question_id": "L08_Q07",
+      "sort_order": 7,
+      "type": "T6 语音跟读",
+      "instruction": "请跟读：We're neighbors. That's what we do.（重音：neighbors / do；语速：中速，语气温暖、自豪）",
+      "correct_answer": "We're neighbors. That's what we do.（AI评估发音可懂度）",
+      "correct_feedback": "Warm and proud! You sound like part of the community. / 温暖又自豪！你听起来像社区的一份子。",
+      "incorrect_feedback": "Almost! Try again: We're NEIGHBORS. That's what we DO. Stress 'neighbors' and 'do'. / 再试一次：重读NEIGHBORS和DO。",
+      "options": null
     }
   ]
 }

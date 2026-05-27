@@ -4,7 +4,7 @@
     {
       "event_id": "game_start",
       "event_type": "first_enter",
-      "trigger": "进入游戏后的第一段对话（序章：Bun欢迎Amili来到枫叶小镇）",
+      "trigger": "进入游戏后的第一段对话（序章：Bun欢迎Mia来到枫叶小镇）",
       "skippable": false,
       "dialogues": [
         {
@@ -17,10 +17,10 @@
         },
         {
           "is_player": true,
-          "speaker_name": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
-          "text_en": "Amili is my old account, don't call me that anymore. My new account is called...",
-          "text_cn": "Amili是过气老号了，别叫了。我新号叫——",
+          "speaker_name": "Mia",
+          "avatar": "/assets/mia_avatar.png",
+          "text_en": "Mia is my old account, don't call me that anymore. My new account is called...",
+          "text_cn": "Mia是过气老号了，别叫了。我新号叫——",
           "delay_ms": 1500
         },
         {
@@ -38,7 +38,7 @@
         {
           "is_player": true,
           "speaker_name": "{player_name}",
-          "avatar": "/assets/Amilitouxiang.png",
+          "avatar": "/assets/mia_avatar.png",
           "text_en": "I'll go take a look right now. I hope you're an honest agent.",
           "text_cn": "我这就去看看，希望你是个有良心的中介",
           "delay_ms": 1500
@@ -87,8 +87,8 @@
           "speaker": "bun",
           "speaker_name": "Bun",
           "avatar": "/assets/bun_avatar.png",
-          "text_en": "Look, Amili! Mirror Mart just opened its doors to us! Old Chen runs the place.",
-          "text_cn": "看，Amili！镜湖超市向我们敞开了大门！老陈在这里经营。",
+          "text_en": "Look, Mia! Mirror Mart just opened its doors to us! Old Chen runs the place.",
+          "text_cn": "看，Mia！镜湖超市向我们敞开了大门！老陈在这里经营。",
           "delay_ms": 0
         },
         {
@@ -119,8 +119,8 @@
           "speaker": "bun",
           "speaker_name": "Bun",
           "avatar": "/assets/bun_avatar.png",
-          "text_en": "Nice work, Amili! Your English is really helping Maple Town come alive!",
-          "text_cn": "干得好，Amili！你的英语真的让枫叶小镇变得更有活力了！",
+          "text_en": "Nice work, Mia! Your English is really helping Maple Town come alive!",
+          "text_cn": "干得好，Mia！你的英语真的让枫叶小镇变得更有活力了！",
           "delay_ms": 1500
         }
       ]
@@ -135,8 +135,8 @@
           "speaker": "bun",
           "speaker_name": "Bun",
           "avatar": "/assets/bun_avatar.png",
-          "text_en": "You did it, Amili! Your first coffee order was a success!",
-          "text_cn": "你做到了，Amili！你的第一次咖啡点单成功了！",
+          "text_en": "You did it, Mia! Your first coffee order was a success!",
+          "text_cn": "你做到了，Mia！你的第一次咖啡点单成功了！",
           "delay_ms": 0
         },
         {
@@ -185,8 +185,8 @@
           "speaker": "mei",
           "speaker_name": "Mei",
           "avatar": "/assets/mei_avatar.png",
-          "text_en": "That apron suits you! You're becoming a real barista, Amili!",
-          "text_cn": "那件围裙很适合你！你正在成为一个真正的咖啡师，Amili！",
+          "text_en": "That apron suits you! You're becoming a real barista, Mia!",
+          "text_cn": "那件围裙很适合你！你正在成为一个真正的咖啡师，Mia！",
           "delay_ms": 0
         }
       ]

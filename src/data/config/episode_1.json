@@ -1,406 +1,291 @@
 {
-  "title": "Episode 1: The Crash Landing（硬着陆）",
+  "title": "Episode 1: The Crash Landing",
+  "unit_title_en": "The Crash Landing",
+  "scene_image": "/assets/lesson-scenes/lesson_1_start.png",
   "steps": [
     {
       "type": "narrator",
       "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "搬进4B，走廊箱子摔了，Mrs. Henderson和Jake帮你搬东西。暖气不热，Jake帮修。",
-      "text_cn": "（搬进4B，走廊箱子摔了，Mrs. Henderson和Jake帮你搬东西。暖气不热，Jake帮修。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "You just arrived in America alone. Your partner is still overseas. You're moving into apartment 4B — and your boxes just crashed in the hallway.",
-      "text_cn": "（你独自来到美国。伴侣还在国内。你正搬进4B公寓——箱子在走廊摔了一地。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你拖着箱子走进走廊，箱子摔了。Mrs. Henderson打开门。",
-      "text_cn": "（你拖着箱子走进走廊，箱子摔了。Mrs. Henderson打开门。）"
+      "avatar": "/assets/npc.png",
+      "text": "You are new in America. You are moving into Apartment 4B. Oh no! Your big boxes just fell on the floor.",
+      "text_cn": "你刚来到美国，正在搬进4B公寓。糟了！你的大箱子全摔在地上了。"
     },
     {
       "type": "dialogue",
       "speaker": "Mrs. Henderson",
       "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Oh! Are you okay?",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/yousorrow.png",
-      "text": "Yes, I'm okay. Sorry... the noise...",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonsorrow.png",
-      "text": "Don't worry! Are you the new neighbor? 4B?",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "Yes. I'm moving in today.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Welcome! I'm Mrs. Henderson. 4A. Right next door.",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目1\n\"Moving in\" means:",
-      "options": [
-        {
-          "label": "A",
-          "text": "来到新家住",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "离开这里",
-          "is_correct": false
-        },
-        {
-          "label": "C",
-          "text": "在里面走动",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Jake从楼上跑下来。",
-      "text_cn": "（Jake从楼上跑下来。）"
+      "text": "Oh dear! Are you okay? I live right next door in 4A. Let me help you.",
+      "text_cn": "哎呀！你还好吗？我就住隔壁4A。我来帮你。"
     },
     {
       "type": "dialogue",
       "speaker": "Jake",
       "avatar": "/assets/jackhappy.png",
-      "text": "Hey! Do you need help?",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目2\nJake asks \"Do you need help?\" You want to say yes. What do you say?",
-      "options": [
-        {
-          "label": "A",
-          "text": "\"No, go away.\"",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "\"Yes, please!\"",
-          "is_correct": true
-        },
-        {
-          "label": "C",
-          "text": "\"I don't know you.\"",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Jake is right above you — in 5B. He talks fast, but he's friendly.",
-      "text_cn": "（Jake就住你正楼上——5B。他说话很快，但人很友好。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "三个人把箱子搬进4B。",
-      "text_cn": "（三个人把箱子搬进4B。）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "Yes, please!",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "I'm Jake. 5B. Upstairs.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "Nice to meet you.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonanger.png",
-      "text": "Here — cookies! I made them today. For you!",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目3\nMrs. Henderson gives you cookies as a welcome gift. What's the best response?",
-      "options": [
-        {
-          "label": "A",
-          "text": "\"No, no, I can't take this.\"",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "\"Thank you so much!\"",
-          "is_correct": true
-        },
-        {
-          "label": "C",
-          "text": "\"How much do I pay?\"",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "You take the cookies. They smell sweet and warm. Then, when you step inside your new apartment, you notice something else — it's cold.",
-      "text_cn": "（你接过饼干。它们闻起来又甜又暖。可当你走进新公寓时，又注意到另一件事——里面很冷。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你进了公寓，发现很冷。",
-      "text_cn": "（你进了公寓，发现很冷。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Jake弄好了。",
-      "text_cn": "（Jake弄好了。）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappiness.png",
-      "text": "Thank you so much!",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "Mrs. H makes the best cookies. You owe me dinner now. Just kidding!",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "It's cold in here...",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "Oh — the heater is off. Let me fix it.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "Done. It'll be warm soon.",
-      "text_cn": ""
+      "text": "Hi! Are you the new neighbor? I'm Jake in 5B, right above you. I can take the heavy boxes.",
+      "text_cn": "嗨！你是新邻居吗？我是楼上5B的Jake，就在你正上方。重箱子我来搬。"
     },
     {
       "type": "question",
       "format": "matching",
-      "instruction": "📍 题目4\nMatch the English words with their meanings:",
+      "question_id": "L01_Q01",
+      "source_type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "speech_text": "Match these words: next door, right above you, downstairs.",
+      "feedback": "Nice! You know where your neighbors live! / 很棒！你知道邻居们住哪儿了！",
+      "feedback_wrong": "Almost! 'Next door' means 隔壁, 'right above you' means 你正楼上, 'downstairs' means 楼下。",
+      "review_word": "next door",
       "pairs": [
         {
           "id": 1,
-          "word": "heater",
-          "image": "暖气"
+          "image": "next door",
+          "word": "就在隔壁"
         },
         {
           "id": 2,
-          "word": "cold",
-          "image": "冷的"
+          "image": "right above you",
+          "word": "你正楼上"
         },
         {
           "id": 3,
-          "word": "neighbor",
-          "image": "邻居"
-        },
-        {
-          "id": 4,
-          "word": "box",
-          "image": "箱子"
+          "image": "downstairs",
+          "word": "楼下"
         }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Mrs. Henderson准备走了。",
-      "text_cn": "（Mrs. Henderson准备走了。）"
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_1_start.png"
     },
     {
       "type": "dialogue",
       "speaker": "You",
       "avatar": "/assets/youhappy.png",
-      "text": "Thank you, Jake.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "No problem.",
-      "text_cn": ""
+      "text": "Thank you... both of you. Sorry, my English is not great.",
+      "text_cn": "谢谢你们两位。不好意思，我英语不太好。"
     },
     {
       "type": "dialogue",
       "speaker": "Mrs. Henderson",
       "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "If you need anything — knock on my door. 4A.",
-      "text_cn": ""
+      "text": "Oh honey, don't worry about that. Now — I baked scones this morning. You're taking some.",
+      "text_cn": "亲爱的，别担心这个。对了，我早上烤了司康，你一定要拿一些。",
+      "scene_image": "/assets/lesson-scenes/lesson_1_you_re_taking_some.png"
     },
     {
       "type": "dialogue",
       "speaker": "Jake",
       "avatar": "/assets/jackhappy.png",
-      "text": "Same. 5B.",
-      "text_cn": ""
+      "text": "Also — your heater's off.",
+      "text_cn": "还有，你的暖气没开。"
     },
     {
       "type": "question",
       "format": "multiple_choice",
-      "instruction": "📍 题目5\nYou want to ask: who was in this apartment before you?",
+      "question_id": "L01_Q02",
+      "source_type": "T1 听音选义",
+      "instruction": "\"Your heater's off.\" — What does Jake mean?",
+      "feedback": "Correct! The heater is off — no heat! / 对了！暖气关着——没有暖气！",
+      "feedback_wrong": "Almost! 'Heater's off' means the heating is not working. / 'Heater's off' 意思是暖气没开。",
+      "review_word": "Your heating is not working",
       "options": [
         {
           "label": "A",
-          "text": "Who lived here before me?",
+          "text": "Your heating is not working",
           "is_correct": true
         },
         {
           "label": "B",
-          "text": "after me",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "The hallway goes quiet. Your new apartment finally feels still. Later that night, you open a kitchen drawer and find a small note.",
-      "text_cn": "（走廊重新安静下来。你的新公寓终于平静了。那天晚上晚些时候，你打开厨房抽屉，发现了一张小纸条。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "两人安静了一秒。",
-      "text_cn": "（两人安静了一秒。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "他们离开。你打开厨房抽屉，看到一张便利贴：",
-      "text_cn": "（他们离开。你打开厨房抽屉，看到一张便利贴：）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你把它放回去了。",
-      "text_cn": "（你把它放回去了。）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "Who lived here before me?",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "Mrs. H's son. Ryan.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "That's a story for another day, dear.",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "题目6\nYou want to tell someone: I moved in last week.",
-      "options": [
-        {
-          "label": "A",
-          "text": "I moved in last week.",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "moved out",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "题目7\n\"Heater\" means:",
-      "options": [
-        {
-          "label": "A",
-          "text": "暖气",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "冰箱",
+          "text": "Your door is open",
           "is_correct": false
         },
         {
           "label": "C",
-          "text": "电灯",
+          "text": "Your light is on",
           "is_correct": false
         }
       ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Let me check... Ah, it's closed. The guy before you must've closed it when he left.",
+      "text_cn": "我看看……啊，是关着的。你之前住这里的人离开时肯定把它关了。",
+      "scene_image": "/assets/lesson-scenes/lesson_1_the_guy_before_you_must_ve_closed_it_when_he_left.png"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L01_Q03",
+      "source_type": "T2 对话补全",
+      "instruction": "Jake: \"The guy before you must've closed it when he left.\" 你接下来该问什么？",
+      "feedback": "Good question! You want to know about the last person here. / 好问题！你想知道之前住这里的人。",
+      "feedback_wrong": "Almost! Jake mentioned 'the guy before you' — you'd naturally ask 'Who lived here before?' / Jake提到了'之前的人'——你自然会问'之前谁住这里？'",
+      "review_word": "Who lived here before?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Who lived here before?",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Where is the kitchen?",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Can I open the window?",
+          "is_correct": false
+        }
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_1_the_guy_before_you_must_ve_closed_it_when_he_left.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Who lived here before?",
+      "text_cn": "之前谁住在这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Uh...",
+      "text_cn": "呃……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "My son used to live with me — right here in 4A. Then he wanted his own home. He moved into 4B to be near me.",
+      "text_cn": "我儿子以前跟我一起住，就在4A。后来他想有自己的家，就搬进4B，好离我近一点。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L01_Q04",
+      "source_type": "T1 听音选义",
+      "instruction": "\"My son used to live with me.\" — Why did Mrs. Henderson's son move into 4B before you?",
+      "feedback": "Right! Her son got a place of his own. / 对！她的儿子想要独立空间。",
+      "feedback_wrong": "Almost! She said 'my son' — her son lived in 4B for his own place. / 她说了'my son'——她的儿子住在4B因为想要独立空间。",
+      "review_word": "Her son wanted his own place.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Her son wanted his own place.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Her son didn't love Mrs. Henderson.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Mrs. Henderson's brother wanted to move into 4A.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Yeah. That was two years ago. One day he just left. We don't know where he went.",
+      "text_cn": "是啊。那是两年前的事了。有一天他突然走了。我们不知道他去了哪里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "That's a story for another day, dear. Do you have enough blankets?",
+      "text_cn": "亲爱的，那是以后再说的故事。你的毯子够吗？"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L01_Q05",
+      "source_type": "T4 紧急反应",
+      "instruction": "Mrs. Henderson is asking if you need blankets. Answer quickly!",
+      "feedback": "Quick and polite! 'I think so' is a great soft answer. / 又快又礼貌！'I think so' 是很好的委婉回答。",
+      "feedback_wrong": "Almost! She asked about blankets — 'I think so, thank you' fits best. / 她问的是毯子够不够——'I think so, thank you' 最合适。",
+      "review_word": "I think so, thank you",
+      "options": [
+        {
+          "label": "A",
+          "text": "I think so, thank you",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "I don't have a key",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "The door is closed",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "I think so... Mrs. Henderson, thank you. Really.",
+      "text_cn": "我想够了……Henderson太太，谢谢你。真的谢谢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "Call me Ruth, honey. You can knock on my door anytime. Good night.",
+      "text_cn": "叫我Ruth就好，亲爱的。你随时都可以来敲我的门。晚安。",
+      "scene_image": "/assets/lesson-scenes/lesson_1_good_night.png"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "That night, after Jake and Mrs. Henderson leave, you open your boxes. The apartment is clean, but you see things from the last person. A hook on the wall where a picture used to hang. A coffee ring on the kitchen counter. You open a drawer in the kitchen and see a small yellow paper:",
+      "text_cn": "那天晚上，Jake和Henderson太太离开后，你打开箱子。公寓很干净，但你看见了上一个住户留下的痕迹：墙上曾挂画的钩子，厨房台面上的咖啡杯印。你打开厨房抽屉，看见一张黄色小纸条："
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "You look at the paper for a long time. Then, you close the drawer.",
+      "text_cn": "你盯着那张纸看了很久。然后，你关上了抽屉。"
+    },
+    {
+      "type": "question",
+      "format": "sentence_build",
+      "question_id": "L01_Q06",
+      "source_type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "chunks": [
+        "Your",
+        "heater",
+        "is",
+        "off",
+        "door"
+      ],
+      "answer": "Your heater is off.",
+      "normalized_answer": "your heater is off",
+      "feedback": "Perfect! Now you can tell someone about the heating. / 完美！现在你可以告诉别人暖气的情况了。",
+      "feedback_wrong": "Almost! The correct sentence is 'Your heater is off.' / 正确句子是 'Your heater is off.'（你的暖气关着。）",
+      "review_word": "Your heater is off."
+    },
+    {
+      "type": "question",
+      "format": "speaking_practice",
+      "question_id": "L01_Q07",
+      "source_type": "T6 语音跟读",
+      "instruction": "请跟读：Who lived here before?",
+      "target_sentence": "Who lived here before?",
+      "answer": "Who lived here before?",
+      "feedback": "Great pronunciation! You sound natural. / 发音很棒！听起来很自然。",
+      "feedback_wrong": "Almost! Try again: WHO lived HERE before? Stress the bold words. / 再试一次：重读WHO和HERE。",
+      "review_word": "Who lived here before."
     }
   ]
 }

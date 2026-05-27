@@ -1,0 +1,269 @@
+{
+  "title": "Episode 6: Jake's Bad News",
+  "unit_title_en": "Jake's Bad News",
+  "scene_image": "/assets/lesson-scenes/lesson_6_start.png",
+  "steps": [
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "Jake lost his job two weeks ago. He told you over coffee — no big deal, he said, he'd figure it out. But today, he gets a bad letter from the building manager. The company is raising his rent.",
+      "text_cn": "Jake两周前失业了。他喝咖啡时告诉过你，说没什么大不了，他会想办法。但今天，他收到楼管寄来的坏消息：公司要给他涨房租。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L06_Q01",
+      "source_type": "T1 听音选义",
+      "instruction": "\"The company is raising his rent.\" — What is happening to Jake's apartment?",
+      "feedback": "Right! 'Raising rent' means the apartment costs more. / 对！'Raising rent' 意思是公寓要花更多钱了。",
+      "feedback_wrong": "Almost! 'Raising rent' means they want more money for the apartment. / 'Raising rent' 意思是他们要更多的公寓租金。",
+      "review_word": "It costs more money now",
+      "options": [
+        {
+          "label": "A",
+          "text": "It costs more money now",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "It needs new furniture",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "It has a new address",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "You can't ask for more money now!",
+      "text_cn": "你们不能现在要更多钱！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Dan",
+      "avatar": "/assets/npc1.png",
+      "text": "Yes, I can. You signed the paper. Look at the contract. Section 4.2.",
+      "text_cn": "可以。你签了文件。看合同，第4.2条。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L06_Q02",
+      "source_type": "T4 紧急反应",
+      "instruction": "Dan shows Jake a contract. Jake looks scared. You need to help — quick!",
+      "feedback": "Quick thinking! You stepped in to help your neighbor. / 反应快！你站出来帮邻居了。",
+      "feedback_wrong": "Almost! Jake needs help with the letter — 'Let me see the letter' is the right move. / Jake需要信件方面的帮助——'Let me see the letter' 是正确的做法。",
+      "review_word": "Let me see the letter.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Let me see the letter.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Let me close the window.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Let me tidy the room.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Let me see the letter.",
+      "text_cn": "让我看看那封信。",
+      "scene_image": "/assets/lesson-scenes/lesson_6_let_me_see_the_letter.png"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "You post the photo in the group chat: \"Has anyone seen this before?\" Kevin answers fast: \"Yeah. That's how they got Ryan out.\"",
+      "text_cn": "你把照片发到群聊里：\"有人以前见过这个吗？\" Kevin很快回复：\"见过。他们当年就是这样把Ryan赶走的。\""
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L06_Q03",
+      "source_type": "T7 文化认知",
+      "instruction": "Kevin says \"That's how they got Ryan out.\" Ryan is Mrs. Henderson's son. What does this mean?",
+      "feedback": "Yes! The same thing happened to Ryan before — they raised rent until he left. / 对！同样的事以前发生在Ryan身上——他们涨租直到他离开。",
+      "feedback_wrong": "Almost! 'Got Ryan out' means they forced him to leave his apartment by raising rent. / 'Got Ryan out' 意思是他们通过涨租逼Ryan离开了公寓。",
+      "review_word": "The company used the same way to make Ryan leave",
+      "options": [
+        {
+          "label": "A",
+          "text": "The company used the same way to make Ryan leave",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Ryan closed his door and went to sleep",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ryan added new furniture to his flat",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "Not this time. Not again.",
+      "text_cn": "这次不行。不能再这样了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Kevin",
+      "avatar": "/assets/Kevinhappy.png",
+      "text": "I know a good lawyer. He can help.",
+      "text_cn": "我认识一个好律师。他能帮忙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/lisahappy.png",
+      "text": "I will write a letter to the company.",
+      "text_cn": "我会给公司写一封信。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L06_Q04",
+      "source_type": "T2 对话补全",
+      "instruction": "Kevin found a lawyer. Lisa will write. Now it's your turn to help Jake. What do you say?",
+      "feedback": "Supportive and clear! You're helping Jake explain his problem. / 又支持又清晰！你在帮Jake理清问题。",
+      "feedback_wrong": "Almost! Jake needs to explain the situation — 'Tell me what happened' is how you help. / Jake需要解释情况——'Tell me what happened' 是你帮忙的方式。",
+      "review_word": "Tell me what happened, slowly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tell me what happened, slowly.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Bring me a blanket, slowly.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Open the door for me, slowly.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Jake — tell me what happened, slowly. I'll explain it to the lawyer.",
+      "text_cn": "Jake，慢慢告诉我发生了什么。我来解释给律师听。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Thank you. You're the only person I can hear right now.",
+      "text_cn": "谢谢你。现在我唯一听得进去的人就是你。"
+    },
+    {
+      "type": "question",
+      "format": "matching",
+      "question_id": "L06_Q05",
+      "source_type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "speech_text": "Match these words: person, people, neighbor.",
+      "feedback": "Great! 'Person' is one, 'people' is many. / 很好！'Person' 是一个人，'people' 是很多人。",
+      "feedback_wrong": "Almost! Person = 一个人, people = 很多人, neighbor = 邻居。",
+      "review_word": "person",
+      "pairs": [
+        {
+          "id": 1,
+          "image": "person",
+          "word": "人（一个）"
+        },
+        {
+          "id": 2,
+          "image": "people",
+          "word": "人们（多个）"
+        },
+        {
+          "id": 3,
+          "image": "neighbor",
+          "word": "邻居"
+        }
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_6_start.png"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "The lawyer helps Jake. Three days later, the company says: \"Okay, no more rent increase.\" Jake is happy. He sends a message to the group: \"4B just saved my apartment! 🎉\"",
+      "text_cn": "律师帮助了Jake。三天后，公司说：\"好，不涨租了。\" Jake很开心，在群里发消息：\"4B刚刚救了我的公寓！🎉\"",
+      "scene_image": "/assets/lesson-scenes/lesson_6_jake_is_happy.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Why didn't people help Ryan before?",
+      "text_cn": "以前为什么没有人帮Ryan？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Because back then, we didn't have you.",
+      "text_cn": "因为那时候，我们还没有你。"
+    },
+    {
+      "type": "question",
+      "format": "sentence_build",
+      "question_id": "L06_Q06",
+      "source_type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "chunks": [
+        "You're",
+        "the only",
+        "person",
+        "I can",
+        "hear",
+        "people"
+      ],
+      "answer": "You're the only person I can hear.",
+      "normalized_answer": "youre the only person i can hear",
+      "feedback": "Well done! 'Person' is for one — 'people' is for many. / 做得好！'Person' 指一个人——'people' 指很多人。",
+      "feedback_wrong": "Almost! 'The only person' = one person. Use 'person' here, not 'people'. / 'The only person' = 唯一一个人。这里用 'person'，不用 'people'。",
+      "review_word": "You're the only person I can hear."
+    },
+    {
+      "type": "question",
+      "format": "speaking_practice",
+      "question_id": "L06_Q07",
+      "source_type": "T6 语音跟读",
+      "instruction": "请跟读：Tell me what happened.（重音：Tell / happened；语速：慢速，语气关心、耐心）",
+      "target_sentence": "Tell me what happened.",
+      "answer": "Tell me what happened.",
+      "feedback": "Clear and caring! You sound like a trusted friend. / 清晰又关心！你听起来像一个值得信赖的朋友。",
+      "feedback_wrong": "Almost! Try again: TELL me what HAPPENED. Stress 'tell' and 'happened'. / 再试一次：重读TELL和HAPPENED。",
+      "review_word": "Tell me what happened."
+    }
+  ]
+}

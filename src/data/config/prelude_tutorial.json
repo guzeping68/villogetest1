@@ -1,0 +1,167 @@
+{
+  "audioRoot": "/audio/prelude",
+  "lines": {
+    "welcome": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "001_mia_welcome.mp3",
+      "textTemplate": "Welcome to LingoVille, {playerName}! Your new home is right there: Apartment 4B. Let's go check it out!"
+    },
+    "lost": {
+      "speaker": "Narrator",
+      "role": "narrator",
+      "audio": "002_narration_lost.mp3",
+      "text": "3 buildings?? Where's 4B?? Wait, there's a guard. Let's ask for help."
+    },
+    "guard_hi": {
+      "speaker": "Security Guard",
+      "role": "male",
+      "audio": "003_guard_hi.mp3",
+      "text": "Hi! How can I help you?"
+    },
+    "attention": {
+      "speaker": "Narrator",
+      "role": "narrator",
+      "audio": "004_narration_say_hi_back.mp3",
+      "text": "The guard greeted you. Say hi back before asking."
+    },
+    "q1_prompt": {
+      "speaker": "Question",
+      "role": "question",
+      "audio": "005_question_hi_back.mp3",
+      "text": "The guard greeted you. How do you say hi back? Complete the sentence: blank, I'm looking for Apartment 4B. A, Hi. B, Bye. C, Good night."
+    },
+    "q1_correct": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "006_mia_hi_correct.mp3",
+      "text": "Perfect! Hi, I'm looking for Apartment 4B. \"Hi\" is the most common everyday greeting. Hi means hi. Hello is a little more formal. Hey is very casual, usually with friends."
+    },
+    "guard_q1_correct": {
+      "speaker": "Security Guard",
+      "role": "male",
+      "audio": "007_guard_of_course.mp3",
+      "text": "Of course! What do you need?"
+    },
+    "q1_wrong_goodbye": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "008_mia_wrong_bye.mp3",
+      "text": "Wait, you just got here! \"Bye\" is for leaving. Try \"Hi\" to say hello."
+    },
+    "q1_wrong_goodnight": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "009_mia_wrong_goodnight.mp3",
+      "text": "It's not bedtime yet! \"Good night\" is for nighttime goodbyes. Use \"Hi\" here."
+    },
+    "guard_wait": {
+      "speaker": "Security Guard",
+      "role": "male",
+      "audio": "010_guard_take_time.mp3",
+      "text": "Take your time. What are you looking for?"
+    },
+    "where_intro": {
+      "speaker": "Narrator",
+      "role": "narrator",
+      "audio": "011_narration_where.mp3",
+      "text": "Now ask him where 4B is."
+    },
+    "q2_prompt": {
+      "speaker": "Question",
+      "role": "question",
+      "audio": "012_question_where_is.mp3",
+      "text": "You want to ask where Apartment 4B is. Complete the sentence: blank Apartment 4B. A, Where is. B, What is. C, How is."
+    },
+    "q2_correct": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "013_mia_where_correct.mp3",
+      "text": "Perfect! Where is Apartment 4B? \"Where is\" plus a place asks about location. \"Where is Apartment 4B?\" means, 4B gongyu zai nali?"
+    },
+    "guard_q2_correct": {
+      "speaker": "Security Guard",
+      "role": "male",
+      "audio": "014_guard_apartment.mp3",
+      "text": "Apartment 4B? Sure! Let me show you..."
+    },
+    "guard_route": {
+      "speaker": "Security Guard",
+      "role": "male",
+      "audio": "017_guard_route.mp3",
+      "text": "Go straight, then turn right. 4B is on your right!"
+    },
+    "route_check": {
+      "speaker": "Narrator",
+      "role": "narrator",
+      "audio": "018_narration_route_check.mp3",
+      "text": "Listen carefully. Let's check."
+    },
+    "guard_turn_left": {
+      "speaker": "Security Guard",
+      "role": "male",
+      "audio": "019_guard_turn_left.mp3",
+      "text": "Turn right at the end of the hallway."
+    },
+    "turn_left_prompt": {
+      "speaker": "Narrator",
+      "role": "question",
+      "audio": "020_question_turn_left.mp3",
+      "text": "Listen carefully. Where should you turn?"
+    },
+    "q3_correct": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "021_mia_turn_left_correct.mp3",
+      "text": "Perfect! \"Turn right\" means xiang you zhuan. Turn left, turn right, and go straight are the direction words you need."
+    },
+    "guard_hallway": {
+      "speaker": "Security Guard",
+      "role": "male",
+      "audio": "022_guard_hallway.mp3",
+      "text": "It's just down the hallway. You can't miss it!"
+    },
+    "thank_prompt": {
+      "speaker": "Narrator",
+      "role": "narrator",
+      "audio": "023_narration_thank_prompt.mp3",
+      "text": "He was so helpful. You should thank him."
+    },
+    "q4_prompt": {
+      "speaker": "Question",
+      "role": "question",
+      "audio": "024_question_thank_you.mp3",
+      "text": "The guard helped you find Apartment 4B. What's the best way to thank him?"
+    },
+    "q4_correct": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "025_mia_thanks_correct.mp3",
+      "text": "Perfect! Thank you so much means fei chang gan xie. Use so much when someone really helped you."
+    },
+    "guard_welcome": {
+      "speaker": "Security Guard",
+      "role": "male",
+      "audio": "026_guard_welcome.mp3",
+      "text": "You're welcome, dear! Welcome to LingoVille!"
+    },
+    "almost_home": {
+      "speaker": "Narrator",
+      "role": "narrator",
+      "audio": "027_narration_almost_home.mp3",
+      "text": "Almost there! 4B, your new home is right around the corner."
+    },
+    "q2_wrong_what": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "015_mia_wrong_what.mp3",
+      "text": "Close one! \"Where is\" is for places. \"What is\" is for things. I've saved this in your Mistake Book."
+    },
+    "q2_wrong_how": {
+      "speaker": "Mia",
+      "role": "female",
+      "audio": "016_mia_wrong_how.mp3",
+      "text": "Almost! \"How is\" asks how something feels. For places, use \"Where is\". Saved to your Mistake Book."
+    }
+  }
+}

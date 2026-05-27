@@ -2,8 +2,8 @@
   "_description": "资源模块 - Maple Town 游戏中用到的图片、音频等资源路径映射",
   "characters": {
     "amili": {
-      "name": "Amili",
-      "name_cn": "Amili",
+      "name": "Mia",
+      "name_cn": "Mia",
       "avatar": "/assets/xiaotuzijiemian.png",
       "full_body": "/assets/xiaotuzijiemian.png",
       "description": "A Chinese food/lifestyle blogger trying to make a comeback by exploring Maple Town."
@@ -13,7 +13,7 @@
       "name_cn": "Bun",
       "avatar": "/assets/laonainaitouxiang.png",
       "full_body": "/assets/laonainai_full.png",
-      "description": "A friendly rabbit guide who helps Amili navigate Maple Town and learn English."
+      "description": "A friendly rabbit guide who helps Mia navigate Maple Town and learn English."
     },
     "mei": {
       "name": "Mei",
@@ -74,9 +74,9 @@
   },
   "audio": {
     "bgm": {
-      "town": "/audio/town_bgm.mp3",
-      "cafe": "/audio/cafe_bgm.mp3",
-      "supermarket": "/audio/supermarket_bgm.mp3"
+      "town": "/audio/town_bgm.wav",
+      "cafe": "/audio/cafe_bgm.wav",
+      "supermarket": "/audio/supermarket_bgm.wav"
     }
   }
 }

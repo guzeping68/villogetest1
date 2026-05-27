@@ -1,0 +1,260 @@
+{
+  "title": "Episode 8: The Potluck",
+  "unit_title_en": "The Potluck",
+  "scene_image": "/assets/lesson-scenes/lesson_8_start.png",
+  "steps": [
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "Lisa suggests a potluck to celebrate. The courtyard fills up — eighteen people. Two months ago, it was five.",
+      "text_cn": "Lisa提议办一场百家饭来庆祝。院子里热闹起来，有十八个人。两个月前，只有五个人。"
+    },
+    {
+      "type": "question",
+      "format": "matching",
+      "question_id": "L08_Q01",
+      "source_type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "speech_text": "Match these words: light, garden, gate, table.",
+      "feedback": "Nice! You can describe an outdoor party scene. / 很好！你能描述户外聚会的场景了。",
+      "feedback_wrong": "Almost! Light = 灯, garden = 花园/院子, gate = 大门, table = 桌子。",
+      "review_word": "light",
+      "pairs": [
+        {
+          "id": 1,
+          "image": "light",
+          "word": "灯"
+        },
+        {
+          "id": 2,
+          "image": "garden",
+          "word": "花园/院子"
+        },
+        {
+          "id": 3,
+          "image": "gate",
+          "word": "大门"
+        },
+        {
+          "id": 4,
+          "image": "table",
+          "word": "桌子"
+        }
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_8_start.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Everyone — try 4B's dish. NOW.",
+      "text_cn": "大家都来尝尝4B做的菜。现在就尝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Kevin",
+      "avatar": "/assets/Kevinhappy.png",
+      "text": "Unreal.",
+      "text_cn": "太厉害了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "Different food. Same warmth. Ryan will be here next month. I want him to meet all of you — especially you.",
+      "text_cn": "不同的食物，一样的温暖。Ryan下个月会来。我想让他见见你们所有人，尤其是你。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L08_Q02",
+      "source_type": "T1 听音选义",
+      "instruction": "\"I want him to meet all of you.\" — What does Mrs. Henderson want?",
+      "feedback": "Right! She wants her son to meet all the people here. / 对！她想让儿子认识这里所有的人。",
+      "feedback_wrong": "Almost! 'Meet all of you' = she wants Ryan to know all the neighbors. / 'Meet all of you' = 她想让Ryan认识所有邻居。",
+      "review_word": "Ryan to meet all the neighbors",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ryan to meet all the neighbors",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Ryan to clean the apartment",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ryan to carry the furniture",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L08_Q03",
+      "source_type": "T1 听音选义",
+      "instruction": "\"Only five of you left under the lights.\" — Where are the five people?",
+      "feedback": "Yes! They're still outside under the string lights. / 对！他们还在外面的彩灯下。",
+      "feedback_wrong": "Almost! 'Under the lights' = outside in the garden where the lights hang. / 'Under the lights' = 在外面彩灯挂着的花园里。",
+      "review_word": "Outside under the lights",
+      "options": [
+        {
+          "label": "A",
+          "text": "Outside under the lights",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Upstairs in the bedroom",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Downstairs in the kitchen",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "At the interview they asked how I overcame a challenge. I told them my neighbor who barely spoke English saved my apartment and made me coffee on my worst day.",
+      "text_cn": "面试时他们问我怎么克服困难。我告诉他们，我那个英语还不太流利的邻居，在我最糟糕的一天救了我的公寓，还给我煮了咖啡。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L08_Q04",
+      "source_type": "T2 对话补全",
+      "instruction": "Jake just told everyone how you helped him. Everyone looks at you. What do you say?",
+      "feedback": "Humble and warm! That's what neighbors do. / 谦虚又温暖！这就是邻居该做的。",
+      "feedback_wrong": "Almost! Jake thanked you — 'We're neighbors. That's what we do.' is the heartfelt reply. / Jake在感谢你——'We're neighbors. That's what we do.' 是最真诚的回应。",
+      "review_word": "We're neighbors. That's what we do.",
+      "options": [
+        {
+          "label": "A",
+          "text": "We're neighbors. That's what we do.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "I want to go upstairs now.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "I need to wash the table.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "Everyone is quiet for a moment. The lights sway in the wind. Lisa looks at you.",
+      "text_cn": "大家安静了一会儿。灯在风里轻轻摇晃。Lisa看向你。",
+      "scene_image": "/assets/lesson-scenes/lesson_8_everyone_is_quiet_for_a_moment.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/lisahappy.png",
+      "text": "This place feels like home now. Because of you.",
+      "text_cn": "这里现在像家了。因为你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Kevin",
+      "avatar": "/assets/Kevinhappy.png",
+      "text": "She's right. You made this building a home.",
+      "text_cn": "她说得对。是你让这栋楼变成了家。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L08_Q05",
+      "source_type": "T7 文化认知",
+      "instruction": "Lisa says \"This place feels like home now.\" What makes a place feel like home in this story?",
+      "feedback": "Yes! A home isn't just a place — it's the people in it. / 对！家不只是一个地方——是里面的人。",
+      "feedback_wrong": "Almost! In this story, 'home' means feeling safe and cared for by neighbors — not about things. / 在这个故事里，'home' 意味着被邻居关心和安全感——不是关于东西。",
+      "review_word": "Having good neighbors who care",
+      "options": [
+        {
+          "label": "A",
+          "text": "Having good neighbors who care",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Having expensive furniture inside",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Having a big garden outside",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "One by one, people stand up. Jake carries the chairs inside. Kevin washes the table. Lisa covers the leftover food.",
+      "text_cn": "大家一个接一个站起来。Jake把椅子搬进屋，Kevin擦桌子，Lisa把剩下的食物盖好。",
+      "scene_image": "/assets/lesson-scenes/lesson_8_people_stand_up.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "Good night, dear. This is your home now. You know that, right?",
+      "text_cn": "晚安，亲爱的。这里现在就是你的家了。你知道的，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "I know.",
+      "text_cn": "我知道。"
+    },
+    {
+      "type": "question",
+      "format": "sentence_build",
+      "question_id": "L08_Q06",
+      "source_type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "chunks": [
+        "Lights",
+        "hang",
+        "from",
+        "the",
+        "garden gate",
+        "kitchen door"
+      ],
+      "answer": "Lights hang from the garden gate.",
+      "normalized_answer": "lights hang from the garden gate",
+      "feedback": "Perfect! You can describe the party scene. / 完美！你能描述聚会场景了。",
+      "feedback_wrong": "Almost! 'Lights hang from the garden gate.' The lights are outside, not in the kitchen. / 正确是 'Lights hang from the garden gate.'（彩灯挂在花园大门上。）灯在外面，不在厨房。",
+      "review_word": "Lights hang from the garden gate."
+    },
+    {
+      "type": "question",
+      "format": "speaking_practice",
+      "question_id": "L08_Q07",
+      "source_type": "T6 语音跟读",
+      "instruction": "请跟读：We're neighbors. That's what we do.（重音：neighbors / do；语速：中速，语气温暖、自豪）",
+      "target_sentence": "We're neighbors. That's what we do.",
+      "answer": "We're neighbors. That's what we do.",
+      "feedback": "Warm and proud! You sound like part of the community. / 温暖又自豪！你听起来像社区的一份子。",
+      "feedback_wrong": "Almost! Try again: We're NEIGHBORS. That's what we DO. Stress 'neighbors' and 'do'. / 再试一次：重读NEIGHBORS和DO。",
+      "review_word": "We're neighbors. That's what we do."
+    }
+  ]
+}

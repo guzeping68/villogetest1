@@ -1,0 +1,21 @@
+{
+  "description": "Edge TTS voice mapping for generated course audio. Speaker names in course JSON should match these keys when possible.",
+  "edge_rate": "-30%",
+  "default_voice": "en-US-AriaNeural",
+  "voices": {
+    "narration": "en-US-AriaNeural",
+    "旁白": "en-US-AriaNeural",
+    "question": "en-US-AriaNeural",
+    "Mia": "en-US-JennyNeural",
+    "Security Guard": "en-US-BrianNeural",
+    "You": "en-US-JennyNeural",
+    "Mrs. Henderson": "en-GB-SoniaNeural",
+    "Jake": "en-US-AndrewNeural",
+    "Jack": "en-US-AndrewNeural",
+    "Lisa": "en-AU-NatashaNeural",
+    "Kevin": "en-US-BrianNeural",
+    "Dan": "en-US-ChristopherNeural",
+    "Ryan": "en-GB-RyanNeural",
+    "note": "en-GB-RyanNeural"
+  }
+}

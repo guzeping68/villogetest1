@@ -1,0 +1,1257 @@
+{
+  "source": "/Users/guzeping/Desktop/建筑和装饰资源",
+  "canvas": {
+    "width": 2048,
+    "height": 2048
+  },
+  "buildings": [
+    {
+      "id": 1,
+      "name": "家",
+      "slug": "home",
+      "src": "/assets/town-editor/buildings/01_home.png",
+      "decorations": [
+        {
+          "id": "01_home_decor_01",
+          "src": "/assets/town-editor/decorations/01_home/01_home_decor_01.png",
+          "x": 14.2,
+          "y": 36.8,
+          "width": 24.3,
+          "height": 24.797,
+          "pixelBox": [
+            282,
+            945,
+            538,
+            549
+          ],
+          "area": 150529,
+          "order": 1
+        },
+        {
+          "id": "01_home_decor_02",
+          "src": "/assets/town-editor/decorations/01_home/01_home_decor_02.png",
+          "x": 30.5,
+          "y": 50.8,
+          "width": 15.5,
+          "height": 16.579,
+          "pixelBox": [
+            544,
+            1307,
+            359,
+            384
+          ],
+          "area": 73351,
+          "order": 2
+        },
+        {
+          "id": "01_home_decor_03",
+          "src": "/assets/town-editor/decorations/01_home/01_home_decor_03.png",
+          "x": 48.7,
+          "y": 40,
+          "width": 35.7,
+          "height": 29.113,
+          "pixelBox": [
+            979,
+            992,
+            813,
+            663
+          ],
+          "area": 252206,
+          "order": 3
+        },
+        {
+          "id": "01_home_decor_04",
+          "src": "/assets/town-editor/decorations/01_home/01_home_decor_04.png",
+          "x": 6.5,
+          "y": 28.4,
+          "width": 19.8,
+          "height": 24.401,
+          "pixelBox": [
+            97,
+            612,
+            426,
+            525
+          ],
+          "area": 116063,
+          "order": 4
+        },
+        {
+          "id": "01_home_decor_05",
+          "src": "/assets/town-editor/decorations/01_home/01_home_decor_05.png",
+          "x": 39.9,
+          "y": 27.3,
+          "width": 16.5,
+          "height": 16.849,
+          "pixelBox": [
+            771,
+            486,
+            378,
+            386
+          ],
+          "area": 78514,
+          "order": 5
+        },
+        {
+          "id": "01_home_decor_06",
+          "src": "/assets/town-editor/decorations/01_home/01_home_decor_06.png",
+          "x": 32,
+          "y": 8.5,
+          "width": 25.439,
+          "height": 26.562,
+          "pixelBox": [
+            521,
+            105,
+            521,
+            544
+          ],
+          "area": 155948,
+          "order": 6
+        },
+        {
+          "id": "01_home_decor_08",
+          "src": "/assets/town-editor/decorations/01_home/01_home_decor_08.png",
+          "x": 66.3,
+          "y": 24.9,
+          "width": 8.984,
+          "height": 12.353,
+          "pixelBox": [
+            1501,
+            527,
+            184,
+            253
+          ],
+          "area": 20283,
+          "order": 8
+        },
+        {
+          "id": "01_home_decor_010",
+          "src": "/assets/town-editor/decorations/01_home/01_home_decor_010.png",
+          "x": 85.2,
+          "y": 32.3,
+          "width": 13.867,
+          "height": 22.509,
+          "pixelBox": [
+            1657,
+            932,
+            284,
+            461
+          ],
+          "area": 84464,
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "美食街",
+      "slug": "food_street",
+      "src": "/assets/town-editor/buildings/02_food_street.png",
+      "decorations": [
+        {
+          "id": "02_food_street_decor_01",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_01.png",
+          "x": 22.2,
+          "y": -3,
+          "width": 22.217,
+          "height": 27.832,
+          "pixelBox": [
+            0,
+            174,
+            455,
+            570
+          ],
+          "area": 2070,
+          "order": 1
+        },
+        {
+          "id": "02_food_street_decor_02",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_02.png",
+          "x": 41,
+          "y": 9.6,
+          "width": 54.395,
+          "height": 54.053,
+          "pixelBox": [
+            750,
+            218,
+            1114,
+            1107
+          ],
+          "area": 384647,
+          "order": 2
+        },
+        {
+          "id": "02_food_street_decor_03",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_03.png",
+          "x": 32.5,
+          "y": 23,
+          "width": 14.844,
+          "height": 15.918,
+          "pixelBox": [
+            694,
+            617,
+            304,
+            326
+          ],
+          "area": 57102,
+          "order": 3
+        },
+        {
+          "id": "02_food_street_decor_04",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_04.png",
+          "x": 8.398,
+          "y": 34.912,
+          "width": 9.863,
+          "height": 11.132,
+          "pixelBox": [
+            172,
+            715,
+            202,
+            228
+          ],
+          "area": 19333,
+          "order": 4
+        },
+        {
+          "id": "02_food_street_decor_05",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_05.png",
+          "x": 88.3,
+          "y": 33.9,
+          "width": 10.938,
+          "height": 11.67,
+          "pixelBox": [
+            1739,
+            719,
+            224,
+            239
+          ],
+          "area": 21169,
+          "order": 5
+        },
+        {
+          "id": "02_food_street_decor_06",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_06.png",
+          "x": 11.719,
+          "y": 45.312,
+          "width": 15.967,
+          "height": 16.699,
+          "pixelBox": [
+            240,
+            928,
+            327,
+            342
+          ],
+          "area": 63567,
+          "order": 6
+        },
+        {
+          "id": "02_food_street_decor_07",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_07.png",
+          "x": 59.668,
+          "y": 58.154,
+          "width": 15.625,
+          "height": 16.553,
+          "pixelBox": [
+            1222,
+            1191,
+            320,
+            339
+          ],
+          "area": 63886,
+          "order": 7
+        },
+        {
+          "id": "02_food_street_decor_08",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_08.png",
+          "x": 36.8,
+          "y": 57.9,
+          "width": 16.602,
+          "height": 17.188,
+          "pixelBox": [
+            588,
+            1209,
+            340,
+            352
+          ],
+          "area": 67443,
+          "order": 8
+        },
+        {
+          "id": "02_food_street_decor_09",
+          "src": "/assets/town-editor/decorations/02_food_street/02_food_street_decor_09.png",
+          "x": 13.232,
+          "y": 71.68,
+          "width": 7.227,
+          "height": 10.792,
+          "pixelBox": [
+            271,
+            1468,
+            148,
+            221
+          ],
+          "area": 16200,
+          "order": 9
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "购物中心",
+      "slug": "shopping_center",
+      "src": "/assets/town-editor/buildings/03_shopping_center.png",
+      "decorations": [
+        {
+          "id": "03_shopping_center_decor_01",
+          "src": "/assets/town-editor/decorations/03_shopping_center/03_shopping_center_decor_01.png",
+          "x": 31.641,
+          "y": 6.689,
+          "width": 20.117,
+          "height": 23.388,
+          "pixelBox": [
+            648,
+            137,
+            412,
+            479
+          ],
+          "area": 97360,
+          "order": 1
+        },
+        {
+          "id": "03_shopping_center_decor_02",
+          "src": "/assets/town-editor/decorations/03_shopping_center/03_shopping_center_decor_02.png",
+          "x": 56.348,
+          "y": 15.625,
+          "width": 20.02,
+          "height": 23.878,
+          "pixelBox": [
+            1154,
+            320,
+            410,
+            489
+          ],
+          "area": 89361,
+          "order": 2
+        },
+        {
+          "id": "03_shopping_center_decor_03",
+          "src": "/assets/town-editor/decorations/03_shopping_center/03_shopping_center_decor_03.png",
+          "x": 9.326,
+          "y": 25.244,
+          "width": 21.68,
+          "height": 25.733,
+          "pixelBox": [
+            191,
+            517,
+            444,
+            527
+          ],
+          "area": 127949,
+          "order": 3
+        },
+        {
+          "id": "03_shopping_center_decor_04",
+          "src": "/assets/town-editor/decorations/03_shopping_center/03_shopping_center_decor_04.png",
+          "x": 77.344,
+          "y": 27.686,
+          "width": 16.26,
+          "height": 22.657,
+          "pixelBox": [
+            1584,
+            567,
+            333,
+            464
+          ],
+          "area": 95141,
+          "order": 4
+        },
+        {
+          "id": "03_shopping_center_decor_05",
+          "src": "/assets/town-editor/decorations/03_shopping_center/03_shopping_center_decor_05.png",
+          "x": 24.756,
+          "y": 33.887,
+          "width": 25,
+          "height": 26.416,
+          "pixelBox": [
+            507,
+            694,
+            512,
+            541
+          ],
+          "area": 129043,
+          "order": 5
+        },
+        {
+          "id": "03_shopping_center_decor_06",
+          "src": "/assets/town-editor/decorations/03_shopping_center/03_shopping_center_decor_06.png",
+          "x": 53.613,
+          "y": 39.697,
+          "width": 25.342,
+          "height": 29.688,
+          "pixelBox": [
+            1098,
+            813,
+            519,
+            608
+          ],
+          "area": 161420,
+          "order": 6
+        },
+        {
+          "id": "03_shopping_center_decor_07",
+          "src": "/assets/town-editor/decorations/03_shopping_center/03_shopping_center_decor_07.png",
+          "x": 36.963,
+          "y": 57.275,
+          "width": 23.73,
+          "height": 28.613,
+          "pixelBox": [
+            757,
+            1173,
+            486,
+            586
+          ],
+          "area": 161685,
+          "order": 7
+        },
+        {
+          "id": "03_shopping_center_decor_08",
+          "src": "/assets/town-editor/decorations/03_shopping_center/03_shopping_center_decor_08.png",
+          "x": 61.865,
+          "y": 68.311,
+          "width": 22.266,
+          "height": 22.998,
+          "pixelBox": [
+            1267,
+            1399,
+            456,
+            471
+          ],
+          "area": 94819,
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "交通枢纽",
+      "slug": "transit_hub",
+      "src": "/assets/town-editor/buildings/04_transit_hub.png",
+      "decorations": [
+        {
+          "id": "04_transit_hub_decor_01",
+          "src": "/assets/town-editor/decorations/04_transit_hub/04_transit_hub_decor_01.png",
+          "x": 48.2,
+          "y": 9.2,
+          "width": 22.803,
+          "height": 26.416,
+          "pixelBox": [
+            1022,
+            188,
+            467,
+            541
+          ],
+          "area": 126764,
+          "order": 1
+        },
+        {
+          "id": "04_transit_hub_decor_02",
+          "src": "/assets/town-editor/decorations/04_transit_hub/04_transit_hub_decor_02.png",
+          "x": 10,
+          "y": 11.3,
+          "width": 25.049,
+          "height": 35.547,
+          "pixelBox": [
+            127,
+            347,
+            513,
+            728
+          ],
+          "area": 149485,
+          "order": 2
+        },
+        {
+          "id": "04_transit_hub_decor_03",
+          "src": "/assets/town-editor/decorations/04_transit_hub/04_transit_hub_decor_03.png",
+          "x": 71.24,
+          "y": 27.539,
+          "width": 9.473,
+          "height": 13.721,
+          "pixelBox": [
+            1459,
+            564,
+            194,
+            281
+          ],
+          "area": 28647,
+          "order": 3
+        },
+        {
+          "id": "04_transit_hub_decor_04",
+          "src": "/assets/town-editor/decorations/04_transit_hub/04_transit_hub_decor_04.png",
+          "x": 39.2,
+          "y": 25,
+          "width": 18.555,
+          "height": 18.75,
+          "pixelBox": [
+            719,
+            667,
+            380,
+            384
+          ],
+          "area": 66782,
+          "order": 4
+        },
+        {
+          "id": "04_transit_hub_decor_05",
+          "src": "/assets/town-editor/decorations/04_transit_hub/04_transit_hub_decor_05.png",
+          "x": 84.229,
+          "y": 37.305,
+          "width": 12.549,
+          "height": 20.215,
+          "pixelBox": [
+            1725,
+            764,
+            257,
+            414
+          ],
+          "area": 67620,
+          "order": 5
+        },
+        {
+          "id": "04_transit_hub_decor_06",
+          "src": "/assets/town-editor/decorations/04_transit_hub/04_transit_hub_decor_06.png",
+          "x": 25.293,
+          "y": 54.297,
+          "width": 17.529,
+          "height": 19.629,
+          "pixelBox": [
+            518,
+            1112,
+            359,
+            402
+          ],
+          "area": 66737,
+          "order": 6
+        },
+        {
+          "id": "04_transit_hub_decor_07",
+          "src": "/assets/town-editor/decorations/04_transit_hub/04_transit_hub_decor_07.png",
+          "x": 60.693,
+          "y": 55.469,
+          "width": 19.531,
+          "height": 19.922,
+          "pixelBox": [
+            1243,
+            1136,
+            400,
+            408
+          ],
+          "area": 67820,
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "健康中心",
+      "slug": "health_center",
+      "src": "/assets/town-editor/buildings/05_health_center.png",
+      "decorations": [
+        {
+          "id": "05_health_center_decor_01",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_01.png",
+          "x": 44.58,
+          "y": 5.42,
+          "width": 15.283,
+          "height": 23.144,
+          "pixelBox": [
+            913,
+            111,
+            313,
+            474
+          ],
+          "area": 63535,
+          "order": 1
+        },
+        {
+          "id": "05_health_center_decor_02",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_02.png",
+          "x": 26.025,
+          "y": 8.398,
+          "width": 12.061,
+          "height": 7.813,
+          "pixelBox": [
+            533,
+            172,
+            247,
+            160
+          ],
+          "area": 14054,
+          "order": 2
+        },
+        {
+          "id": "05_health_center_decor_03",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_03.png",
+          "x": 15.6,
+          "y": 20.4,
+          "width": 25.586,
+          "height": 29.688,
+          "pixelBox": [
+            281,
+            220,
+            524,
+            608
+          ],
+          "area": 140412,
+          "order": 3
+        },
+        {
+          "id": "05_health_center_decor_04",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_04.png",
+          "x": 79.102,
+          "y": 11.816,
+          "width": 7.422,
+          "height": 10.352,
+          "pixelBox": [
+            1620,
+            242,
+            152,
+            212
+          ],
+          "area": 15262,
+          "order": 4
+        },
+        {
+          "id": "05_health_center_decor_05",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_05.png",
+          "x": 47.8,
+          "y": 15.2,
+          "width": 23.193,
+          "height": 22.558,
+          "pixelBox": [
+            1037,
+            289,
+            475,
+            462
+          ],
+          "area": 93744,
+          "order": 5
+        },
+        {
+          "id": "05_health_center_decor_06",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_06.png",
+          "x": 70.5,
+          "y": 26,
+          "width": 11.426,
+          "height": 14.258,
+          "pixelBox": [
+            1540,
+            460,
+            234,
+            292
+          ],
+          "area": 37961,
+          "order": 6
+        },
+        {
+          "id": "05_health_center_decor_07",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_07.png",
+          "x": 84,
+          "y": 30,
+          "width": 10.596,
+          "height": 18.262,
+          "pixelBox": [
+            1786,
+            555,
+            217,
+            374
+          ],
+          "area": 30500,
+          "order": 7
+        },
+        {
+          "id": "05_health_center_decor_08",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_08.png",
+          "x": 40.1,
+          "y": 35.1,
+          "width": 28.271,
+          "height": 24.267,
+          "pixelBox": [
+            1223,
+            821,
+            579,
+            497
+          ],
+          "area": 118812,
+          "order": 8
+        },
+        {
+          "id": "05_health_center_decor_09",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_09.png",
+          "x": 2.734,
+          "y": 42.041,
+          "width": 18.799,
+          "height": 21.533,
+          "pixelBox": [
+            56,
+            861,
+            385,
+            441
+          ],
+          "area": 84933,
+          "order": 9
+        },
+        {
+          "id": "05_health_center_decor_10",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_10.png",
+          "x": 30.6,
+          "y": 52.4,
+          "width": 35.742,
+          "height": 25.879,
+          "pixelBox": [
+            875,
+            1241,
+            732,
+            530
+          ],
+          "area": 154959,
+          "order": 10
+        },
+        {
+          "id": "05_health_center_decor_11",
+          "src": "/assets/town-editor/decorations/05_health_center/05_health_center_decor_11.png",
+          "x": 51.465,
+          "y": 78.564,
+          "width": 10.352,
+          "height": 13.428,
+          "pixelBox": [
+            1054,
+            1609,
+            212,
+            275
+          ],
+          "area": 27681,
+          "order": 11
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "学院",
+      "slug": "academy",
+      "src": "/assets/town-editor/buildings/06_academy.png",
+      "decorations": [
+        {
+          "id": "06_academy_decor_01",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_01.png",
+          "x": 23,
+          "y": -2.6,
+          "width": 21.436,
+          "height": 64.113,
+          "pixelBox": [
+            335,
+            0,
+            439,
+            1313
+          ],
+          "area": 149149,
+          "order": 1
+        },
+        {
+          "id": "06_academy_decor_02",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_02.png",
+          "x": 60.059,
+          "y": 0,
+          "width": 22.461,
+          "height": 33.838,
+          "pixelBox": [
+            1230,
+            0,
+            460,
+            693
+          ],
+          "area": 132202,
+          "order": 2
+        },
+        {
+          "id": "06_academy_decor_03",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_03.png",
+          "x": 70.2,
+          "y": -3,
+          "width": 23.389,
+          "height": 100.001,
+          "pixelBox": [
+            1550,
+            0,
+            479,
+            2048
+          ],
+          "area": 51475,
+          "order": 3
+        },
+        {
+          "id": "06_academy_decor_04",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_04.png",
+          "x": 45.7,
+          "y": 24.6,
+          "width": 14.746,
+          "height": 20.41,
+          "pixelBox": [
+            982,
+            507,
+            302,
+            418
+          ],
+          "area": 43795,
+          "order": 4
+        },
+        {
+          "id": "06_academy_decor_05",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_05.png",
+          "x": 62.158,
+          "y": 35.889,
+          "width": 14.307,
+          "height": 16.651,
+          "pixelBox": [
+            1273,
+            735,
+            293,
+            341
+          ],
+          "area": 43724,
+          "order": 5
+        },
+        {
+          "id": "06_academy_decor_06",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_06.png",
+          "x": 35.5,
+          "y": 39,
+          "width": 14.209,
+          "height": 14.404,
+          "pixelBox": [
+            718,
+            815,
+            291,
+            295
+          ],
+          "area": 43273,
+          "order": 6
+        },
+        {
+          "id": "06_academy_decor_07",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_07.png",
+          "x": 37.549,
+          "y": 44.238,
+          "width": 28.369,
+          "height": 40.332,
+          "pixelBox": [
+            769,
+            906,
+            581,
+            826
+          ],
+          "area": 131196,
+          "order": 7
+        },
+        {
+          "id": "06_academy_decor_08",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_08.png",
+          "x": 24.1,
+          "y": 39.8,
+          "width": 21.387,
+          "height": 26.026,
+          "pixelBox": [
+            101,
+            1010,
+            438,
+            533
+          ],
+          "area": 45121,
+          "order": 8
+        },
+        {
+          "id": "06_academy_decor_09",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_09.png",
+          "x": 64.062,
+          "y": 54.541,
+          "width": 16.211,
+          "height": 25,
+          "pixelBox": [
+            1312,
+            1117,
+            332,
+            512
+          ],
+          "area": 43957,
+          "order": 9
+        },
+        {
+          "id": "06_academy_decor_10",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_10.png",
+          "x": 25.586,
+          "y": 63.281,
+          "width": 13.574,
+          "height": 36.718,
+          "pixelBox": [
+            524,
+            1296,
+            278,
+            752
+          ],
+          "area": 43812,
+          "order": 10
+        },
+        {
+          "id": "06_academy_decor_11",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_11.png",
+          "x": 0.3,
+          "y": 52.9,
+          "width": 12.988,
+          "height": 27.783,
+          "pixelBox": [
+            0,
+            1447,
+            266,
+            569
+          ],
+          "area": 2581,
+          "order": 11
+        },
+        {
+          "id": "06_academy_decor_12",
+          "src": "/assets/town-editor/decorations/06_academy/06_academy_decor_12.png",
+          "x": 39.014,
+          "y": 73.438,
+          "width": 13.184,
+          "height": 17.579,
+          "pixelBox": [
+            799,
+            1504,
+            270,
+            360
+          ],
+          "area": 43455,
+          "order": 12
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "舞台",
+      "slug": "stage",
+      "src": "/assets/town-editor/buildings/07_stage.png",
+      "decorations": [
+        {
+          "id": "07_stage_decor_01",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_01.png",
+          "x": 52.8,
+          "y": -2.2,
+          "width": 38.037,
+          "height": 41.65,
+          "pixelBox": [
+            1009,
+            128,
+            779,
+            853
+          ],
+          "area": 256304,
+          "order": 1
+        },
+        {
+          "id": "07_stage_decor_02",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_02.png",
+          "x": 41.699,
+          "y": 18.359,
+          "width": 6.787,
+          "height": 11.084,
+          "pixelBox": [
+            854,
+            376,
+            139,
+            227
+          ],
+          "area": 21327,
+          "order": 2
+        },
+        {
+          "id": "07_stage_decor_03",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_03.png",
+          "x": 57.373,
+          "y": 33.691,
+          "width": 3.711,
+          "height": 8.936,
+          "pixelBox": [
+            1175,
+            690,
+            76,
+            183
+          ],
+          "area": 3954,
+          "order": 3
+        },
+        {
+          "id": "07_stage_decor_04",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_04.png",
+          "x": 46.729,
+          "y": 35.205,
+          "width": 6.006,
+          "height": 5.664,
+          "pixelBox": [
+            957,
+            721,
+            123,
+            116
+          ],
+          "area": 7166,
+          "order": 4
+        },
+        {
+          "id": "07_stage_decor_05",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_05.png",
+          "x": 12.256,
+          "y": 37.402,
+          "width": 13.037,
+          "height": 13.672,
+          "pixelBox": [
+            251,
+            766,
+            267,
+            280
+          ],
+          "area": 38378,
+          "order": 5
+        },
+        {
+          "id": "07_stage_decor_06",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_06.png",
+          "x": 30.42,
+          "y": 44.043,
+          "width": 27.979,
+          "height": 21.973,
+          "pixelBox": [
+            623,
+            902,
+            573,
+            450
+          ],
+          "area": 48668,
+          "order": 6
+        },
+        {
+          "id": "07_stage_decor_07",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_07.png",
+          "x": 86.914,
+          "y": 44.482,
+          "width": 7.373,
+          "height": 11.719,
+          "pixelBox": [
+            1780,
+            911,
+            151,
+            240
+          ],
+          "area": 23058,
+          "order": 7
+        },
+        {
+          "id": "07_stage_decor_08",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_08.png",
+          "x": 63.379,
+          "y": 44.58,
+          "width": 5.908,
+          "height": 5.713,
+          "pixelBox": [
+            1298,
+            913,
+            121,
+            117
+          ],
+          "area": 7156,
+          "order": 8
+        },
+        {
+          "id": "07_stage_decor_09",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_09.png",
+          "x": 25.684,
+          "y": 47.656,
+          "width": 28.271,
+          "height": 22.265,
+          "pixelBox": [
+            526,
+            976,
+            579,
+            456
+          ],
+          "area": 49308,
+          "order": 9
+        },
+        {
+          "id": "07_stage_decor_10",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_10.png",
+          "x": 20.703,
+          "y": 51.611,
+          "width": 28.369,
+          "height": 22.217,
+          "pixelBox": [
+            424,
+            1057,
+            581,
+            455
+          ],
+          "area": 49717,
+          "order": 10
+        },
+        {
+          "id": "07_stage_decor_11",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_11.png",
+          "x": 15.869,
+          "y": 55.371,
+          "width": 28.516,
+          "height": 22.657,
+          "pixelBox": [
+            325,
+            1134,
+            584,
+            464
+          ],
+          "area": 50593,
+          "order": 11
+        },
+        {
+          "id": "07_stage_decor_12",
+          "src": "/assets/town-editor/decorations/07_stage/07_stage_decor_12.png",
+          "x": 74.316,
+          "y": 58.936,
+          "width": 10.742,
+          "height": 14.209,
+          "pixelBox": [
+            1522,
+            1207,
+            220,
+            291
+          ],
+          "area": 37587,
+          "order": 12
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "公司",
+      "slug": "company",
+      "src": "/assets/town-editor/buildings/08_company.png",
+      "decorations": [
+        {
+          "id": "08_company_decor_01",
+          "src": "/assets/town-editor/decorations/08_company/08_company_decor_01.png",
+          "x": 31.494,
+          "y": 10.4,
+          "width": 14.795,
+          "height": 22.803,
+          "pixelBox": [
+            645,
+            213,
+            303,
+            467
+          ],
+          "area": 91189,
+          "order": 1
+        },
+        {
+          "id": "08_company_decor_02",
+          "src": "/assets/town-editor/decorations/08_company/08_company_decor_02.png",
+          "x": 52.49,
+          "y": 15.527,
+          "width": 11.377,
+          "height": 14.795,
+          "pixelBox": [
+            1075,
+            318,
+            233,
+            303
+          ],
+          "area": 42138,
+          "order": 2
+        },
+        {
+          "id": "08_company_decor_03",
+          "src": "/assets/town-editor/decorations/08_company/08_company_decor_03.png",
+          "x": 61.3,
+          "y": 23.3,
+          "width": 24.609,
+          "height": 22.509,
+          "pixelBox": [
+            1418,
+            597,
+            504,
+            461
+          ],
+          "area": 114996,
+          "order": 3
+        },
+        {
+          "id": "08_company_decor_04",
+          "src": "/assets/town-editor/decorations/08_company/08_company_decor_04.png",
+          "x": 11.6,
+          "y": 34.9,
+          "width": 19.092,
+          "height": 19.287,
+          "pixelBox": [
+            174,
+            708,
+            391,
+            395
+          ],
+          "area": 83832,
+          "order": 4
+        },
+        {
+          "id": "08_company_decor_05",
+          "src": "/assets/town-editor/decorations/08_company/08_company_decor_05.png",
+          "x": 42.4,
+          "y": 37.3,
+          "width": 25.732,
+          "height": 21.679,
+          "pixelBox": [
+            1274,
+            1035,
+            527,
+            444
+          ],
+          "area": 115607,
+          "order": 5
+        },
+        {
+          "id": "08_company_decor_06",
+          "src": "/assets/town-editor/decorations/08_company/08_company_decor_06.png",
+          "x": 22.9,
+          "y": 54.346,
+          "width": 23.779,
+          "height": 23.877,
+          "pixelBox": [
+            469,
+            1113,
+            487,
+            489
+          ],
+          "area": 132823,
+          "order": 6
+        },
+        {
+          "id": "08_company_decor_07",
+          "src": "/assets/town-editor/decorations/08_company/08_company_decor_07.png",
+          "x": 77.002,
+          "y": 63.184,
+          "width": 8.838,
+          "height": 9.229,
+          "pixelBox": [
+            1577,
+            1294,
+            181,
+            189
+          ],
+          "area": 17295,
+          "order": 7
+        }
+      ]
+    }
+  ]
+}

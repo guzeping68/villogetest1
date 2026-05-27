@@ -1,0 +1,229 @@
+{
+  "_description": "朋友圈可选表达 - 从8节新家主线课程整理",
+  "terms": [
+    {
+      "id": "l1-next_door-1",
+      "text": "next door",
+      "translation": "就在隔壁",
+      "lessonId": 1,
+      "tag": "phrase"
+    },
+    {
+      "id": "l1-right_above_you-2",
+      "text": "right above you",
+      "translation": "你正楼上",
+      "lessonId": 1,
+      "tag": "phrase"
+    },
+    {
+      "id": "l1-your_heater_is_off-3",
+      "text": "Your heater is off.",
+      "translation": "你的暖气关着。",
+      "lessonId": 1,
+      "tag": "sentence"
+    },
+    {
+      "id": "l1-who_lived_here_before-4",
+      "text": "Who lived here before?",
+      "translation": "之前谁住这里？",
+      "lessonId": 1,
+      "tag": "sentence"
+    },
+    {
+      "id": "l2-knocks_on_your_door-1",
+      "text": "knocks on your door",
+      "translation": "敲你的门",
+      "lessonId": 2,
+      "tag": "phrase"
+    },
+    {
+      "id": "l2-comes_round-2",
+      "text": "comes round",
+      "translation": "来访",
+      "lessonId": 2,
+      "tag": "phrase"
+    },
+    {
+      "id": "l2-downstairs-3",
+      "text": "downstairs",
+      "translation": "楼下",
+      "lessonId": 2,
+      "tag": "word"
+    },
+    {
+      "id": "l2-let_s_go_downstairs-4",
+      "text": "Let's go downstairs.",
+      "translation": "我们下楼吧。",
+      "lessonId": 2,
+      "tag": "sentence"
+    },
+    {
+      "id": "l3-show_up-1",
+      "text": "show up",
+      "translation": "出现/去陪陪",
+      "lessonId": 3,
+      "tag": "phrase"
+    },
+    {
+      "id": "l3-don_t_push-2",
+      "text": "don't push",
+      "translation": "别追问",
+      "lessonId": 3,
+      "tag": "phrase"
+    },
+    {
+      "id": "l3-i_brought_you_something-3",
+      "text": "I brought you something.",
+      "translation": "我给你带了点东西。",
+      "lessonId": 3,
+      "tag": "sentence"
+    },
+    {
+      "id": "l3-come_in_and_sit_with_me-4",
+      "text": "Come in and sit with me.",
+      "translation": "进来陪我坐坐。",
+      "lessonId": 3,
+      "tag": "sentence"
+    },
+    {
+      "id": "l4-dining_room-1",
+      "text": "dining room",
+      "translation": "餐厅",
+      "lessonId": 4,
+      "tag": "word"
+    },
+    {
+      "id": "l4-everyone_knows-2",
+      "text": "everyone knows",
+      "translation": "大家都知道",
+      "lessonId": 4,
+      "tag": "phrase"
+    },
+    {
+      "id": "l4-pull_aside-3",
+      "text": "pull aside",
+      "translation": "拉到一边私下说",
+      "lessonId": 4,
+      "tag": "phrase"
+    },
+    {
+      "id": "l4-she_needs_time-4",
+      "text": "She needs time.",
+      "translation": "她需要时间。",
+      "lessonId": 4,
+      "tag": "sentence"
+    },
+    {
+      "id": "l5-living_room-1",
+      "text": "living room",
+      "translation": "客厅",
+      "lessonId": 5,
+      "tag": "word"
+    },
+    {
+      "id": "l5-divorce-2",
+      "text": "divorce",
+      "translation": "离婚",
+      "lessonId": 5,
+      "tag": "word"
+    },
+    {
+      "id": "l5-started_over-3",
+      "text": "started over",
+      "translation": "重新开始",
+      "lessonId": 5,
+      "tag": "phrase"
+    },
+    {
+      "id": "l5-maybe_tell_him_how_you_feel-4",
+      "text": "Maybe tell him how you feel.",
+      "translation": "也许告诉他你的感受。",
+      "lessonId": 5,
+      "tag": "sentence"
+    },
+    {
+      "id": "l6-raising_his_rent-1",
+      "text": "raising his rent",
+      "translation": "给他涨房租",
+      "lessonId": 6,
+      "tag": "phrase"
+    },
+    {
+      "id": "l6-contract-2",
+      "text": "contract",
+      "translation": "合同",
+      "lessonId": 6,
+      "tag": "word"
+    },
+    {
+      "id": "l6-neighbor-3",
+      "text": "neighbor",
+      "translation": "邻居",
+      "lessonId": 6,
+      "tag": "word"
+    },
+    {
+      "id": "l6-tell_me_what_happened-4",
+      "text": "Tell me what happened.",
+      "translation": "告诉我发生了什么。",
+      "lessonId": 6,
+      "tag": "sentence"
+    },
+    {
+      "id": "l7-pushed_him_out-1",
+      "text": "pushed him out",
+      "translation": "逼他离开",
+      "lessonId": 7,
+      "tag": "phrase"
+    },
+    {
+      "id": "l7-come_round-2",
+      "text": "come round",
+      "translation": "来访",
+      "lessonId": 7,
+      "tag": "phrase"
+    },
+    {
+      "id": "l7-he_s_coming_to_visit_next_month-3",
+      "text": "He's coming to visit next month.",
+      "translation": "他下个月要来看望。",
+      "lessonId": 7,
+      "tag": "sentence"
+    },
+    {
+      "id": "l7-i_can_call_with_you-4",
+      "text": "I can call with you.",
+      "translation": "我可以陪你一起打电话。",
+      "lessonId": 7,
+      "tag": "sentence"
+    },
+    {
+      "id": "l8-potluck-1",
+      "text": "potluck",
+      "translation": "百家饭/自带菜聚餐",
+      "lessonId": 8,
+      "tag": "word"
+    },
+    {
+      "id": "l8-garden_gate-2",
+      "text": "garden gate",
+      "translation": "花园大门",
+      "lessonId": 8,
+      "tag": "phrase"
+    },
+    {
+      "id": "l8-under_the_lights-3",
+      "text": "under the lights",
+      "translation": "在灯光下",
+      "lessonId": 8,
+      "tag": "phrase"
+    },
+    {
+      "id": "l8-we_re_neighbors_that_s_what_we_do-4",
+      "text": "We're neighbors. That's what we do.",
+      "translation": "我们是邻居，这就是我们会做的。",
+      "lessonId": 8,
+      "tag": "sentence"
+    }
+  ]
+}

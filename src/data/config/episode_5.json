@@ -1,0 +1,247 @@
+{
+  "title": "Episode 5: Coffee with Lisa",
+  "unit_title_en": "Coffee with Lisa",
+  "scene_image": "/assets/lesson-scenes/lesson_5_start.png",
+  "steps": [
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "Lisa invites you to her home. You sit in chairs by the window in the living room. There are two cups of coffee on the table. Lisa looks sad.",
+      "text_cn": "Lisa邀请你去她家。你们坐在客厅窗边的椅子上，桌上有两杯咖啡。Lisa看起来有些难过。"
+    },
+    {
+      "type": "question",
+      "format": "matching",
+      "question_id": "L05_Q01",
+      "source_type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "speech_text": "Match these words: chair, table, window, living room.",
+      "feedback": "Nice! You know the furniture words in Lisa's home. / 很好！你认识Lisa家里的家具词了。",
+      "feedback_wrong": "Almost! Chair = 椅子, table = 桌子, window = 窗户, living room = 客厅。",
+      "review_word": "chair",
+      "pairs": [
+        {
+          "id": 1,
+          "image": "chair",
+          "word": "椅子"
+        },
+        {
+          "id": 2,
+          "image": "table",
+          "word": "桌子"
+        },
+        {
+          "id": 3,
+          "image": "window",
+          "word": "窗户"
+        },
+        {
+          "id": 4,
+          "image": "living room",
+          "word": "客厅"
+        }
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_5_start.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/lisahappy.png",
+      "text": "I moved here after my divorce.",
+      "text_cn": "我离婚后搬到了这里。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L05_Q02",
+      "source_type": "T1 听音选义",
+      "instruction": "\"I moved here after my divorce.\" — What happened to Lisa?",
+      "feedback": "Right! After divorce, she has no husband anymore. / 对！离婚后，她不再有丈夫了。",
+      "feedback_wrong": "Almost! 'Divorce' means her marriage ended — she no longer has a husband. / 'Divorce' 意思是婚姻结束了——她不再有丈夫了。",
+      "review_word": "She lost her husband",
+      "options": [
+        {
+          "label": "A",
+          "text": "She lost her husband",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "She found a new apartment",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "She moved with her family",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/lisahappy.png",
+      "text": "I want to learn to live alone. Kevin is a great guy, but I am not ready for a new boyfriend.",
+      "text_cn": "我想学着一个人生活。Kevin是个很好的人，但我还没准备好开始新的恋爱。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L05_Q03",
+      "source_type": "T2 对话补全",
+      "instruction": "Lisa says Kevin is great but she's not ready. What do you say?",
+      "feedback": "Kind and honest! Telling a person how you feel is brave. / 善良又坦诚！告诉一个人你的感受是勇敢的。",
+      "feedback_wrong": "Almost! Lisa is confused — the best advice is 'tell him how you feel.' / Lisa很迷茫——最好的建议是'告诉他你的感受'。",
+      "review_word": "Maybe tell him how you feel.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Maybe tell him how you feel.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Maybe close the door on him.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Maybe bring him some food.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "You don't owe anyone a relationship. But maybe tell him — so he stops guessing.",
+      "text_cn": "你不欠任何人一段关系。但也许可以告诉他，这样他就不用一直猜了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lisa",
+      "avatar": "/assets/lisahappy.png",
+      "text": "You are very smart. How do you know this?",
+      "text_cn": "你很聪明。你怎么会懂这些？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "I'm not wise. I started over too. I get it.",
+      "text_cn": "我不是聪明。我也重新开始过，所以我懂。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L05_Q04",
+      "source_type": "T1 听音选义",
+      "instruction": "\"I started over too.\" — What does \"I started over\" mean?",
+      "feedback": "Yes! 'Started over' = began a new life in a new place. / 对！'Started over' = 在新的地方开始新生活。",
+      "feedback_wrong": "Almost! 'Started over' means you began again — new place, new life. / 'Started over' 意思是重新开始——新地方、新生活。",
+      "review_word": "I began a new life in a new place",
+      "options": [
+        {
+          "label": "A",
+          "text": "I began a new life in a new place",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "I went back to my old home",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "I cleaned my apartment again",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "You walk back to the building together. In the hall, Jake is angry. He is shouting at a man — Dan, the building manager. Jake is very upset.",
+      "text_cn": "你们一起走回公寓楼。在走廊里，Jake很生气，正在冲一个男人喊话。那个男人是楼管Dan。Jake非常激动。",
+      "scene_image": "/assets/lesson-scenes/lesson_5_you_walk_back_to_the_building_together.png"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L05_Q05",
+      "source_type": "T4 紧急反应",
+      "instruction": "You see Jake arguing with a man in the hall. What do you do?",
+      "feedback": "Good instinct! You check on your neighbor. / 好直觉！你去看看邻居的情况。",
+      "feedback_wrong": "Almost! Jake is your neighbor and friend — you'd walk over to check on him. / Jake是你的邻居和朋友——你会走过去看看他。",
+      "review_word": "Walk over to Jake",
+      "options": [
+        {
+          "label": "A",
+          "text": "Go upstairs and sleep",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Walk over to Jake",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Close the gate and leave",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "Dan sees you. He walks out the door. Jake watches him go. He is quiet for a long time. Then he says:",
+      "text_cn": "Dan看见你们后走出了门。Jake看着他离开，沉默了很久。然后他说：",
+      "scene_image": "/assets/lesson-scenes/lesson_5_then_he_says.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Jake",
+      "avatar": "/assets/jackhappy.png",
+      "text": "Don't worry. I can fix this.",
+      "text_cn": "别担心。我能解决这件事。"
+    },
+    {
+      "type": "question",
+      "format": "sentence_build",
+      "question_id": "L05_Q06",
+      "source_type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "chunks": [
+        "We",
+        "sat",
+        "in",
+        "chairs",
+        "by the",
+        "window",
+        "door"
+      ],
+      "answer": "We sat in chairs by the window.",
+      "normalized_answer": "we sat in chairs by the window",
+      "feedback": "Perfect! You can describe where you sat at a café. / 完美！你能描述在咖啡馆坐在哪里了。",
+      "feedback_wrong": "Almost! 'We sat in chairs by the window.' 'Door' doesn't fit here — they're at the window. / 正确是 'We sat in chairs by the window.'（我们坐在靠窗的椅子上。）",
+      "review_word": "We sat in chairs by the window."
+    },
+    {
+      "type": "question",
+      "format": "speaking_practice",
+      "question_id": "L05_Q07",
+      "source_type": "T6 语音跟读",
+      "instruction": "请跟读：Maybe tell him how you feel.（重音：tell / feel；语速：慢速，语气温和、像给朋友建议）",
+      "target_sentence": "Maybe tell him how you feel.",
+      "answer": "Maybe tell him how you feel.",
+      "feedback": "Gentle and clear! You sound like a caring friend. / 温和又清晰！你听起来像个贴心的朋友。",
+      "feedback_wrong": "Almost! Try again: Maybe TELL him how you FEEL. Stress 'tell' and 'feel'. / 再试一次：重读TELL和FEEL。",
+      "review_word": "Maybe tell him how you feel."
+    }
+  ]
+}

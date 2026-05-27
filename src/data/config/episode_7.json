@@ -1,0 +1,235 @@
+{
+  "title": "Episode 7: The Call",
+  "unit_title_en": "The Call",
+  "scene_image": "/assets/lesson-scenes/lesson_7_start.png",
+  "steps": [
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "You tell Mrs. Henderson the truth. The landlord played a trick on Jake. They did the same thing to Ryan. They pushed him out.",
+      "text_cn": "你把真相告诉Henderson太太。房东对Jake耍了手段，他们当年也对Ryan做过同样的事，把他逼走了。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L07_Q01",
+      "source_type": "T1 听音选义",
+      "instruction": "\"They did the same thing to Ryan. They pushed him out.\" — What happened to Mrs. Henderson's son?",
+      "feedback": "Right! 'Pushed out' means they forced her son to leave. / 对！'Pushed out' 意思是他们逼她儿子离开了。",
+      "feedback_wrong": "Almost! 'Push out' means to force someone to leave — Ryan had to go. / 'Push out' 意思是逼某人离开——Ryan不得不走。",
+      "review_word": "They forced him to leave",
+      "options": [
+        {
+          "label": "A",
+          "text": "They forced him to leave",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "They pulled him upstairs",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "They brought him home",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "No one helped Ryan back then...",
+      "text_cn": "那时候没人帮Ryan……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "Maybe you should tell him. Things are different now.",
+      "text_cn": "也许你应该告诉他。现在不一样了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "He won't answer my calls. We argued when he left.",
+      "text_cn": "他不会接我的电话。他离开的时候我们吵了一架。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L07_Q02",
+      "source_type": "T2 对话补全",
+      "instruction": "Mrs. Henderson says her son won't answer. She looks sad. What do you offer?",
+      "feedback": "Brave and kind! You offered to help a mother call her son. / 又勇敢又善良！你提议帮一位母亲打电话给儿子。",
+      "feedback_wrong": "Almost! She needs help calling her son — 'I can call with you' is the best support. / 她需要帮助打电话给儿子——'I can call with you' 是最好的支持。",
+      "review_word": "I can call with you.",
+      "options": [
+        {
+          "label": "A",
+          "text": "I can call with you.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "I can wash up for you.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "I can close the curtains.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "You",
+      "avatar": "/assets/youhappy.png",
+      "text": "I can call with you. Do you want to try?",
+      "text_cn": "我可以陪你一起打。你想试试吗？",
+      "scene_image": "/assets/lesson-scenes/lesson_7_do_you_want_to_try.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Ryan",
+      "avatar": "/assets/npc1.png",
+      "text": "...Mom?",
+      "text_cn": "……妈妈？"
+    },
+    {
+      "type": "question",
+      "format": "matching",
+      "question_id": "L07_Q03",
+      "source_type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "speech_text": "Match these words: knocks on your door, come round, come in.",
+      "feedback": "Great! You know the difference between knocking, visiting, and entering. / 很好！你知道敲门、来访和进来的区别了。",
+      "feedback_wrong": "Almost! 'Knocks on your door' = 敲你的门, 'come round' = 来访, 'come in' = 进来。",
+      "review_word": "knocks on your door",
+      "pairs": [
+        {
+          "id": 1,
+          "image": "knocks on your door",
+          "word": "敲你的门"
+        },
+        {
+          "id": 2,
+          "image": "come round",
+          "word": "来访"
+        },
+        {
+          "id": 3,
+          "image": "come in",
+          "word": "进来"
+        }
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_7_start.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Mrs. Henderson",
+      "avatar": "/assets/MrsHendersonhappy.png",
+      "text": "He's coming to visit. Next month.",
+      "text_cn": "他要来看我了。下个月。"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L07_Q04",
+      "source_type": "T1 听音选义",
+      "instruction": "\"He's coming to visit next month.\" — What will Ryan do?",
+      "feedback": "Yes! Ryan will visit his mum — the family will be together again. / 对！Ryan要来看妈妈——一家人又能团聚了。",
+      "feedback_wrong": "Almost! 'Coming to visit' means Ryan will come to see his mother. / 'Coming to visit' 意思是Ryan会来看望他的母亲。",
+      "review_word": "He will come to see his mother",
+      "options": [
+        {
+          "label": "A",
+          "text": "He will come to see his mother",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "He will move to a new flat",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "He will close his door forever",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L07_Q05",
+      "source_type": "T7 文化认知",
+      "instruction": "You helped Mrs. Henderson call her son. In the US, what does this show about neighbors?",
+      "feedback": "Yes! In the US, neighbors often become your support system — like a second family. / 对！在美国，邻居常常成为你的支持系统——像第二个家。",
+      "feedback_wrong": "Almost! In the US, neighbors can be very close — helping each other is what makes a place feel like home. / 在美国，邻居可以非常亲近——互相帮助是让一个地方有家的感觉的原因。",
+      "review_word": "Good neighbors can become like family",
+      "options": [
+        {
+          "label": "A",
+          "text": "Good neighbors can become like family",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Neighbors must always stay apart",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Only family can help with problems",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "Jake hears the news. \"Wow. You are only here for one month. But you fixed a big problem. We couldn't do that for two years.\" You say: \"I just dialed the phone.\" Jake: \"Yeah. But it worked.\"",
+      "text_cn": "Jake听到这个消息后说：\"哇。你才来一个月，却解决了一个大问题。我们两年都没做到。\" 你说：\"我只是拨了个电话。\" Jake说：\"是啊，但它有用。\"",
+      "scene_image": "/assets/lesson-scenes/lesson_7_jake_hears_the_news.png"
+    },
+    {
+      "type": "question",
+      "format": "sentence_build",
+      "question_id": "L07_Q06",
+      "source_type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "chunks": [
+        "They",
+        "pushed",
+        "him",
+        "out",
+        "of his",
+        "apartment",
+        "pulled"
+      ],
+      "answer": "They pushed him out of his apartment.",
+      "normalized_answer": "they pushed him out of his apartment",
+      "feedback": "Perfect! 'Push out' = force to leave. 'Pull' is the opposite. / 完美！'Push out' = 逼迫离开。'Pull' 是相反的动作。",
+      "feedback_wrong": "Almost! 'Pushed him out' is correct — they forced Ryan to leave. 'Pulled' means the opposite direction. / 'Pushed him out' 才对——他们逼Ryan离开了。'Pulled' 是相反方向。",
+      "review_word": "They pushed him out of his apartment."
+    },
+    {
+      "type": "question",
+      "format": "speaking_practice",
+      "question_id": "L07_Q07",
+      "source_type": "T6 语音跟读",
+      "instruction": "请跟读：I can call with you.（重音：call / you；语速：慢速，语气温暖、给人安心感）",
+      "target_sentence": "I can call with you.",
+      "answer": "I can call with you.",
+      "feedback": "Warm and steady! You sound supportive. / 温暖又稳定！你听起来很有支持感。",
+      "feedback_wrong": "Almost! Try again: I can CALL with YOU. Stress 'call' and 'you'. / 再试一次：重读CALL和YOU。",
+      "review_word": "I can call with you."
+    }
+  ]
+}

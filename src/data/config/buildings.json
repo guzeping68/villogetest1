@@ -1,26 +1,55 @@
 {
-  "_description": "建筑表 - 定义所有建筑及其等级、外观和课程关联",
+  "_description": "建筑表 - 8节新家主线课程关联",
   "buildings": [
     {
       "building_id": "apartment_complex",
-      "name": "Apartment 4B",
-      "name_cn": "我的公寓",
+      "name": "Home",
+      "name_cn": "家",
       "initial_level": 1,
-      "position": { "x": 35, "y": 50 },
+      "position": {
+        "x": 35,
+        "y": 50
+      },
       "levels": [
         {
           "level": 1,
-          "stars_to_next": 3,
-          "exterior_image": "/assets/fangzi2.png",
+          "stars_to_next": 0,
+          "exterior_image": "/assets/xinhome.png",
           "interior_image": "/assets/jianzhunei2.png",
-          "linked_lessons": [1, 2]
+          "linked_lessons": [
+            1,
+            2
+          ]
         },
         {
           "level": 2,
-          "stars_to_next": 6,
-          "exterior_image": "/assets/fangzi2.png",
+          "stars_to_next": 0,
+          "exterior_image": "/assets/xinhome.png",
           "interior_image": "/assets/jianzhunei2.png",
-          "linked_lessons": [3, 4]
+          "linked_lessons": [
+            3,
+            4
+          ]
+        },
+        {
+          "level": 3,
+          "stars_to_next": 0,
+          "exterior_image": "/assets/xinhome.png",
+          "interior_image": "/assets/jianzhunei.png",
+          "linked_lessons": [
+            5,
+            6
+          ]
+        },
+        {
+          "level": 4,
+          "stars_to_next": 0,
+          "exterior_image": "/assets/xinhome.png",
+          "interior_image": "/assets/jianzhunei.png",
+          "linked_lessons": [
+            7,
+            8
+          ]
         }
       ]
     }

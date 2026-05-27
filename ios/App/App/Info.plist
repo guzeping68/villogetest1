@@ -26,6 +26,10 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>LingoVille needs microphone access so you can practice speaking English aloud.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>LingoVille uses speech recognition to check whether your spoken English matches the practice sentence.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

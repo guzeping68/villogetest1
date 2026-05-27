@@ -1,13 +1,14 @@
 {
-  "_description": "课程模块 - 课程基本信息配置",
+  "_description": "课程模块 - 8节新家主线课程",
+  "outline_title": "New Home Main Story",
   "lessons": [
     {
       "lesson_id": 1,
       "title": "The Crash Landing",
       "title_cn": "硬着陆",
-      "description": "搬进4B，走廊箱子摔了，Mrs. Henderson和Jake帮你搬东西。暖气不热，Jake帮修。",
-      "speaker_name": "Jake & Mrs. H",
-      "speaker_avatar": "/assets/jackhappy.png",
+      "description": "搬进4B的第一天，Mrs. Henderson和Jake帮你处理摔落的箱子和坏掉的暖气。",
+      "speaker_name": "Mrs. Henderson & Jake",
+      "speaker_avatar": "/assets/MrsHendersonhappy.png",
       "scene": "Apartment 4B",
       "unit_id": "Unit 1",
       "total_questions": 7,
@@ -15,62 +16,134 @@
       "unlock_building": null,
       "reward_once": {
         "type": "decoration",
-        "item_id": "coffee_cup_charm",
-        "image": "/assets/shafa1.png"
+        "item_id": "home_bathtub",
+        "image": "/assets/yugang1.png"
       }
     },
     {
       "lesson_id": 2,
-      "title": "Jake's Bad Day",
-      "title_cn": "Jake的糟糕日",
-      "description": "搬来一周，去还Jake工具，发现他状态很差——被裁员了。你陪他查申请补助。",
-      "speaker_name": "Jake",
+      "title": "First Week",
+      "title_cn": "第一周",
+      "description": "Jake几乎每天来敲门，你认识Kevin，也第一次感受到这栋楼的邻里节奏。",
+      "speaker_name": "Jake & Kevin",
       "speaker_avatar": "/assets/jackhappy.png",
-      "scene": "Apartment 5B",
+      "scene": "Apartment Hallway",
       "unit_id": "Unit 2",
       "total_questions": 7,
       "stars_available": 3,
       "unlock_building": null,
       "reward_once": {
         "type": "decoration",
-        "item_id": "barista_apron",
-        "image": "/assets/drawer.png"
+        "item_id": "home_table",
+        "image": "/assets/zhuozi1.png"
       }
     },
     {
       "lesson_id": 3,
       "title": "The Argument",
-      "title_cn": "吵架",
-      "description": "听到Mrs. Henderson跟Ryan打电话吵架。带蛋糕去陪她。她说你让她想起Ryan。",
+      "title_cn": "那场争吵",
+      "description": "你听见Mrs. Henderson和Ryan通电话争吵，带着蛋糕去陪她坐一会儿。",
       "speaker_name": "Mrs. Henderson",
       "speaker_avatar": "/assets/MrsHendersonhappy.png",
       "scene": "Apartment 4A",
       "unit_id": "Unit 3",
       "total_questions": 7,
       "stars_available": 3,
-      "unlock_building": "mirror_mart",
+      "unlock_building": null,
       "reward_once": {
         "type": "decoration",
-        "item_id": "mei_secret_latte_recipe",
+        "item_id": "comfort_cake",
         "image": "/assets/box.png"
       }
     },
     {
       "lesson_id": 4,
-      "title": "What happened to Ryan?",
-      "title_cn": "Ryan怎么了？",
-      "description": "发现Mrs. H在楼梯间哭。Jake说出真相：Ryan以前也住5B，失业破产后搬走。",
-      "speaker_name": "Jake & Mrs. H",
-      "speaker_avatar": "/assets/jackhappy.png",
-      "scene": "Hallway",
+      "title": "The Brunch",
+      "title_cn": "早午餐",
+      "description": "Mrs. Henderson邀请大家吃早午餐，你终于见到Lisa，也看见Kevin的小心思。",
+      "speaker_name": "Kevin & Lisa",
+      "speaker_avatar": "/assets/Kevinhappy.png",
+      "scene": "Dining Room",
       "unit_id": "Unit 4",
       "total_questions": 7,
       "stars_available": 3,
       "unlock_building": null,
       "reward_once": {
         "type": "decoration",
-        "item_id": "old_chen_shopping_bag",
+        "item_id": "brunch_table",
         "image": "/assets/basket.png"
+      }
+    },
+    {
+      "lesson_id": 5,
+      "title": "Coffee with Lisa",
+      "title_cn": "和Lisa喝咖啡",
+      "description": "Lisa邀请你去家里喝咖啡，聊起重新开始，也撞见Jake遇到麻烦。",
+      "speaker_name": "Lisa",
+      "speaker_avatar": "/assets/lisahappy.png",
+      "scene": "Lisa's Living Room",
+      "unit_id": "Unit 5",
+      "total_questions": 7,
+      "stars_available": 3,
+      "unlock_building": null,
+      "reward_once": {
+        "type": "decoration",
+        "item_id": "window_coffee",
+        "image": "/assets/cafeizhuo.png"
+      }
+    },
+    {
+      "lesson_id": 6,
+      "title": "Jake's Bad News",
+      "title_cn": "Jake的坏消息",
+      "description": "Jake收到涨租通知，Kevin和Lisa开始帮忙，你也加入一起听他说清楚发生了什么。",
+      "speaker_name": "Jake & Dan",
+      "speaker_avatar": "/assets/jacksorrow.png",
+      "scene": "Hallway",
+      "unit_id": "Unit 6",
+      "total_questions": 7,
+      "stars_available": 3,
+      "unlock_building": null,
+      "reward_once": {
+        "type": "decoration",
+        "item_id": "rent_letter",
+        "image": "/assets/xiexin.png"
+      }
+    },
+    {
+      "lesson_id": 7,
+      "title": "The Call",
+      "title_cn": "那通电话",
+      "description": "你陪Mrs. Henderson给Ryan打电话，终于把多年没说出口的话重新接上。",
+      "speaker_name": "Mrs. Henderson & Ryan",
+      "speaker_avatar": "/assets/MrsHendersonsorrow.png",
+      "scene": "Apartment 4A",
+      "unit_id": "Unit 7",
+      "total_questions": 7,
+      "stars_available": 3,
+      "unlock_building": null,
+      "reward_once": {
+        "type": "decoration",
+        "item_id": "family_call",
+        "image": "/assets/liangsheng2.png"
+      }
+    },
+    {
+      "lesson_id": 8,
+      "title": "The Potluck",
+      "title_cn": "百家饭聚会",
+      "description": "邻居们在院子里办potluck，Ryan也要来，4B终于像一个真正的新家。",
+      "speaker_name": "Neighbors",
+      "speaker_avatar": "/assets/lisahappiness..png",
+      "scene": "Courtyard",
+      "unit_id": "Unit 8",
+      "total_questions": 7,
+      "stars_available": 3,
+      "unlock_building": null,
+      "reward_once": {
+        "type": "decoration",
+        "item_id": "garden_lights",
+        "image": "/assets/bbq.png"
       }
     }
   ]

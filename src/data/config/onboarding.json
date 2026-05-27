@@ -114,8 +114,8 @@
           "text_cn": "欢迎来到枫叶小镇！"
         },
         {
-          "speaker": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
           "text_en": "It's so cozy here.",
           "text_cn": "这里真温馨。"
         },
@@ -126,8 +126,8 @@
           "text_cn": "好的，前面就是你在这里的新家了，去看看吧。"
         },
         {
-          "speaker": "Amili",
-          "avatar": "/assets/Amilitouxiang.png",
+          "speaker": "Mia",
+          "avatar": "/assets/mia_avatar.png",
           "text_en": "I'll go take a look. I hope you're an honest agent.",
           "text_cn": "我这就去看看，希望你是个有良心的中介。"
         }

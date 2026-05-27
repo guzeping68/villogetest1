@@ -1,389 +1,258 @@
 {
-  "title": "Episode 3: The Argument（吵架）",
+  "title": "Episode 3: The Argument",
+  "unit_title_en": "The Argument",
+  "scene_image": "/assets/lesson-scenes/lesson_3_start.png",
   "steps": [
     {
       "type": "narrator",
       "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你听到Mrs. Henderson跟Ryan打电话吵架。她在群里变安静。Jake私信你建议。你带蛋糕去陪她。她说\"You remind me of Ryan sometimes.\"",
-      "text_cn": "（你听到Mrs. Henderson跟Ryan打电话吵架。她在群里变安静。Jake私信你建议。你带蛋糕去陪她。她说\"You remind me of Ryan sometimes.\"）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "You hear Mrs. Henderson's voice through the door — louder than usual. Something is wrong.",
-      "text_cn": "（你隔着门听见Mrs. Henderson的声音，比平时大得多。一定出了什么事。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你下楼取快递，路过Mrs. Henderson的门。听到里面在大声说话。",
-      "text_cn": "（你下楼取快递，路过Mrs. Henderson的门。听到里面在大声说话。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "挂电话的声音。你犹豫了一下，继续走了。当天晚些时候，你看群消息——",
-      "text_cn": "（挂电话的声音。你犹豫了一下，继续走了。当天晚些时候，你看群消息——）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "没有回复。平时她秒回。Jake私信你：",
-      "text_cn": "（没有回复。平时她秒回。Jake私信你：）"
+      "avatar": "/assets/npc.png",
+      "text": "You're picking up a package downstairs when you hear Mrs. Henderson's voice through her door. It is very loud. She's on the phone with her son, Ryan. He used to live in your apartment — 4B. But the rent went up, so he had to move out.",
+      "text_cn": "你在楼下取包裹时，听见Henderson太太的声音从门里传出来，很大声。她正在和儿子Ryan通电话。Ryan以前住在你的公寓4B，但房租涨了，所以他不得不搬走。"
     },
     {
       "type": "dialogue",
       "speaker": "Mrs. Henderson",
       "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "You PROMISED, Ryan! ...I just want to SEE you!",
-      "text_cn": ""
+      "text": "I don't care about the money, Ryan. I just want to SEE you...",
+      "text_cn": "Ryan，我不在乎钱。我只是想见见你……"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L03_Q01",
+      "source_type": "T1 听音选义",
+      "instruction": "\"I don't care about the money, Ryan. I just want to SEE you...\" — Why does Mrs. Henderson want to see Ryan?",
+      "feedback": "Right! She's talking to her son, Ryan, and she misses him so much. / 对！她在跟儿子Ryan打电话，她很想他。",
+      "feedback_wrong": "Almost! 'Her son' means 她的儿子. She's on the phone with Ryan, her son. / 'Her son' 是她的儿子。她在跟儿子Ryan通话。",
+      "review_word": "She misses her son.",
+      "options": [
+        {
+          "label": "A",
+          "text": "She wants to get money from Ryan.",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "She misses her son.",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "Her husband wants to see Ryan.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "That evening. Jake messages you privately.",
+      "text_cn": "那天晚上，Jake私下给你发消息。"
     },
     {
       "type": "dialogue",
       "speaker": "Jake",
       "avatar": "/assets/jackhappy.png",
-      "text": "Hey Mrs. H, are those scones still available? 😋",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "Is Mrs. H okay? She didn't reply today. That never happens.",
-      "text_cn": ""
+      "text": "Is Mrs. H okay? She didn't answer my message today. That never happens.",
+      "text_cn": "H太太还好吗？她今天没回我消息。这从来没发生过。"
     },
     {
       "type": "dialogue",
       "speaker": "You",
       "avatar": "/assets/youhappy.png",
-      "text": "I heard something... but I'm not sure.",
-      "text_cn": ""
+      "text": "I heard something. Not sure if I should say.",
+      "text_cn": "我听到了一些事。不确定该不该说。"
     },
     {
       "type": "dialogue",
       "speaker": "Jake",
       "avatar": "/assets/jackhappy.png",
       "text": "Don't push. Just show up.",
-      "text_cn": ""
+      "text_cn": "别追问。去陪陪她就好。"
+    },
+    {
+      "type": "question",
+      "format": "matching",
+      "question_id": "L03_Q02",
+      "source_type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "speech_text": "Match these words: show up, don't push, come in.",
+      "feedback": "Nice! Jake's advice: don't ask questions, just be there. / 很好！Jake的建议：别追问，去陪着就好。",
+      "feedback_wrong": "Almost! 'Show up' = 去陪陪/出现, 'don't push' = 别追问, 'come in' = 进来。",
+      "review_word": "show up",
+      "pairs": [
+        {
+          "id": 1,
+          "image": "show up",
+          "word": "去陪陪（出现）"
+        },
+        {
+          "id": 2,
+          "image": "don't push",
+          "word": "别追问"
+        },
+        {
+          "id": 3,
+          "image": "come in",
+          "word": "进来"
+        }
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_3_start.png"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "You knock on her door with a cake from the supermarket.",
+      "text_cn": "你带着超市买来的蛋糕去敲她的门。",
+      "scene_image": "/assets/lesson-scenes/lesson_3_you_knock_on_her_door_with_a_cake_from_the_supermarket.png"
     },
     {
       "type": "question",
       "format": "multiple_choice",
-      "instruction": "📍 题目1\nJake says \"Just show up.\" What does he mean?",
+      "question_id": "L03_Q03",
+      "source_type": "T2 对话补全",
+      "instruction": "旁白：You knock on her door. Mrs. Henderson opens the door. 你该说什么？",
+      "feedback": "Sweet! 'I brought you something' is a warm way to offer a gift. / 暖心！'I brought you something' 是送东西时很温暖的说法。",
+      "feedback_wrong": "Almost! You have cake for her — 'I brought you something' is the natural thing to say. / 你给她带了蛋糕——'I brought you something' 是最自然的说法。",
+      "review_word": "I brought you something.",
       "options": [
         {
           "label": "A",
-          "text": "Go to her place, be with her",
+          "text": "I brought you something.",
           "is_correct": true
         },
         {
           "label": "B",
-          "text": "Show her your things",
+          "text": "I want to wash up.",
           "is_correct": false
         },
         {
           "label": "C",
-          "text": "Push her door open",
+          "text": "I need to close the window.",
           "is_correct": false
         }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你决定去看Mrs. Henderson。你在超市买了一块蛋糕，敲了她的门。",
-      "text_cn": "（你决定去看Mrs. Henderson。你在超市买了一块蛋糕，敲了她的门。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Mrs. Henderson开门。眼睛有点红，但马上笑了。",
-      "text_cn": "（Mrs. Henderson开门。眼睛有点红，但马上笑了。）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Oh! Dear! Come in, come in!",
-      "text_cn": ""
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_3_you_knock_on_her_door_with_a_cake_from_the_supermarket.png"
     },
     {
       "type": "dialogue",
       "speaker": "You",
       "avatar": "/assets/youhappy.png",
-      "text": "I brought cake. For you.",
-      "text_cn": ""
+      "text": "I brought you something. It's not homemade — sorry.",
+      "text_cn": "我给你带了点东西。不是自己做的，不好意思。"
     },
     {
       "type": "dialogue",
       "speaker": "Mrs. Henderson",
       "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Oh, you didn't have to! That's so sweet.",
-      "text_cn": ""
+      "text": "Oh — come in, dear. Sit with me.",
+      "text_cn": "哦，亲爱的，进来吧。陪我坐一会儿。",
+      "scene_image": "/assets/lesson-scenes/lesson_3_sit_with_me.png"
     },
     {
       "type": "question",
       "format": "multiple_choice",
-      "instruction": "📍 题目2\nMrs. Henderson says \"You didn't have to!\" She feels:",
+      "question_id": "L03_Q04",
+      "source_type": "T1 听音选义",
+      "instruction": "\"Come in, dear. Sit with me.\" — What does Mrs. Henderson want you to do?",
+      "feedback": "Yes! She wants your company — come in and sit. / 对！她想要你的陪伴——进来坐坐。",
+      "feedback_wrong": "Almost! 'Come in' = 进来, 'sit with me' = 陪我坐坐。She wants you to stay. / 她想让你留下来陪她。",
+      "review_word": "Stay with her",
       "options": [
         {
           "label": "A",
-          "text": "Angry — she doesn't want it",
+          "text": "Go upstairs and sleep",
           "is_correct": false
         },
         {
           "label": "B",
-          "text": "Touched — you're very kind",
+          "text": "Stay with her",
           "is_correct": true
         },
         {
           "label": "C",
-          "text": "Confused — she doesn't understand",
+          "text": "Open the door and leave",
           "is_correct": false
         }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你坐在她客厅。她打开电视。你们看了一会儿节目，她没提电话的事，你也没问。",
-      "text_cn": "（你坐在她客厅。她打开电视。你们看了一会儿节目，她没提电话的事，你也没问。）"
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_3_sit_with_me.png"
     },
     {
       "type": "dialogue",
       "speaker": "Mrs. Henderson",
       "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "This building was so quiet after Ryan left. Nobody knocked on my door.",
-      "text_cn": ""
+      "text": "Thank you for coming. You make me think of Ryan sometimes.",
+      "text_cn": "谢谢你来看我。有时候你会让我想起Ryan。",
+      "scene_image": "/assets/lesson-scenes/lesson_3_you_make_me_think_of_ryan_sometimes.png"
+    },
+    {
+      "type": "narrator",
+      "speaker": "旁白",
+      "avatar": "/assets/npc.png",
+      "text": "Next day, Jake texts: \"Thank you. What you did worked. 🙏\" Then adds: \"She's making brunch this weekend... Do you want to come?\"",
+      "text_cn": "第二天，Jake发来消息：\"谢谢你。你做的事有用。🙏\" 然后又补了一句：\"她这周末要做早午餐……你想来吗？\""
     },
     {
       "type": "question",
       "format": "multiple_choice",
-      "instruction": "📍 题目3\nMrs. Henderson says nobody visited her for months. You want to show you care. What do you say?",
+      "question_id": "L03_Q05",
+      "source_type": "T7 文化认知",
+      "instruction": "Mrs. Henderson is sad because her son left. You visit her with cake and watch TV together. You don't ask about the phone call. Is this a good thing to do?",
+      "feedback": "Exactly! In the US, just 'showing up' for someone is a powerful way to care. / 没错！在美国，'出现在某人身边'本身就是很有力的关心方式。",
+      "feedback_wrong": "Almost! Sometimes people don't want to talk — just being there shows you care. / 有时候人们不想说话——在旁边陪着就是关心。",
+      "review_word": "Yes — sometimes being there is enough",
       "options": [
         {
           "label": "A",
-          "text": "\"That's your problem.\"",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "\"I'm sorry. That sounds lonely.\"",
-          "is_correct": true
-        },
-        {
-          "label": "C",
-          "text": "\"Why didn't you go outside?\"",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "You do not ask about the phone call. You just stay with her. That is enough.",
-      "text_cn": "（你没有追问那通电话。你只是陪着她。这样就够了。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你准备离开。Mrs. Henderson送你到门口。",
-      "text_cn": "（你准备离开。Mrs. Henderson送你到门口。）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/yousorrow.png",
-      "text": "I'm sorry. That sounds lonely.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "It was. But not anymore.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Thank you for coming, dear.",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目4\nYou're leaving Mrs. Henderson's apartment. She says \"Thank you for coming.\" You want to let her know you'll be back. What do you say?",
-      "options": [
-        {
-          "label": "A",
-          "text": "\"Okay, bye.\"  太冷",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "\"I'll come again soon.\"",
-          "is_correct": true
-        },
-        {
-          "label": "C",
-          "text": "\"Don't call me.\"",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "她停了一下。",
-      "text_cn": "（她停了一下。）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "I'll come again soon.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "I'd like that.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "You remind me of Ryan sometimes.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "...Good night, Mrs. Henderson.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Good night, dear.",
-      "text_cn": ""
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "The next morning, the group chat comes alive again. Mrs. Henderson sounds more like herself.",
-      "text_cn": "（第二天早上，群聊重新活跃起来。Mrs. Henderson又像平时的她了。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "第二天。群消息恢复正常了。",
-      "text_cn": "（第二天。群消息恢复正常了。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Jake私信你：",
-      "text_cn": "（Jake私信你：）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Good morning everyone! ☀️ Fresh scones today! Jake, come get yours!",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "ON MY WAY 🏃",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "Mrs. H is back to normal. Whatever you did — thank you. 🙏",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "This weekend she wants brunch. You, me, Kevin, Lisa. You haven't met them yet.",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目5\nJake says \"Whatever you did — thank you.\" He means:",
-      "options": [
-        {
-          "label": "A",
-          "text": "He doesn't know what you did, but it worked",
+          "text": "Yes — sometimes being there is enough",
           "is_correct": true
         },
         {
           "label": "B",
-          "text": "He is angry about what you did",
+          "text": "No — you should ask many questions",
           "is_correct": false
         },
         {
           "label": "C",
-          "text": "He wants to know exactly what you did",
+          "text": "No — neighbors should not visit",
           "is_correct": false
         }
       ]
     },
     {
       "type": "question",
-      "format": "multiple_choice",
-      "instruction": "题目6\nJake's advice: don't ask too many questions. Just go be with her.",
-      "options": [
-        {
-          "label": "A",
-          "text": "Don't push. Just show up.",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "give up",
-          "is_correct": false
-        }
-      ]
+      "format": "sentence_build",
+      "question_id": "L03_Q06",
+      "source_type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "chunks": [
+        "I",
+        "brought",
+        "you",
+        "something",
+        "carried"
+      ],
+      "answer": "I brought you something.",
+      "normalized_answer": "i brought you something",
+      "feedback": "Well done! You can offer a gift naturally now. / 做得好！你现在能自然地表达带了东西给别人。",
+      "feedback_wrong": "Almost! The correct sentence is 'I brought you something.' 'Brought' is past tense of 'bring'. / 正确句子是 'I brought you something.'（我给你带了东西。）'brought'是'bring'的过去式。",
+      "review_word": "I brought you something."
     },
     {
       "type": "question",
-      "format": "multiple_choice",
-      "instruction": "题目7\nYou're leaving a friend's home. You want them to know you'll be back. Say:",
-      "options": [
-        {
-          "label": "A",
-          "text": "I'll come again soon.",
-          "is_correct": true
-        }
-      ]
+      "format": "speaking_practice",
+      "question_id": "L03_Q07",
+      "source_type": "T6 语音跟读",
+      "instruction": "请跟读：Come in and sit with me.",
+      "target_sentence": "Come in and sit with me.",
+      "answer": "Come in and sit with me.",
+      "feedback": "Warm and clear! You sound welcoming. / 温暖又清晰！听起来很热情好客。",
+      "feedback_wrong": "Almost! Try again: COME in and SIT with me. Stress 'come' and 'sit'. / 再试一次：重读COME和SIT。",
+      "review_word": "Come in and sit with me.",
+      "scene_image": "/assets/lesson-scenes/lesson_3_sit_with_me.png"
     }
   ]
 }

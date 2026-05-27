@@ -1,194 +1,125 @@
 {
-  "title": "Episode 4: The Brunch（早午餐暗流）",
+  "title": "Episode 4: The Brunch",
+  "unit_title_en": "The Brunch",
+  "scene_image": "/assets/lesson-scenes/lesson_4_start.png",
   "steps": [
     {
       "type": "narrator",
       "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Mrs. Henderson家brunch。你认识Kevin和Lisa。Mrs. Henderson说了尴尬的话。Kevin私下问你意见。",
-      "text_cn": "（Mrs. Henderson家brunch。你认识Kevin和Lisa。Mrs. Henderson说了尴尬的话。Kevin私下问你意见。）"
+      "avatar": "/assets/npc.png",
+      "text": "Mrs. Henderson's brunch. You finally meet Lisa — warm, loud, full of energy. She takes pictures of everything. You also notice something: Kevin can't stop looking at her.",
+      "text_cn": "Henderson太太的早午餐。你终于见到了Lisa，她热情、爽朗、充满活力，什么都要拍照。你还注意到一件事：Kevin一直忍不住看她。"
     },
     {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "It's the first time everyone is together in Mrs. Henderson's apartment. The room is warm, loud, and full of food.",
-      "text_cn": "（这是大家第一次一起聚在Mrs. Henderson家里。屋子里暖暖的、热热闹闹的，到处都是食物的香味。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "周末。你去Mrs. Henderson家参加brunch。敲门进去，看到两个新面孔。",
-      "text_cn": "（周末。你去Mrs. Henderson家参加brunch。敲门进去，看到两个新面孔。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "(点头)",
-      "text_cn": "（(点头)）"
+      "type": "question",
+      "format": "matching",
+      "question_id": "L04_Q01",
+      "source_type": "T8 语义配对",
+      "instruction": "请把下列英文与对应的中文意思配对。",
+      "speech_text": "Match these words: dining room, table, kitchen.",
+      "feedback": "Great! You know the rooms for eating and cooking. / 很好！你知道吃饭和做饭的房间了。",
+      "feedback_wrong": "Almost! 'Dining room' = 餐厅, 'table' = 桌子, 'kitchen' = 厨房。",
+      "review_word": "dining room",
+      "pairs": [
+        {
+          "id": 1,
+          "image": "dining room",
+          "word": "餐厅"
+        },
+        {
+          "id": 2,
+          "image": "table",
+          "word": "桌子"
+        },
+        {
+          "id": 3,
+          "image": "kitchen",
+          "word": "厨房"
+        }
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_4_start.png"
     },
     {
       "type": "dialogue",
       "speaker": "Mrs. Henderson",
       "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Come in, dear! Everyone, this is 4B!",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Kevin:** _(点头)_ \"Hey. Kevin. 3B.\"**Lisa",
-      "avatar": "/assets/NPC.png",
-      "text": "Hi!! I'm Lisa! 2B! So nice to meet you!",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目1\nLisa says \"So nice to meet you!\" What do you say?",
-      "options": [
-        {
-          "label": "A",
-          "text": "\"Thank you, goodbye.\"",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "\"Nice to meet you too!\"",
-          "is_correct": true
-        },
-        {
-          "label": "C",
-          "text": "\"Yes, I know.\"",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "大家坐下来吃东西。Mrs. Henderson做了很多食物。",
-      "text_cn": "（大家坐下来吃东西。Mrs. Henderson做了很多食物。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "(看向你)",
-      "text_cn": "（(看向你)）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappy.png",
-      "text": "Please, eat! Try the scones!",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Jake",
-      "avatar": "/assets/jackhappy.png",
-      "text": "Mrs. H, these are SO good.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Lisa",
-      "avatar": "/assets/NPC.png",
-      "text": "Oh my god, delicious!",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目2\nMrs. Henderson asks \"Do you like it?\" The food is very good. You say:",
-      "options": [
-        {
-          "label": "A",
-          "text": "\"It's okay.\"",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "\"Yes! It's delicious!\"",
-          "is_correct": true
-        },
-        {
-          "label": "C",
-          "text": "\"I don't eat this.\"",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "At first, everything feels easy and fun. Then the conversation changes, and the room suddenly feels awkward.",
-      "text_cn": "（一开始，一切都轻松又愉快。可接着，话题突然变了，屋里的气氛一下子变得有点尴尬。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "大家聊了一会儿。然后Mrs. Henderson突然说——",
-      "text_cn": "（大家聊了一会儿。然后Mrs. Henderson突然说——）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Kevin脸红了。Lisa愣了一秒。",
-      "text_cn": "（Kevin脸红了。Lisa愣了一秒。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Jake小声跟你说：",
-      "text_cn": "（Jake小声跟你说：）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Mrs. Henderson",
-      "avatar": "/assets/MrsHendersonhappiness.png",
       "text": "Lisa, you and Kevin should go to that food festival! You both love Thai food!",
-      "text_cn": ""
+      "text_cn": "Lisa，你和Kevin应该一起去那个美食节！你们都喜欢泰国菜！",
+      "scene_image": "/assets/lesson-scenes/lesson_4_you_both_love_thai_food.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Kevin",
+      "avatar": "/assets/Kevinhappy.png",
+      "text": "...",
+      "text_cn": "……",
+      "scene_image": "/assets/lesson-scenes/lesson_4_start.png"
     },
     {
       "type": "dialogue",
       "speaker": "Lisa",
       "avatar": "/assets/lisahappy.png",
       "text": "Maybe! We'll see.",
-      "text_cn": ""
+      "text_cn": "也许吧！到时候再看。",
+      "scene_image": "/assets/lesson-scenes/lesson_4_we_ll_see.png"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L04_Q02",
+      "source_type": "T1 听音选义",
+      "instruction": "\"Kevin likes Lisa. Everyone knows.\" — What does \"everyone knows\" mean?",
+      "feedback": "Right! 'Everyone' means all the people. / 对！'Everyone' 意思是所有人。",
+      "feedback_wrong": "Almost! 'Everyone knows' = all the people know. It's not a secret! / 'Everyone knows' = 所有人都知道。这不是秘密！",
+      "review_word": "All the people here know",
+      "options": [
+        {
+          "label": "A",
+          "text": "All the people here know",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "Only one person knows",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "Nobody knows",
+          "is_correct": false
+        }
+      ]
     },
     {
       "type": "dialogue",
       "speaker": "Jake",
       "avatar": "/assets/jackhappy.png",
-      "text": "Kevin likes Lisa.",
-      "text_cn": ""
+      "text": "Kevin likes Lisa. Everyone knows. This is going to be interesting.",
+      "text_cn": "Kevin喜欢Lisa。大家都知道。这下有意思了。"
     },
     {
       "type": "question",
       "format": "multiple_choice",
-      "instruction": "📍 题目3\nLisa says \"Maybe! We'll see.\" She means:",
+      "question_id": "L04_Q03",
+      "source_type": "T7 文化认知",
+      "instruction": "Mrs. Henderson invited all the neighbors for brunch at her place. People eat, talk, and laugh together. In the US, is this common?",
+      "feedback": "Yes! In the US, neighbors often become like family. Brunch together is very normal! / 对！在美国，邻居常常像家人一样。一起吃早午餐很正常！",
+      "feedback_wrong": "Almost! In the US, neighbors often invite each other for meals. It's a way to build community. / 在美国，邻居们经常互相请吃饭。这是建立社区感的方式。",
+      "review_word": "Yes — neighbors often share meals together",
       "options": [
         {
           "label": "A",
-          "text": "Yes, she will go",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "She doesn't want to say yes or no",
+          "text": "Yes — neighbors often share meals together",
           "is_correct": true
         },
         {
+          "label": "B",
+          "text": "No — neighbors never talk to each other",
+          "is_correct": false
+        },
+        {
           "label": "C",
-          "text": "She is asking a question",
+          "text": "No — only family can eat together",
           "is_correct": false
         }
       ]
@@ -196,173 +127,126 @@
     {
       "type": "narrator",
       "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Lisa leaves quickly. Kevin stays, but he looks embarrassed. When the others are busy, he quietly asks you what you think.",
-      "text_cn": "（Lisa很快就走了。Kevin留了下来，可看起来很不好意思。等别人都在忙时，他悄悄来问你怎么看。）"
+      "avatar": "/assets/npc.png",
+      "text": "After brunch. Kevin pulls you aside in the hall.",
+      "text_cn": "早午餐结束后，Kevin把你拉到走廊一边私下说话。",
+      "scene_image": "/assets/lesson-scenes/lesson_4_kevin_pulls_you_aside_in_the_hall.png"
     },
     {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "Brunch结束了。Lisa先走了。Kevin留下来洗碗。你在收桌子。Kevin过来小声问你。",
-      "text_cn": "（Brunch结束了。Lisa先走了。Kevin留下来洗碗。你在收桌子。Kevin过来小声问你。）"
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L04_Q04",
+      "source_type": "T1 听音选义",
+      "instruction": "\"Kevin pulls you aside in the hall.\" — What did Kevin do?",
+      "feedback": "Yes! 'Pull aside' means he wants to talk to you privately. / 对！'Pull aside' 意思是他想私下跟你说话。",
+      "feedback_wrong": "Almost! 'Pull you aside' = 把你拉到一边，想私下说话。'Push' means the opposite! / 'Pull' 和 'push' 是相反的！",
+      "review_word": "He wanted to talk privately",
+      "options": [
+        {
+          "label": "A",
+          "text": "He pushed you outside",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "He wanted to talk privately",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "He closed the door on you",
+          "is_correct": false
+        }
+      ],
+      "scene_image": "/assets/lesson-scenes/lesson_4_kevin_pulls_you_aside_in_the_hall.png"
     },
     {
       "type": "dialogue",
       "speaker": "Kevin",
       "avatar": "/assets/Kevinhappy.png",
-      "text": "Hey... was that weird?",
-      "text_cn": ""
+      "text": "Was that weird? Am I being weird?",
+      "text_cn": "刚才很奇怪吗？我是不是很奇怪？"
+    },
+    {
+      "type": "question",
+      "format": "multiple_choice",
+      "question_id": "L04_Q05",
+      "source_type": "T2 对话补全",
+      "instruction": "Kevin: \"Was that weird? Am I being weird?\" 你该怎么安慰他？",
+      "feedback": "Thoughtful advice! 'She needs time' is kind and wise. / 很贴心的建议！'She needs time' 既善良又明智。",
+      "feedback_wrong": "Almost! Kevin is nervous about Lisa — 'She needs time' is the best comfort here. / Kevin在紧张关于Lisa的事——'She needs time' 是最好的安慰。",
+      "review_word": "She needs time.",
+      "options": [
+        {
+          "label": "A",
+          "text": "She needs time.",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "She needs furniture.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "She needs a shower.",
+          "is_correct": false
+        }
+      ]
     },
     {
       "type": "dialogue",
       "speaker": "You",
       "avatar": "/assets/youhappy.png",
-      "text": "What do you mean?",
-      "text_cn": ""
+      "text": "I don't know the rules here. But she seems like she needs time.",
+      "text_cn": "我不太懂这里的规则。但她看起来需要一点时间。"
     },
     {
       "type": "dialogue",
       "speaker": "Kevin",
       "avatar": "/assets/Kevinhappy.png",
-      "text": "Me and Lisa. Am I weird?",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "No. I think she just needs time.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Kevin",
-      "avatar": "/assets/NPC.png",
-      "text": "Yeah... you're right. Thanks.",
-      "text_cn": ""
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目4\n\"She just needs time\" means:",
-      "options": [
-        {
-          "label": "A",
-          "text": "She needs a clock",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "She's not ready yet — give her space",
-          "is_correct": true
-        },
-        {
-          "label": "C",
-          "text": "She's always late",
-          "is_correct": false
-        }
-      ]
+      "text": "Yeah. You're probably right.",
+      "text_cn": "嗯，你可能是对的。",
+      "scene_image": "/assets/lesson-scenes/lesson_4_you_re_probably_right.png"
     },
     {
       "type": "narrator",
       "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "That night, the awkward moment isn't over yet. Lisa messages you directly.",
-      "text_cn": "（那天晚上，那份尴尬并没有真正结束。Lisa直接给你发来了私信。）"
-    },
-    {
-      "type": "narrator",
-      "speaker": "旁白",
-      "avatar": "/assets/NPC.png",
-      "text": "你回到家。手机震动。Lisa私信你。",
-      "text_cn": "（你回到家。手机震动。Lisa私信你。）"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Lisa",
-      "avatar": "/assets/NPC.png",
-      "text": "Hey — sorry if today was awkward.",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "It's okay!",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Lisa",
-      "avatar": "/assets/NPC.png",
-      "text": "Can we get coffee sometime? Just us?",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "You",
-      "avatar": "/assets/youhappy.png",
-      "text": "Sure!",
-      "text_cn": ""
-    },
-    {
-      "type": "dialogue",
-      "speaker": "Lisa",
-      "avatar": "/assets/NPC.png",
-      "text": "Cool 😊",
-      "text_cn": ""
+      "avatar": "/assets/npc.png",
+      "text": "That night, Lisa messages you: \"Maybe coffee sometime? Just us.\"",
+      "text_cn": "那天晚上，Lisa给你发消息：\"改天喝杯咖啡？就我们俩。\""
     },
     {
       "type": "question",
-      "format": "multiple_choice",
-      "instruction": "📍 题目5\nLisa asks \"Can we get coffee sometime?\" You want to say yes. Which is most natural?",
-      "options": [
-        {
-          "label": "A",
-          "text": "\"Yes, I agree to your invitation.\"",
-          "is_correct": false
-        },
-        {
-          "label": "B",
-          "text": "\"Sure!\"",
-          "is_correct": true
-        },
-        {
-          "label": "C",
-          "text": "\"I will think about it and let you know later.\"  太疏远",
-          "is_correct": false
-        }
-      ]
+      "format": "sentence_build",
+      "question_id": "L04_Q06",
+      "source_type": "T3 句子拼装",
+      "instruction": "用下列词块拼出正确句子（含1个干扰块）。",
+      "chunks": [
+        "He",
+        "pulled",
+        "me",
+        "aside",
+        "to talk",
+        "pushed"
+      ],
+      "answer": "He pulled me aside to talk.",
+      "normalized_answer": "he pulled me aside to talk",
+      "feedback": "Perfect! 'Pull aside' = take someone to talk privately. / 完美！'Pull aside' = 把某人拉到一边私下说话。",
+      "feedback_wrong": "Almost! 'Pulled me aside' is correct — 'pushed' means the opposite direction. / 'Pulled me aside' 才对——'pushed' 是相反方向。",
+      "review_word": "He pulled me aside to talk."
     },
     {
       "type": "question",
-      "format": "multiple_choice",
-      "instruction": "题目6\nYour neighbor made food for you. It's very good. Say:",
-      "options": [
-        {
-          "label": "A",
-          "text": "It's delicious!",
-          "is_correct": true
-        }
-      ]
-    },
-    {
-      "type": "question",
-      "format": "multiple_choice",
-      "instruction": "题目7\nSomeone invites you somewhere but you're not sure. You say:",
-      "options": [
-        {
-          "label": "A",
-          "text": "Maybe. We'll see.",
-          "is_correct": true
-        },
-        {
-          "label": "B",
-          "text": "Sure",
-          "is_correct": false
-        }
-      ]
+      "format": "speaking_practice",
+      "question_id": "L04_Q07",
+      "source_type": "T6 语音跟读",
+      "instruction": "请跟读：She needs time.",
+      "target_sentence": "She needs time.",
+      "answer": "She needs time.",
+      "feedback": "Clear and gentle! Great advice-giving tone. / 清晰又温和！很好的建议语气。",
+      "feedback_wrong": "Almost! Try again: She NEEDS TIME. Stress 'needs' and 'time'. / 再试一次：重读NEEDS和TIME。",
+      "review_word": "She needs time."
     }
   ]
 }
